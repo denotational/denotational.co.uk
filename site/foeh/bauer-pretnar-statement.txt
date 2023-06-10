@@ -1,0 +1,56 @@
+On the future of effects in Haskell / Andrej Bauer and Matija Pretnar
+=====================================================================
+
+
+I would like to quickly report on the experience Matija Pretnar and I
+have had with the design of Eff, a programming language with
+first-class algebraic effects and handlers.
+
+First of all, algebraic effects and handlers are a lot of fun.
+
+If Haskell goes down the road of algebraic effects and handlers, it
+will most likely want to incorporate typing information about effects
+that will in many respects resemble an effect systems. It is quite
+likely that this could be accomplished with existing Haskell
+technology, or minor modifications of it, as I think some
+contributions to ICFP this year are demonstrating. Matija and I have
+developed an effect system for Eff, in case anyone cares to have a
+look at how that works. The resemblance with what one would expect in
+Haskell is plain.
+
+Regarding typing discipline, let me express a real-programmer stance:
+if I want to write a print statement in the middle of the code as an
+afterthought, the language should let me do it without fuss. (I can
+see the present high priests of Haskell shaking their heads in
+disapproval at the heretical ML-style thoughts.)
+
+Possibly the greatest advantage of algebraic effects and handlers over
+traditional Haskell monads is the ease with which they combine. Down
+with monad transformers! In theory monads are more general than
+algebraic effects, but we feel that the extra generality does not
+matter in practice because the most important non-algebraic effect,
+namely (delimited) continuations, is seamlessly incorporated into the
+picture.
+
+For us it was suprising how easy it is to implement in Eff control
+mechanisms that are typically accomplished through (delimited)
+continuations. In fact, it is our conclusion that the relationship
+between handlers and (delimited) continuations is the same as the
+relationship between while loops and goto statements. That is,
+handlers are the structured way of programming with continuations.
+They take black magic out of continuations and make them
+comprehensible also to people whose name is not Oleg.
+
+All existing implementations of algebraic effects and handlers that I
+am aware of have not yet addressed efficiency of execution. Handlers
+are installed dynamically, a bit like exception handlers with access
+to continuations. A naive execution strategy with dynamic dispatch
+will result in unacceptable loss of efficiency. This point needs to be
+addressed before algebraic effects can appear in real-world
+programming languages.
+
+I am sorry that I cannot participate at this most interesting panel
+discussion. With kind regards from Japan, Andrej.
+
+24 September, 2013.
+

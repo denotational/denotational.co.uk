@@ -1,0 +1,99 @@
+- url      : index.html.b
+  title    : Home
+  template : index.st
+  requires : [shortOutput.st, date.st]
+  data     :
+    talks:  FROM output.yaml WHERE (has "talk") ORDER BY date DESC
+    pubs:   FROM output.yaml WHERE ((has "publication") OR (has "preprint")) ORDER BY date DESC
+    other:  FROM output.yaml WHERE not ((has "publication") OR (has "talk") OR (has "preprint")) ORDER BY date DESC
+    future: FROM future.yaml ORDER BY date ASC
+
+- url       : talks-and-publications.html.b
+  title     : Talks and Publications
+  template  : talks-and-publications.st
+  requires  : [verboseOutput.st, verboseFormat.st, verbosePubFormat.st]
+  data      :
+    talks: FROM output.yaml WHERE (has "talk") ORDER BY date DESC
+    pubs : FROM output.yaml WHERE ((has "publication")) ORDER BY date DESC
+    preprints: FROM output.yaml WHERE ((has "preprint")) ORDER BY date DESC
+    other: FROM output.yaml WHERE not ((has "publication") OR (has "talk") OR (has "preprint")) ORDER BY date DESC
+
+
+- url       : "agda-course/index.html.b"
+  title     : Agda Course
+  template  : agda-course/index.st
+  requires  : [schedule.st, lecture.st]
+  data      :
+    schedule: FROM agda-course/schedule.yaml
+    uplects: FROM agda-course/lecture-log.yaml
+              WHERE date > "2011-02-13" ORDER BY date
+    pastlects: FROM agda-course/lecture-log.yaml
+              WHERE date <= "2011-02-13" ORDER BY date
+
+- url       : "agda-course-13/index.html.b"
+  title     : Agda Course 2013
+  template  : agda-course-13/index.st
+  requires  : [schedule.st, lecture.st]
+  data      :
+    schedule: FROM agda-course-13/schedule.yaml
+    pastlects: FROM agda-course-13/lecture-log.yaml
+               ORDER BY date
+
+- url       : "teaching/partII.html.b"
+  title     : "Part II Project Suggestions"
+  template  : "partii.st"
+
+- url       : "teaching/partIII.html.b"
+  title     : "Part III/MPhil Project Suggestions"
+  template  : "partiii.st"
+
+- url       : "thesis/index.html.b"
+  title     : "An algebraic theory of type-and-effect systems - Ph.D. thesis"
+  template  : "thesis/index.st"
+
+- url       : "teaching/index.html.b"
+  title     : "Teaching"
+  template  : "teaching.st"
+
+- url       : "calendar.html.b"
+  title     : "Ohad's calendar"
+  template  : "calendar.st"
+
+- url       : "s-repls-5/index.html.b"
+  title     : S-REPLS 5
+  template  : s-repls-5/index.st
+  requires  : sReplsShort.st
+  data      :
+    schedule: FROM s-repls-5/schedule.yaml
+              ORDER BY time ASC
+
+- url       : "qbs-splv-2022/index.html.b"
+  title     : SPLV2022
+  template  : qbs-splv-2022/index.st
+  #requires  : sReplsShort.st
+  #data      :
+  #  schedule: FROM s-repls-5/schedule.yaml
+  #            ORDER BY time ASC
+
+
+- url       : "quantum-group-workshop-2018/index.html.b"
+  title     : Quantum Group Workshop 2018
+  template  : quantum-group-workshop-2018/index.st
+  requires  : quantumWorkshop.st
+  data      :
+    schedule: FROM quantum-group-workshop-2018/schedule.yaml
+              ORDER BY time ASC
+
+- url       : "s-repls-5/abstracts.html.b"
+  title     : "S-REPLS 5 --- Abstracts"
+  template  : s-repls-5/abstracts.st
+  requires  : sReplsLong.st
+  data      :
+    talks   : FROM s-repls-5/schedule.yaml
+              WHERE (has "speaker")
+              ORDER BY time ASC
+
+- url       : "s-repls-5/letters.txt"
+  template  : "letters.st"
+  data      :
+    afternoon: FROM s-repls-5/schedule.yaml

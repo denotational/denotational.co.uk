@@ -1,0 +1,21 @@
+The future of effects in Haskell
+================================
+
+Haskell provides rich abstractions for augmenting code with user
+defined effects, notably monads and monad transformers. However, the
+standard abstractions suffer from various shortcomings relating to
+readability, modularity, and compositionality. Recently, a number of
+researchers have explored alternative approaches to effectful
+programming that aim to address such shortcomings. The goal of this
+panel is to discuss the merits and drawbacks of these alternative
+approaches, and how best to incorporate them into Haskell practice.
+
+The panel will comprise of the following:
+
+  * [Oleg Kiselyov](http://okmij.org/ftp/), Monterey, USA ([extensible effects](http://www.cs.indiana.edu/~sabry/papers/exteff.pdf), [observable laziness](http://okmij.org/ftp/Haskell/index.html#lazyIO-not-True)).
+  * [Daan Leijen](http://research.microsoft.com/en-us/people/daan/), Microsoft Research Redmond, USA ([strict monadic programming](http://www.cs.umd.edu/~mwh/papers/swamy11monad.html), [effect row-polymorphism](http://research.microsoft.com/apps/pubs/default.aspx?id=200436)).
+  * [Tom Schrijvers](http://users.ugent.be/~tschrijv/), Ghent University, Belgium ([monad zippers](http://ropas.snu.ac.kr/~bruno/papers/VirtualMonads.pdf), [incremental programming](http://users.ugent.be/~tschrijv/Research/papers/jfp_mri.pdf)).
+  * [Tarmo Uustalu](http://cs.ioc.ee/~tarmo/), Tallinn University, Estonia ([relative monads](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), [comonads](http://www.ioc.ee/~tarmo/papers/cmcs08.pdf)).
+  * [Philip Wadler](http://homepages.inf.ed.ac.uk/wadler/), the University of Edinburgh, Scotland ([monads](http://homepages.inf.ed.ac.uk/wadler/papers/imperative/imperative.ps), [type-classes](http://homepages.inf.ed.ac.uk/wadler/papers/classhask/classhask.ps)).
+
+Session Chair: [Sam Lindley](http://homepages.inf.ed.ac.uk/slindley/), the University of Edinburgh, Scotland ([effect handlers](http://homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf), [effect row-polymorphism](http://homepages.inf.ed.ac.uk/slindley/papers/corelinks.pdf)).

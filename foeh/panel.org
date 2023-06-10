@@ -1,0 +1,259 @@
+* Future of effects in Haskell [4/7]
+** DONE Abstract
+  See here: http://www.cl.cam.ac.uk/~ok259/foeh/abstract.html
+
+** TODO Panel structure
+Modularity (20 mins)
+
+  - Oleg will have set the scene in his previous talk - explaining both the problem and his solution.
+  - Daan (lightweight monadic programming) and Tom (monads and zippers) to explain their proposals. (Maximum of three minutes each, say.)
+  - Would Phil (and Tarmo) like to comment?
+  - Ask each of Oleg, Daan, Tom:
+    - What problems arise from each proposal?
+    - How might we modify Haskell to ease those problems?
+
+  - Extra: Type classes, module systems, effect handlers, mixins, AOP, seem to be tackling similar problems. Might some of these be combined?
+
+Rich types (20 mins)
+
+  - Everyone: How should we enrich Haskell's type class system or other features to better deal with effects?
+  - Daan to summarise the key features of Koka's type system.
+  - Daan: Are row-based effects the way to go? Should we add row-typing to Haskell?
+  - Tarmo: Using dependent types one can encode additional invariants on effects (e.g. Brady's ICFP 2013 paper and McBride's "Kleisli arrows of outrageous fortune" paper, both of which enforce simple invariants on file I/O). How should Haskell evolve to allow this kind of program to scale?
+
+  - Extra: Better support for parameterised monads, monads over indexed sets, linearity/session types?
+
+Laziness (15 mins)
+
+  - Oleg: Recently you've argued strongly against certain uses of laziness, e.g. lazy I/O, promoting alternative approaches that are more well-behaved in the presence of effects.
+  - Daan: Your work on lightweight monadic programming for ML offers many of the benefits of monads but in a strict language without the monadic boilerplate.
+  - Everyone: Was laziness by default a mistake? Should Haskell be strict by default?
+
+Audience participation after each topic.
+
+** Emails
+*** TODO Email participants
+
+    Dear <...>,
+
+    A few final details before the Symposium. The advertised abstract appears here:
+    http://www.cl.cam.ac.uk/~ok259/foeh/abstract.html
+    We decided to replace the abstract with some of the contributions
+    we hope you'll bring to the panel.
+
+    The panel is 60 minutes long. The discussion is framed around the
+    following three topics, with audience participation during each
+    topic.
+
+    Modularity (20 mins)
+
+      What are the challenges posed by effectful programming in
+      Haskell? How to you envision overcoming them? Comparing and
+      contrasting various solutions, and how accommodating Haskell is
+      to them.
+
+      To Schrijvers: Your experience in light of your monad zippers
+      paper will be very useful here.
+
+      To Oleg: We will be referring to your preceding talk on
+      extensible effects.
+
+    Rich types (20 mins)
+
+      In what ways do richer type systems help towards effectful
+      programming? What extensions to the type system would you like
+      to see?
+
+      To Daan: How can the Koka effect system inspire Haskell's type system?
+
+      To Tarmo: Can dependent types accommodate effects better,
+      perhaps in the form of additional invariants on effectful
+      programs?
+
+    Laziness (15 mins)
+
+      In retrospect, is laziness an essential component of Haskell?
+      Can we migrate away from it? Can we somehow have both laziness
+      and strictness in the same language?
+
+      To Daan: Your lightweight monadic programming in ML paper
+      supports the stand that laziness is not essential for
+      user-defined effects.
+
+      To Oleg: You could refer to your work on lazy I/O and advocates
+      abandoning laziness.
+
+    (delete as appropriate)
+
+    We've also composed a short list of papers we deem relevant to the
+    panel. Feel free to email us and the other panellists additional
+    material.
+
+    See you soon!
+
+    Sam and Ohad.
+
+** DONE Reading list
+  Kiselyov, Sabry, Swords. Extensible effects: an alternative to monad transformers. Haskell 2013.
+     Observable Laziness:
+
+  Kiselyov. Lazy IO breaks equational reasoning http://www.cs.umd.edu/~mwh/papers/swamy11monad.html
+
+  Leijen et al. Lightweight monadic programming in ML. ICFP'11.
+
+  Daan Leijen, Koka: Programming with Row-Polymorphic Effect Types, Technical report '13.
+
+  Schrijvers, Oliveira. Monadic, zippers and views: virtualizing the monad stack. ICFP'11
+
+  Oliveira, Schrijvers, Cook. MRI: modular reasoning about interference in incremental programming. JFP'12.
+
+  Altenkirch, Chapman, Uustalu. Monads need not be endofunctors. FoSSaCS'10.
+
+  Uustalu, Vene. Comonadic notions of computation. CMCS'08.
+
+  Peyton Jones, Wadler. Imperative functional programming. POPL'93.
+
+  Hall, Hammond, Peyton Jones, Wadler. Type classes in Haskell. ESOP'94.
+  Kammar, Lindley, Oury. Handlers in action. ICFP'13.
+         Lindley, Cheney. Row-based effect types for database integration. TLDI'12.
+
+  Talpin, Jouvelot. The type and effect discipline. Information and computation 1994.
+
+  Liang, Hudak, Jones. Monad transformers and modular interpreters. POPL 1995.
+
+  Filinski. Monads in action. POPL 2010.
+
+  Lippmeier. Type Inference and Optimisation for an Impure World. ANU 2010 (PhD thesis).
+
+  McBride. Kleisli arrows of outrageous fortune. Accepted for publication in JFP in 2011.
+
+  McBride. Frank. 2012.
+
+  Bauer, Pretnar. Programming with algebraic effects and handlers. CoRR 2012.
+
+  Bauer, Pretnar. An effect system for algebraic effects and handlers. CoRR 2013.
+
+  Brady. Programming and reasoning with algebraic effects. ICFP 2013.
+
+  Atkey. Parameterised notions of computation. JFP 2006.
+
+  Jaskelioff. Monatron: An Extensible Monad Transformer Library, IFL'08.
+
+  Lippmeier. The Disciplined Disciple Compiler (DDC), http://disciple.ouroborus.net/ and its related papers
+
+  ​Robinson. Rewrite Rules for the Disciplined Disciple Compiler, UNSW 2012
+  Lippmeier. ​Type Inference and Optimisation for an Impure World, ANU 2010
+  ​Lippmeier. Witnessing Purity, Constancy and Mutability, ​slides, APLAS 2009
+
+*** DONE Daan:
+
+  Swamy, Guts, Leijen, Hicks. Lightweight monadic programming in ML. ICFP 2011.
+  Koka - Daan Leijen, Koka: Programming with Row-Polymorphic Effect Types, no. MSR-TR-2013-79, 28 August 2013
+
+*** DONE Oleg:
+
+  Kiselyov, Peyton-Jones, Sabry. Lazy v. yield: incremental, linear pretty-printing.
+  Kiselyov, Sabry, Swords. Extensible effects: an alternative to monad transformers. Haskell 2013.
+
+*** DONE Tom (I haven't read most of these, can you filter the relevant ones?)
+
+  Schrijvers, Oliveira. Monadic, zippers and views: virtualizing the monad stack. ICFP 2011
+
+  Complete and decidable type inference for GADTs Schrijvers, Tom and
+  Peyton Jones, Simon and Sulzmann, Martin and Vytiniotis, Dimitrios.
+  In ACM Sigplan Notices, 44:9, pp. 341-352, 2009.
+
+*** DONE Tarmo:
+
+  T. Altenkirch, J. Chapman, T. Uustalu. Monads need not be
+  endofunctors.  Logical Methods in Comput. Sci., to appear. //
+  Conf. version in L. Ong, ed., Proc. of 13th Int. Conf. on
+  Foundations of Software Science and Computation Structures, FoSSaCS
+  2010 (Paphos, March 2010), v. 6014 of Lect. Notes in Comput. Sci.,
+  pp. 297-311. Springer, 2010. doi link - .pdf, 241K (© Springer)
+
+  T. Uustalu, V. Vene. Comonadic notions of computation.  In
+  J. Adámek, C. Kupke, eds., Proc. of 9th Int. Wksh. on Coalgebraic
+  Methods in Computer Science, CMCS 2008 (Budapest, Apr. 2008),
+  v. 203, n. 5 of Electron. Notes in Theor. Comput. Sci.,
+  pp. 263-284. Elsevier, 2008. doi link - .pdf, 282K (accepted author
+  manuscript, © Elsevier Science)
+
+*** DONE Phil:
+
+  Imperative functional programming Simon Peyton Jones and Philip
+  Wadler. 20'th Symposium on Principles of Programming Languages, ACM
+  Press, Charlotte, North Carolina, January 1993.
+
+  Type classes in Haskell Cordelia Hall, Kevin Hammond, Simon Peyton
+  Jones, and Philip Wadler. European Symposium On Programming, LNCS
+  788, Springer Verlag, pp. 241-256, April 1994.
+
+*** DONE Sam Lindley:
+
+  Kammar, Lindley, Oury. Handlers in action. ICFP 2013.
+
+  Row-based effect types for database integration. Sam Lindley and
+  James Cheney. In the proceedings of TLDI 2012.
+
+** TODO Ken
+   Dear Ken,
+
+   I hope you are doing well.
+
+   A few more details regarding the panel.
+
+   Here's our abstract, could you put it up somewhere please?
+
+   http://www.cl.cam.ac.uk/~ok259/foeh/abstract.html
+   (markdown source:
+   http://www.cl.cam.ac.uk/~ok259/foeh/abstract.text
+   )
+
+   A few other logistic details:
+
+   Audio: ideally we want 8 microphones: one worn by each panelist and
+   2 standing mics for audience participation. Is that possible
+   please?
+
+   Sitting arrangements: 6 comfortable chairs on the stage arranged in
+   an arc with possibly a few low tables in front of them for some
+   water on them. We don't need big name tags for the participants,
+   I'll tape some printouts to the chairs so each participant knows
+   where he sits.
+
+   The panel is supposed to start immediately after Oleg's talk, but
+   can we prearrange the seating beforehand?
+
+   I trust there will be some water jugs/bottles available per
+   participant?
+
+   That's it, I think.
+
+   Yours,
+   Ohad.
+
+** TODO Logistical requirements [0/8]
+**** TODO Details of the room the workshop's going to be in.
+**** TODO Audio
+***** For each panelist
+***** For moderator
+***** Two mics for the audience.
+**** TODO 6 comfey chairs on stage, arranged in an arc
+**** TODO Sitting arrangement
+     Who sits where. Put more shy people in the centre. Put Phil first (i.e., first on the left/right).
+     Moderator standing ?.
+**** TODO Water.
+**** TODO Low tables in front of the speakers.
+**** TODO Names printed big on some solid material folded in half.
+     Send this to Ken.
+**** TODO Place a laptop on the first row with a big countdown, say:
+     http://www.online-stopwatch.com/full-screen-stopwatch/
+
+** DONE Email speakers with more details.
+
+** DONE Email Ken all requirements.
+** Misc
+    Some panelling advice:
+
+    http://www.scottkirsner.com/panels.htm

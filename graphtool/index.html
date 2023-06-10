@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script language="javascript" type="text/javascript" src="./jquery.js"> </script>
+<script type="text/javascript" src="handler.js"></script>
+<script type="text/javascript" src="viz.js"></script>
+<script type="text/javascript" src="graph_plotter.js"></script>
+<script type="text/javascript" src="web_graphtool.js"></script>
+</head>
+<body>
+
+<h1> A graphical algebraic monad stack generator</H1>
+
+
+<script type="bogus" id="large_sample">
+digraph G {
+effects
+---------
+raise,abort:     sum as "ErrorT ()"
+throw,rollback:     sum as "ErrorT String"
+input: sum as "FreeT Input"
+output: sum as "FreeT Output"
+
+R1,R2: tensor  as "EnvT State"
+W1,W2: tensor as "WriterT Overwrite"
+RW1,RW2: tensor as "StateT St"
+
+ND:
+
+
+ commutative interaction
+-------------------------
+
+ND, input, output, rollback, abort (X) W1, W2, R1, R2, RW1, RW2
+
+R1, R2, W1, W2, RW1, RW2 all commute
+</script>
+
+
+</body>
+</html>

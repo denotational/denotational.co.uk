@@ -1,0 +1,8 @@
+#!/bin/bash
+files=$(find site -iname *.b)
+for file in $files
+do
+    target=$(dirname $file)/$(basename --suffix=.b $file)
+    cat preamble.html $file postamble.html > $target
+done
+#cp -r site/* /var/www/html/edinburgh

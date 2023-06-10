@@ -1,0 +1,94 @@
+# - visit: "[Programming, Logic, and Semantics Group](http://www.cl.cam.ac.uk/research/pls/), [University of Cambridge](http://www.cam.ac.uk) [Computer Laboratory](http://www.cl.cam.ac.uk)"
+#   start: 2017-02-16
+#   date:  2017-02-17
+
+# - visit: "[Laboratory for Foundations of Computer Science](http://www.lfcs.inf.ed.ac.uk), [University of Edinburgh](http://www.ed.ac.uk) [School of Informatics](http://www.inf.ed.ac.uk)"
+#   start: 2017-01-26
+#   date:  2017-02-07
+
+#- visit: "[Laboratory for Logic](http://www.cs.tau.ac.il/~nachumd/logic/), [Tel-Aviv University](http://english.tau.ac.il)"
+#  start: 2016-09-29
+#  date:  2016-11-03
+
+# # UBC
+# - visit: "[Programming Languages for Artificial Intelligence (PLAI)](https://www.cs.ubc.ca/cs-research/lci/research-groups/programming-languages-artificial-intelligence-plai), [University of British Columbia](http://www.ubc.ca) [Department of Computer Science](https://www.cs.ubc.ca/)"
+#   start: 2019-03-21
+#   date:  2019-03-23
+
+
+# Shonan
+# - meeting: "Programming and Reasoning with Algebraic Effects and Effect Handlers"
+#   url: "http://shonan.nii.ac.jp/shonan/blog/2018/05/07/no-146-programming-and-reasoning-with-algebraic-effects-and-effect-handlers/"
+#   location: "Shonan Village Centre"
+#   start: "2019-03-25"
+#   date:  "2019-03-29"
+
+# # NII
+# - visit: "[Mathematical and Metamathematical Modeling (Group MMM)](http://group-mmm.org/index.html), [National Institute of Informatics](https://www.nii.ac.jp/), Tokyo, Japan"
+#   start: 2019-03-29
+#   date:  2019-04-09
+
+#KAIST
+# - visit: "[Laboratory for Foundations of Programming Languages and Machine Learning](https://cs.kaist.ac.kr/research/labView?sn=104&menu=64), [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/), Daejeon, South Korea"
+#   start: 2019-04-10
+#   date:  2019-04-16
+
+
+
+# # Cambridge
+# - visit: "[Programming, Logic, and Semantics Group](http://www.cl.cam.ac.uk/research/pls/), [University of Cambridge](http://www.cam.ac.uk) [Computer Laboratory](http://www.cl.cam.ac.uk)"
+#   start: 2019-02-21
+#   date:  2019-02-26
+
+# # Ljubljana
+# - visit: "[Faculty of Mathematics and Physics](http://www.fmf.uni-lj.si/), [University of Ljubljana](http://www.uni-lj.si/)"
+#   start: 2019-02-09
+#   date:  2019-02-20
+
+
+# # ENS d'Ulm
+# - visit: "[Team Antique](http://www.di.ens.fr/AntiqueTeam.html.en), [Departement d'Informatique](http://www.di.ens.fr/~danos), [École normale supérieure](http://www.ens.fr), Paris."
+#   start: 2019-01-22
+#   date:  2019-02-03
+
+
+# - meeting: "Second Workshop on Probabilistic Interactive and Higher-Order Computation (PIHOC)"
+#   url: "http://pihoc2019.cs.unibo.it/"
+#   location: "Bologna, Italy"
+#   start: "2019-02-06"
+#   date:  "2019-02-07"
+
+# - meeting: "ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2019)"
+#   url: "https://popl19.sigplan.org/"
+#   location: "Lisbon, Portugal"
+#   start: 2019-01-13
+#   date:  2019-01-19
+
+- meeting: "Languages for Inference (LAFI 2019)"
+  url: "https://popl20.sigplan.org/track/lafi-2020"
+  location: "New Orleans, Oregon"
+  date:  2020-01-21
+
+- meeting: "2nd International Summer School on Metaprogramming"
+  url: "https://www.cl.cam.ac.uk/events/metaprog/2019/"
+  location: "[Schloss Dagstuhl](https://www.dagstuhl.de/en/program/calendar/evhp/?semnr=19333), Germany"
+  start: 2019-08-11
+  date: 2019-08-16
+
+- meeting: "Scottish Programming Languages and Verification Summer School 2019"
+  url: "http://www.macs.hw.ac.uk/splv/splv19/"
+  location: "[Mathematically Structured Programming Group](http://msp.cis.strath.ac.uk/), [University of Strathclyde](http://www.strath.ac.uk/), Glasgow, Scotland"
+  start: 2019-08-05
+  date: 2019-08-09
+
+- meeting: "International Conference on Functional Programming and affiliated events"
+  url: "https://icfp19.sigplan.org/"
+  location: "Berlin, Germany"
+  start: 2019-08-18
+  date: 2019-08-23
+
+# - visit: "nowhere currently, feel free to invite me over"
+#   start: "1984-10-12"
+#   date : "2104-10-12"
+
+# * PC Co-chair, Higher-Order Programming with Effects (HOPE 2019), with [Filip Sieczkowski](https://sites.google.com/a/cs.uni.wroc.pl/efes/). Submit a talk proposal!

@@ -1,0 +1,23 @@
+- action: Laboratory
+  time: 13:00-14:00
+
+- action: Coffee Break
+  time: 14:00-14:20
+  
+- action: Lecture
+  time: 14:20-15:20
+
+- action: Coffee Break
+  time: 15:20-15:40
+
+- action: Lecture
+  time: 15:40-16:40
+
+- action: Coffee Break
+  time: 16:40-17:00
+  
+- action: Laboratory
+  time: 17:00-18:00
+
+- action: Pub...
+  time: 18:00-...

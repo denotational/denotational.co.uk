@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html privadframeid="6523286862941634475" privadbrowsermanager="1" pig-session-id="188978561040"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<link rel="shortcut icon" href="icon.png" />
+
+<title>HOPE 2014 :: The 3rd ACM SIGPLAN Workshop on Higher-Order Programming with Effects</title>
+
+
+<style>
+/* CSS reset */
+
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+</style>
+
+<style>
+
+div#contents ul{
+  list-style: circle ;
+  margin-left: 20px ;
+}
+
+div#contents ol{
+  list-style: decimal ;
+  margin-left: 20px ;
+}
+
+div#contents ol li {
+  margin-top: 15px ;
+}
+
+.ordinal {vertical-align:super; font-size: 70%;}
+
+div#contents li {
+  margin-left: 20px;
+}
+
+a {
+ text-decoration: none ;
+}
+
+p {
+ margin-bottom: 15px ;
+}
+
+body {
+ padding-top: 10px ;
+ font-family: Palatino, Optima, Calibri, Tahoma, Helvetica, Arial, Georgia ;
+ background-color: #6D7B8D ;
+ background-image: url(http://scheme2011.ucombinator.org/FCRC2011-mini.png) ;
+ background-repeat: no-repeat ;
+ color: #282828 ;
+}
+
+div.module {
+ float: left ;
+ border: 1px solid #777777;
+ -moz-border-radius: 6px ;
+ -webkit-border-radius: 6px ;
+ border-radius: 6px ;
+ background-color: #dddddd ;
+ margin: 10px ;
+ padding: 20px ;
+}
+
+div.main-unit {
+ width: 420px;
+}
+
+div.unit {
+ width: 642px;
+ padding: 40px;
+ padding-top: 25px;
+ padding-bottom: 15px;
+ line-height: 113%;
+}
+
+
+div#container{
+ margin-left: auto ;
+ margin-right: auto ;
+ width: 780px;
+ padding: 0px;
+}
+
+div#contents {
+ margin-left: auto ;
+ margin-right: auto ;
+ margin-bottom: 10px;
+ width: 780px;
+ padding: 0px;
+}
+
+div#definition {
+ line-height: 113%;
+}
+
+div#main {
+ width: 440px ;
+ float: left ;
+ padding: 0px;
+ margin: 0px ;
+}
+
+div#header {
+ /* color: #ffffff ; */
+ /* height: 50px; */
+ /* background-image: url(sanjose-night2.png) ; */
+ padding-top: 10px ;
+}
+
+
+div#navbar {
+ float: left ;
+ width: 200px ;
+}
+
+h2 {
+ text-align: center ;
+ font-size: 115% ;
+ margin-bottom: 20px ;
+}
+
+h3 {
+  margin-bottom: 15px ;
+}
+
+div#main td {
+ padding-right: 10px ;
+}
+
+div#header-area {
+ float: left;
+ width: 480px;
+}
+
+div#header-title {
+ float: left;
+ font-size: 44px;
+ color: #E41B17;
+ margin-left: -5px;
+}
+
+.titlefont {color: #E41B17; }
+
+div#header-subtitle {
+ float: left;
+ margin-left: 15px;
+ font-size: 18px;
+ margin-top: 2px;
+}
+
+div#fcrc-notice {
+ float: left ;
+ width: 480px ;
+ font-weight: bold ;
+ margin-left: -3px ;
+ font-size: 23px ;
+ margin-top: 2px;
+ line-height: 120%;
+}
+
+div#small-fcrc {
+ float: left ;
+ width: 480px ;
+ font-weight: bold ;
+ margin-top: 5px;
+ margin-left: -3px ;
+ font-size: 20px ;
+ margin-bottom: -10px;
+ line-height: 120%;
+}
+
+div#fcrc-notice a {
+ color: blue ;
+}
+
+td {
+ padding-bottom: 6px ;
+}
+
+div#navbar h2 {
+ margin-bottom: 10px ;
+}
+
+h2.important {
+ color: #ff3333 ;
+}
+
+div.schedule {
+ padding-left: 20px ;
+}
+
+table.schedule td {
+  border: 1px solid black ;
+  padding: 10px ;
+}
+
+a:link        { text-decoration: none; color:blue }
+a:visited     { text-decoration: none; color:blue }
+a:hover       { text-decoration: underline }
+
+
+</style>
+
+
+<!--
+asdf
+[if gte IE 6]>
+<style>
+div#header {
+ color: black ;
+ background-image: url(not-found.jpg) ;
+ height: 120px ;
+}
+
+div#header-area {
+ margin-top: 5px ;
+ float: none ;
+ height: 110px ;
+ display: block ;
+}
+
+div#header-title {
+ float: none ;
+ font-size: 44px;
+ height: 50px ;
+ display: block ;
+}
+
+div#header-subtitle {
+ float: none ;
+ height: 50px ;
+ display: block ;
+ font-size: 18px;
+ margin-top: 4px;
+ margin-left: 0px ;
+}
+
+div#fcrc-notice {
+ float: none;
+ display: block ;
+ width: 370px ;
+ font-size: 100% ;
+ font-weight: bold ;
+ color: black ;
+ margin-left: 0px;
+}
+
+
+div#fcrc-notice a {
+ color: blue ;
+}
+
+</style>
+<![endif]>
+
+-->
+
+
+</head>
+
+<body>
+
+<div id="container">
+
+
+ <div id="navbar" class="module">
+
+<img src="jcr1.jpg" width=200>
+
+
+
+ </div>
+
+
+ <div id="main">
+
+ <div id="header" class="module main-unit">
+
+   <div id="header-area" style="">
+
+     <div id="header-title"><b>HOPE 2014</b></div>
+
+     <div id="header-subtitle">
+         <b>August 31, 2014</b>
+         <br>
+         <b>Gothenburg, Sweden</b>
+     </div>
+
+     <div id="fcrc-notice">
+     The 3<span class="ordinal">rd</span>
+ ACM SIGPLAN Workshop on <br> Higher-Order Programming with Effects
+</div>
+<div id="small-fcrc">
+(the day before <a href="http://icfpconference.org/icfp2014/">ICFP 2014</a>)
+<!--
+       In conjunction with <a pig-examined="true" href="http://www.splashcon.org/">SPLASHcon</a>
+-->
+     </div>
+
+   </div>
+
+
+ </div> <!-- /header -->
+
+ <div id="definition" class="module main-unit">
+  <span class="titlefont"><b>HOPE</b></span> is a <b>(fairly) new
+workshop</b> that is intended to bring together researchers interested
+in the design, semantics, implementation, and verification of
+higher-order effectful programs.  It will be <b>informal</b>,
+consisting of invited talks, contributed talks on work in progress,
+and open-ended discussion sessions.  The HOPE workshops are dedicated
+to John Reynolds, whose work is an inspiration to us all.
+ </div>
+ </div>
+
+
+
+
+
+
+<!--
+<div id="news" class="module unit">
+
+<h2>News About the Workshop</h2>
+
+<p>
+We received 20 high-quality submissions for talk proposals this year,
+from which the program committee decided to accept 10 for presentation
+at the workshop.  The talks will be videorecorded, and the recordings
+will be made available here after the workshop.
+
+<p>
+The <b><a href="accepted.html">list of accepted talks</a></b> is now available.
+
+<p>
+Also this year, the workshop will feature
+a <span class="titlefont"><b>special session in memory of John
+Reynolds</b></span>.  The session will include talks from Olivier
+Danvy, Robert Harper, Peter O'Hearn, and Uday Reddy, with a mixture of
+scientific and personal reflections on John's life and work.  More
+details to come soon!
+
+</div>
+-->
+
+
+<!--
+<p>
+We have extended the HOPE'13 deadline until a few days after the
+POPL'14 deadline so as not to conflict with the run-up to the POPL'14
+deadline, and to encourage researchers to submit talk proposals based
+on any POPL'14 submissions that they may be preparing.
+
+<p>
+<span class="titlefont"><b>NOTE:</b></span> According to the
+<a href="http://www.cl.cam.ac.uk/~pes20/Stuff/dbr-faq.html">POPL'14
+FAQ</a> (and after consultation with the POPL'14 program chair), we
+have determined that there is absolutely no problem with researchers
+submitting talk proposals to HOPE'13 based on their POPL submissions,
+even though the HOPE reviewing process is not double-blind. If you
+have any questions or concerns about this point, please do not
+hesitate to contact the HOPE program chairs by <a
+href="mailto:N.Krishnaswami@cs.bham.ac.uk,hongseok00@gmail.com">e-mailing us</a>.
+
+<b><a href="mailto:N.Krishnaswami@cs.bham.ac.ul">Neel Krishnaswami</a></b>
+or <b><a href="
+ -->
+
+
+ <div id="contents" style="float: left; width: 725px; ">
+
+ <div id="goals" class="module unit">
+<h2>Goals of the Workshop</h2>
+
+<p>
+A recurring theme in many papers at ICFP, and in the research of many
+ICFP attendees, is the interaction of higher-order programming with
+various kinds of effects: storage effects, I/O, control effects,
+concurrency, etc.  While effects are of critical importance in many
+applications, they also make it hard to build, maintain, and reason
+about one's code.  Higher-order languages (both functional and
+object-oriented) provide a variety of abstraction mechanisms to help
+"tame" or "encapsulate" effects (e.g. monads, ADTs, ownership types,
+typestate, first-class events, transactions, Hoare Type Theory,
+session types, substructural and region-based type systems), and a
+number of different semantic models and verification technologies have
+been developed in order to codify and exploit the benefits of this
+encapsulation (e.g. bisimulations, step-indexed Kripke logical relations,
+higher-order separation logic, game semantics, various modal logics).
+But there remain many open problems, and the field is highly active.
+
+<p>
+The goal of the HOPE workshop is to bring researchers from a variety
+of different backgrounds and perspectives together to exchange new and
+exciting ideas concerning the design, semantics, implementation, and
+verification of higher-order effectful programs.
+
+<p>
+We want HOPE to be as informal and interactive as possible.  The
+program will thus involve a combination of invited talks, contributed
+talks about work in progress, and open-ended discussion sessions.
+There will be no published proceedings, but participants will be
+invited to submit working documents, talk slides, etc. to be posted
+on this website.
+
+</div>
+
+
+ <div id="program" class="module unit">
+<h2>Program for August 31, 2014</h2>
+<table>
+   <tr>
+   <td colspan="2">
+   <center><br><b>Session 1: Welcome and Invited Talk</b></center>
+   </td>
+   </tr>
+
+
+   <tr>
+   <td>09:00</td>
+   <td><i>Introduction</i>
+   <br />
+   Neel Krishnaswami and Hongseok Yang
+   <!--<br>
+   <a href="kassios-abstract.txt"><b>Abstract [txt]</b></a>
+   | <a href="kassios-slides.pdf"><b>Slides [pdf]</b></a>-->
+   </td>
+   </tr>
+
+   <tr>
+   <td>09:10</td>
+   <td>
+     <i><a href="#invited_talk">Verifying Security Properties of SES Programs</a></i>
+     (videos:
+     <a href="https://www.youtube.com/watch?v=tTnW0GfLDGQ">part 1</a>,
+     <a href="https://www.youtube.com/watch?v=kBgKysCK2K0">part 2</a>)
+     <br />
+     Philippa Gardner
+   <!--<br>
+   <a href="svendsen-abstract.txt"><b>Abstract [txt]</b></a>
+   | <a href="svendsen-slides.pdf"><b>Slides [pdf]</b></a>-->
+   </td>
+   </tr>
+
+
+   <tr style="color: green;">
+   <td style="width: 4em;">10:00</td>
+   <td><b>Coffee Break</b></td>
+   </tr>
+
+   <tr>
+   <td colspan="2">
+   <center><br><b>Session 1: Monads and Effects</b></center>
+   </td>
+   </tr>
+
+   <tr>
+   <td>10:30</td>
+   <td><i>Towards indexed algebraic effects and handlers</i>
+   <br />
+   Stevan Andjelkovic
+
+   <!--<br>
+   <a href="kammar-abstract.txt"><b>Abstract [txt]</b></a>
+   | <a href="kammar-slides.pdf"><b>Slides [pdf]</b></a>-->
+   </td>
+   </tr>
+
+   <tr>
+   <td>11:00</td>
+   <td>
+     <i>From stateful to stackful computation</i>
+     (<a href="https://www.youtube.com/watch?v=_S3X2QgQoYY">video</a>)
+     <br />
+     Danel Ahman and Tarmo Uustalu
+     <!--<br>
+	 <a href="owens-abstract.txt"><b>Abstract [txt]</b></a>
+	 | <a href="owens-slides.pdf"><b>Slides [pdf]</b></a>-->
+   </td>
+   </tr>
+
+   <tr>
+   <td>11:30</td>
+   <td>
+     <i>Separating Entangled State</i>
+     (<a href="https://www.youtube.com/watch?v=dARRSwmFA9k">video</a>)
+     <br />
+     Kwok Cheung
+     <!--<br>
+	 <a href="owens-abstract.txt"><b>Abstract [txt]</b></a>
+	 | <a href="owens-slides.pdf"><b>Slides [pdf]</b></a>-->
+   </td>
+   </tr>
+
+
+   <tr style="color: blue;">
+   <td style="width: 4em;">12:00</td>
+   <td><b>Lunch (NOTE: lunch is <i>two</i> hours)</b></td>
+   </tr>
+
+   <tr>
+   <td colspan="2">
+<a name="special-session"></a>
+   <center><br><b>
+Session 2: Putting Theory into Practice</b></center>
+   </td>
+   </tr>
+
+   <tr>
+   <td>14:00</td>
+   <td>
+     <i>Graphical Algebraic Foundations for Monad Stacks</i>
+     (<a href="https://www.youtube.com/watch?v=v5HVEKIQDos">video</a>)
+     <br />
+     Ohad Kammar
+     <!--<br>
+	 <a href="owens-abstract.txt"><b>Abstract [txt]</b></a>
+	 | <a href="owens-slides.pdf"><b>Slides [pdf]</b></a>-->
+   </td>
+   </tr>
+
+   <tr>
+   <td>14:30</td>
+   <td>
+     <i>Delimited control with multiple prompts in theory and practice</i>
+     <br />
+      Paul Downen and Zena M. Ariola.
+     <!--<br>
+	 <a href="owens-abstract.txt"><b>Abstract [txt]</b></a>
+	 | <a href="owens-slides.pdf"><b>Slides [pdf]</b></a>-->
+   </td>
+   </tr>
+
+   <tr>
+   <td>15:00</td>
+   <td>
+     <i>A Type Directed model of Memory Locality and the design of High Performance Array APIs</i>
+     (<a href="https://www.youtube.com/watch?v=BntNBjDFfMs">video</a>)
+     <br />
+      Carter Schonwald
+     <!--<br>
+	 <a href="owens-abstract.txt"><b>Abstract [txt]</b></a>
+	 | <a href="owens-slides.pdf"><b>Slides [pdf]</b></a>-->
+   </td>
+   </tr>
+
+
+   <tr style="color: green;">
+   <td style="width: 4em;">15:30</td>
+   <td><b>Coffee Break</b></td>
+   </tr>
+   <tr>
+   <td colspan="2">
+   <center><br><b>Session 3: Verification and Mechanization</b></center>
+   </td>
+   </tr>
+
+   <tr>
+   <td>16:00</td>
+   <td>
+     <i>Compositional Compiler Verification via Parametric Simulation</i>
+     (<a href="https://www.youtube.com/watch?v=jQuSAuLBvmA">video</a>)
+     <br />
+     Georg Neis, Chung-Kil Hur, Jan-Oliver Kaiser, Derek Dreyer and Viktor Vafeiadis
+     <!--<br>
+	 <a href="turon-abstract.txt"><b>Abstract [txt]</b></a>
+	 | <a href="turon-slides.pdf"><b>Slides [pdf]</b></a>-->
+   </td>
+   </tr>
+
+   <tr>
+   <td>16:30</td>
+   <td>
+     <i>ModuRes: a Coq Library for Reasoning about Concurrent Higher-Order Imperative Programming Languages</i>
+     <br />
+     Filip Sieczkowski and Lars Birkedal
+     <!--<br>
+	 <a href="sekiyama-abstract.txt"><b>Abstract [txt]</b></a>
+	 | <a href="sekiyama-slides.pdf"><b>Slides [pdf]</b></a>-->
+   </td>
+   </tr>
+
+
+
+</table>
+</div>
+
+<div id="invited" class="module unit">
+  <h2><a name="invited_talk"></a>Invited Talk</h2>
+  <h3>Verifying Security Properties of  SES Programs</h3>
+
+  <p><b>Philippa Gardner, Imperial College London</b>
+
+  <p>Secure ECMAScript (SES) is a subset of JavaScript, designed in such a
+way that untrusted code can safety co-exist with trusted code. We
+introduce a program logic for verifying security properties of SES
+programs. It follows separation logic in that we can make local
+assertions about local state. It is different from separation logic in
+that we can also make global assertions about the global state and its
+interface with the local state. For example, we can globally assert
+that untrusted objects do not contain pointers to local trusted
+objects. Such assertions are key for describing security properties of
+common SES programs. This logic builds on the work of Gardner, Maffeis
+and Smith on reasoning about a core fragment of JavaScript (POPL2012),
+and the recent work of Smith on extending the logic to handle
+higher-order functions.
+
+  <p>This is joint work with Gareth Smith and Thomas Wood, Imperial.
+
+</div>
+
+
+<div id="cfp" class="module unit">
+
+<h2>Call for Talk Proposals</h2>
+
+<p>
+We solicit proposals for contributed talks.  We recommend preparing
+proposals of at most 2 pages, in either plain text or PDF format.
+However, we will accept longer proposals or submissions to other
+conferences, under the understanding that PC members are only expected
+to read the first two pages of such longer submissions.
+
+When submitting talk proposals, authors should specify how long a talk
+the speaker wishes to give.  By default, contributed talks will be 30
+minutes long, but proposals for shorter or longer talks will also be
+considered.  Speakers may also submit supplementary material (e.g. a
+full paper, talk slides) if they desire, which PC members are free
+(but not expected) to read.
+
+<p>We are interested in talks on all topics related to the interaction of
+higher-order programming and computational effects.  Talks about work
+in progress are particularly encouraged.  If you have any questions
+about the relevance of a particular topic, please
+contact the PC chairs, Neel Krishnaswami (<a href="mailto:N.Krishnaswami@cs.bham.ac.uk"><tt>N.Krishnaswami@cs.bham.ac.uk</tt></a>) and Hongseok Yang (<a href="mailto:hongseok00@gmail.com"><tt>hongseok00@gmail.com</tt></a>).
+
+<center><table>
+
+    <tbody>
+    <tr>
+      <td align=right>Deadline for talk proposals:</td>
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td align=left>June 13, 2014 (Friday)</td>
+    </tr>
+
+    <tr>
+      <td align=right>Notification of acceptance:</td>
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td align=left>July 4, 2014 (Friday)</td>
+    </tr>
+
+    <tr>
+      <td align=right>Workshop:</td>
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td align=left>August 31, 2014 (Sunday)</td>
+    </tr>
+
+    <tr>
+      <td align=right>Submission:</td>
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td align=left><a href="https://www.easychair.org/conferences/?conf=hope2014">Use this Easychair site</a></td>
+    </tr>
+   </tbody></table></center>
+<p>
+
+<!--
+open: <a href="https://www.easychair.org/conferences/?conf=hope2013"><u>Please click here to submit your proposal</u></a>.
+-->
+<p>
+</div>
+
+
+<div id="organizers" class="module unit">
+
+ <h2>Workshop Organization</h2>
+
+ <table>
+   <tbody><tr>
+     <td style="width: 200px;"><b>Program Co-Chairs</b></td>
+   </tr>
+
+   <tr><td></td><td><a href="http://www.cs.bham.ac.uk/~krishnan">Neel Krishnaswami</a> (University of Birmingham)</td>
+
+   <tr><td></td><td><a href="http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html">Hongseok Yang</a> (University of Oxford)</td>
+</tr>
+
+</tr>
+
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+   <tr>
+     <td><b>Program Committee</b></td>
+     <td></td></tr>
+
+
+     <tr><td></td><td><a href="http://ix.cs.uoregon.edu/~ariola/">Zena Ariola</a> (University of Oregon)</td></tr>
+     <tr><td></td><td><A href="https://www.cl.cam.ac.uk/~ok259/">Ohad Kammar</a> (University of Cambridge)</td></tr>
+     <tr><td></td><td><a href="http://www.pm.inf.ethz.ch/people/kassiosi/personal">Ioannis Kassios</a> (ETH Zurich)</td></tr>
+     <tr><td></td><td><a href="http://www-kb.is.s.u-tokyo.ac.jp/~koba/">Naoki Kobayashi</a> (University of Tokyo)</td></tr>
+     <tr><td></td><td><a href="http://www.cs.bham.ac.uk/~pbl/">Paul Blain Levy</a> (University of Birmingham)</td></tr>
+     <tr><td></td><td><a href="http://software.imdea.org/~aleks/">Aleks Nanevski</a> (IMDEA)</td></tr>
+     <tr><td></td><td><a href="http://www.cs.kent.ac.uk/people/staff/sao/">Scott Owens</a> (University of Kent)</td></tr>
+     <tr><td></td><td><a href="http://www.cs.ru.nl/~sstaton/">Sam Staton</a> (Radboud University Nijmegen)</td></tr>
+     <tr><td></td><td><a href="http://www.cis.upenn.edu/~stevez/">Steve Zdancewic</a> (University of Pennsylvania)</td></tr>
+
+  </tbody></table>
+
+
+ </div> <!-- /pc -->
+
+ <div id="previous" class="module unit">
+<h2>Previous Editions of the Workshop</h2>
+
+<p>
+This is the 3<span class="ordinal">rd</span> edition of the HOPE workshop.
+
+<p>
+<a href="http://hope2013.mpi-sws.org/">The 2<span class="ordinal">nd</span> edition of the workshop was held in Boston, Massachusetts, in September 2013</a>.
+
+<p>
+<a href="http://hope2012.mpi-sws.org/">The 1<span class="ordinal">st</span> edition of the workshop was held in Copenhagen, Denmark, in September 2012</a>.
+
+</div> <!-- /previous -->
+
+
+
+
+
+ </div> <!-- /contents -->
+
+
+
+</div> <!-- /container -->
+
+
+
+
+
+
+
+</body></html>

@@ -1,0 +1,16 @@
+- date: 2011-01-31
+  topic:  "First steps: Lists, Vectors and Peano Arithmetic"
+  location: IF G.03
+  exercises: 1.1-1.8
+  video: "http://www.youtube.com/view_play_list?p=44F162A8B8CB7C87"
+- date: 2011-02-07
+  topic: "Records, unit, sigma and finite sets."
+  location: IF G.07A
+  exercises: 1.9-1.14
+- date: 2011-02-14
+  location: IF G.03
+- date: 2011-02-21
+  location: IF G.03
+- date: 2011-02-28
+  location: IF G.07A
+

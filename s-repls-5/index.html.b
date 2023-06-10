@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<head>
+<META NAME="description" CONTENT="Ohad Kammar's Research">
+<META NAME="keywords" CONTENT="ohad kammar, ohad, kammar, research, publications, publication, programming language
+semantics, PLT semantics, semantics, category, categories, category theory, logic, computational
+effects, effect type systems, type and effect systems, types, effects, effect type system, access control, DCC, CDD, Plotkin, Gordon Plotkin, call by push value, CBPV, call-by-push-value, denotational semantics, continuations, delimited continuations, jump with argument">
+<TITLE>Ohad's Research - S-REPLS 5</TITLE>
+<link rel="icon" href="favicon.ico" type="image/x-icon" >
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
+</HEAD>
+
+<p><img src="GAF-Merton-Sunrise-Steve-Langton-GPC.jpg" title="Merton College Oxford, for illustration purposes only, taken from: http://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/public/field/field_image_main/GAF%20Merton%20Sunrise%20Steve%20Langton%20GPC.jpg?itok=anwpyHY8 " style="width: 400px;"/></p>
+<h1>
+The 5th <a href="http://dominic-mulligan.co.uk/?page_id=148">Southern-Region English Programming Language Seminar (S-REPLS)</a>
+</h1>
+<ul>
+<li>When: 11am-5pm, Thursday, 12th January 2017 (Thursday before <a href="http://conf.researchr.org/home/POPL-2017">POPL</a>)</li>
+<li>Where: Lecture Theatre B, Wolfson Building, <a href="http://www.cs.ox.ac.uk/">University of Oxford Department of Computer Science</a> (<a href="http://www.cs.ox.ac.uk/aboutus/directions.html">directions</a>)</li>
+<li>The event is free of charge (coffee and refreshements provided)</li>
+<li><a href="http://doodle.com/poll/hz6z3zqpupds2fm4">Doodle registration: http://doodle.com/poll/hz6z3zqpupds2fm4</a></li>
+</ul>
+<p>S-REPLS is a regular informal meeting for those with a professional interest in programming languages in the South of England region. The past four meetings consisted of 50-90 participants from academia and industry with invited and contributed talks ranging from abstract areas in semantics and type system theory to nuts-and-bolts implementations of mainstream and avant-garde compilers and programming languages.</p>
+<p>We will hold the next meeting at the University of Oxford Department of Computer Science.</p>
+<p>The meeting will take place between 11.00-17.00 on Thursday, 12th January 2017, i.e., the Thursday before <a href="http://conf.researchr.org/home/POPL-2017">POPL</a>.</p>
+<h1 id="schedule-abstracts">Schedule (<a href="abstracts.html">Abstracts</a>)</h1>
+<p>10:30<br /> • Arrival<br /> 10:55<br /> • Welcome<br /> 11:00<br />• <a href="abstracts.html#Jan%20Hoffmann"><strong>Invited talk:</strong> Resource aware ML</a> / <a href="http://www.cs.cmu.edu/~janh/">Jan Hoffmann</a>, Carnegie Mellon University School of Computer Science, Pittsburgh, USA.<br /> 12:00<br /> • Lunch (independently, see ‘<a href="#local">local information</a>’ below)<br /> 13:00<br />• <a href="abstracts.html#Benjamin%20Kaminski">Reasoning about expected run-times of probabilistic programs</a> / <a href="https://moves.rwth-aachen.de/people/kaminski/">Benjamin Kaminski</a>, University College London and RWTH Aachen University<br /> • <a href="abstracts.html#Michael%20Arntzenius">Finding fixed points faster</a> / <a href="http://www.rntz.net/">Michael Arntzenius</a>, University of Birmingham<br /> • <a href="abstracts.html#John%20Wickerson">Hardware synthesis of weakly consistent C concurrency</a> / <a href="https://johnwickerson.github.io/">John Wickerson</a>, Imperial College London<br /> 14:10<br /> • Coffee<br /> 14:40<br />• <a href="abstracts.html#David%20Sherratt">Towards an Atomic Abstract Machine</a> / <a href="http://people.bath.ac.uk/drs32/">David Sherratt</a>, University of Bath<br /> • <a href="abstracts.html#Dan%20Ghica">Unifying structural and nominal syntax in the language of diagrams</a> / <a href="http://www.cs.bham.ac.uk/~drg/">Dan Ghica</a>, University of Birmingham<br /> 15:30<br /> • Coffee<br /> 16:00<br />• <a href="abstracts.html#Bradley%20Hardy">Improving Agda’s equational reasoning with reflection</a> / <a href="http://dominic-mulligan.co.uk/">Bradley Hardy</a>, University of Cambridge<br /> • <a href="abstracts.html#Neel%20Krishnaswami">Can ML be stopped?</a> / <a href="http://www.cl.cam.ac.uk/~nk480/">Neel Krishnaswami</a>, University of Cambridge<br /> 16:50<br /> • Pub: <a href="https://www.redlionoxford.co.uk/">The Red Lion</a> (<a href="https://drive.google.com/open?id=1YQDVylenG8Og5yjaunr73iLYvBw&amp;usp=sharing">map</a>)<br /> 19:00<br /> • Dinner: <a href="https://www.turtlebay.co.uk/food-drink/">Turtle Bay</a> (<a href="https://drive.google.com/open?id=1YQDVylenG8Og5yjaunr73iLYvBw&amp;usp=sharing">map</a>)<br /></p>
+<h1 id="sign-up"><a href="http://doodle.com/poll/hz6z3zqpupds2fm4">Sign-up</a></h1>
+<p>The meeting is free of charge, but for logistical purposes please indicate on <a href="http://doodle.com/poll/hz6z3zqpupds2fm4">this Doodle poll</a> if you plan to attend.</p>
+<p><a href="http://doodle.com/poll/hz6z3zqpupds2fm4" class="uri">http://doodle.com/poll/hz6z3zqpupds2fm4</a></p>
+<h1 id="local-information"><A NAME="local"></A>Local information</h1>
+<iframe float="right" src="https://www.google.com/maps/d/embed?mid=1YQDVylenG8Og5yjaunr73iLYvBw&amp;hl=en" width="800" height="480">
+</iframe>
+<p><br /></p>
+<p>For directions to the <a href="http://www.cs.ox.ac.uk/">University of Oxford Department of Computer Science</a>, see the <a href="http://www.cs.ox.ac.uk/aboutus/directions.html">Department’s directions page</a>).</p>
+<p>Lunch and dinner will <strong>not</strong> be provided.</p>
+<p>For lunch, there are many restaurants and/or take-away options in the <a href="https://goo.gl/maps/kaNKTuYvMjE2">vicinity of the Department</a>. Alternatively, if you are arriving from the train station or bus station, you can grab a sandwhich on your way to the department.</p>
+<ul>
+<li><p><strong>Pub</strong>: After the talks, we will continue more informal conversations at the <a href="https://www.redlionoxford.co.uk">Red Lion</a>, which is a short walk from the Department towards the central bus and train station which has some light dinner option.</p></li>
+<li><p><strong>Dinner</strong>: After the pub, we will go to the <a href="https://www.turtlebay.co.uk/food-drink/">Turtle Bay</a>, around the corner from the pub.</p>
+<p>If you are pressed for time for dinner, or want to get your food earlier, or just want to make the chef less stressed, please <strong>preorder</strong> by emailing your food order to <a href="mailto:ohad.kammar@cs.ox.ac.uk">Ohad Kammar &lt;ohad . kammar (at) cs ox ac uk&gt;</a> by <strong>Wednesday evening</strong>.</p></li>
+</ul>
+<h1 id="mailing-list">Mailing list</h1>
+<p>All S-REPLS related communications are made via the mailing list:</p>
+<p><a href="http://www.jiscmail.ac.uk/srepls" class="uri">http://www.jiscmail.ac.uk/srepls</a></p>
+<p>This mailing list has very low traffic. If you have professional interests in programming language in the region, we encourage you to sign up.</p>
+<h1 id="sponsorship">Sponsorship</h1>
+<p>Please let us know of potential sponsorship opportunities at:</p>
+<p><a href="mailto:ohad.kammar@cs.ox.ac.uk">Ohad Kammar &lt;ohad . kammar (at) cs ox ac uk&gt;</a></p>
+<p>Past events have had academic, industrial, and government sponsorship for invited speaker costs, and/or catering costs (lunch, dinner, or refreshments during the break).</p>
+<h1 id="organising-future-meetings">Organising future meetings</h1>
+<p>If you would like to organise future meetings at your university or company, please get in touch with the <a href="http://dominic-mulligan.co.uk/?page_id=148">steering committee</a>:</p>
+<ul>
+<li><a href="mailto:dpm36@cam.ac.uk">Dominic Mulligan</a></li>
+<li><a href="mailto:jeremy.yallop@cl.cam.ac.uk">Jeremy Yallop</a></li>
+<li><a href="mailto:ohad.kammar@cs.ox.ac.uk">Ohad Kammar</a></li>
+</ul>
+<p>We would be grateful if you could please circulate this event in your department/company.</p>
+<p>We hope to see you there,</p>
+<ul>
+<li>Jeremy Gibbons,</li>
+<li>Sam Staton,</li>
+<li>and Ohad Kammar.</li>
+</ul>

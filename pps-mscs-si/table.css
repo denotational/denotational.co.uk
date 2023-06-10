@@ -1,0 +1,168 @@
+ul.timetable
+{
+  font-family: "lucida grande", Verdana, Arial, sans-serif;
+  padding:0px;
+}
+
+ul.timetable li
+{
+  display:block;
+}
+
+h4
+{
+  display:block;
+  margin:10px 0 5px 0;
+  text-align: center;
+  font-weight:normal;
+  background-color:#a3c1ad;
+  color:white;
+  padding: 3px 0;
+}
+
+h4 span:first-child
+{
+  font-weight:bold;
+}
+
+.day
+{
+}
+
+ul.timetable li.first div.break .time
+{
+    padding-right: 85px;
+}
+
+.class,
+ .break
+{
+  padding:7px 0px;
+  border-bottom:1px solid #aaaaaa;
+}
+
+.class:last-child,
+.break:last-child
+{
+  border-bottom:none;
+}
+
+.time
+{
+  display: none;
+  font-weight:bold;
+}
+
+.timespan
+{
+  font-weight:bold;
+}
+
+.not
+{
+  display:none;
+}
+
+
+.break
+{
+  display: none
+}
+
+@media only screen and (min-width: 990px) {
+
+h4
+{
+  xbackground-color:white;
+  xcolor:black;
+  border-bottom:1px solid #aaaaaa;
+}
+
+h4 span
+{
+  display:block;
+}
+
+
+ul.timetable li
+{
+  display:inline-block;
+  width:165px;
+  text-align:center;
+}
+
+ul.timetable li div.class span.timespan,
+ul.timetable li div.break span.timespan
+{
+  display:none;
+}
+
+ul.timetable li.first h4
+{
+  padding-left:135px;
+  display:block;
+}
+
+
+ul.timetable li.first div.class span.time,
+ul.timetable li.first div.break span.time
+{
+  display:block;
+  float:left;
+}
+
+ul.timetable li.first div.class span.classdesc,
+ul.timetable li.first div.break span.classdesc
+{
+  padding-left:130px;
+  display:block;
+}
+
+
+ul.timetable li.first
+{
+  width:290px;
+}
+
+.class,
+.break
+{
+  width:155px;
+  display:inline-block;
+  height:140px;
+  overflow:hidden;
+  padding:5px;
+}
+
+.break
+{
+  height:20px;
+}
+
+
+.excursion
+{
+    height: 328px;
+
+}
+.excursion .classdesc
+{
+    padding-top: 160px;
+    vertical-align: middle;
+
+}
+
+
+ul li.first div.class,
+ul li.first div.break
+{
+  width:280px;
+}
+
+.nb
+{
+  border-bottom:1px solid white;
+}
+
+
+}

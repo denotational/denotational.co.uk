@@ -1,0 +1,184 @@
+.main
+{
+  max-width:990px;
+  margin: 0 auto;
+}
+
+.bottom
+{
+  clear:both;
+  height:35px;
+  display:inline-block;
+}
+
+h1, h2, h3
+{
+ font-family: "lucida grande", Verdana, Arial, sans-serif;
+}
+
+h1
+{
+  font-weight: bold;
+  font-style: normal;
+  color: #a3c1ad;
+  text-align:center;
+}
+
+h2
+{
+  color: #a3c1ad;
+}
+
+h3
+{
+  display: inline;
+  font-family: "lucida grande", Verdana, Arial, sans-serif;
+  font-size:1.2em;
+}
+
+a
+{
+  color:#0061B7;
+  text-decoration:none;
+}
+
+a:hover
+{
+  color:#20bddf;
+}
+
+.info
+{
+  font-family: "lucida grande", Verdana, Arial, sans-serif;
+  font-size:1.4em;
+  text-align:center;
+}
+
+.info sup
+{
+  font-size:0.8em;
+}
+
+.images
+{
+  text-align:center;
+  white-space: nowrap;
+}
+
+.images img
+{
+  margin: 2em 10px;
+  width:862px;
+  height:218px;
+  background-color:#CCCCCC;
+}
+
+.lhead
+{
+  font-family: "lucida grande", Verdana, Arial, sans-serif;
+  font-size:1.2em;
+  text-align:left;
+}
+
+.lecturer
+{
+  position:relative;
+  margin: 1em 0 3em 0;
+  padding-left:150px;
+}
+
+.name
+{
+  font-weight:bold;
+}
+
+.affil
+{
+}
+
+.lecturer img
+{
+    position: absolute;
+    left:0px;
+    top:5px;
+}
+
+.title
+{
+  font-style: italic;
+}
+
+.lhead div
+{
+margin-top:5px;
+}
+
+.menu
+{
+  text-align:center;
+  font-size:1.2em;
+  font-family: "lucida grande", Verdana, Arial, sans-serif;  
+}
+
+.mitem
+{
+  padding-right:10px;
+}
+
+.current
+{
+  font-weight: bold;
+}
+
+.math
+{
+     font-style: italic;
+}
+
+
+/* ********************************************************* */
+
+@media only screen and (max-width: 500px) {
+  /* rules that only apply for canvases narrower than 1000px */
+
+h1, h2
+{
+  font-size:1.2em;
+}
+
+.info
+{
+  font-size:1em;
+}
+
+.lecturer
+{
+  position:relative;
+  margin: 1em 0 3em 0;
+  padding-left:0px;
+}
+
+.lecturer img
+{
+    position: relative;
+    margin-bottom:10px;
+}
+
+.side
+{
+  display: none;
+}
+
+.images img
+{
+  margin: 8px 0px;
+  height:150px;
+  width:200px;
+}
+
+.menu
+{
+  font-size:1em;
+}
+
+}

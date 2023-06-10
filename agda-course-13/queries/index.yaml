@@ -1,0 +1,8 @@
+- url      : index.html
+  title    : Home
+  template : index.st
+  requires : attendant.st
+  data     :
+    attendants: FROM ../participants.yaml 
+    RequireLogin: FROM ../participants.yaml WHERE NOT (affiliation == "cl")
+

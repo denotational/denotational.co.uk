@@ -1,0 +1,39 @@
+Dear participants,
+
+Thank you for registering for the dependently typed metaprogramming
+course which begins this coming week. Below is some logistic
+information.
+
+The first lab session will take place this Monday (5 August) on 13:00
+at the Computer Laboratory in MPhil Lab SW02. If you enter the
+building through the main entrance, take the staircase to your left up to
+the top floor and turn left. Lab SW02 is the one-before-last door to your
+left before the corner. The goal of this Lab session is to make sure
+everyone have a working Agda environment and some initial familiarity
+with it. We've set up the machines in SW02 to run Agda with the
+corresponding Emacs mode. Registered non-Lab members will be given
+guest accounts to this environment.  If you want to use your own
+laptop, please make sure `cabal update;cabal install agda' completes
+without dependency errors before you arrive. We will not have time
+to troubleshoot it during the lab session.
+
+The first lecture will take place on 14:20 in SW01, adjacent to the
+lab. Both rooms require a Lab member card access, so please be there
+on time.
+
+After the lectures take place, at 17:00, we'll have another lab
+session. The purpose of these early evening lab sessions is to have an
+initial go through the exercises in the notes, and to go over the more
+technical aspects of the lectures.
+
+At 18:00, we'll be going to a pub straight from the lab. Suggestions are
+welcome, although I expect Conor will call the shots.
+
+All this information and more can be found on the course webpage:
+
+http://www.cl.cam.ac.uk/~ok259/agda-course-13/
+
+See you on Monday!
+
+Yours,
+Dominic and Ohad.

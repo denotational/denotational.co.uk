@@ -1,0 +1,129 @@
+- other  : "Arrival"
+  time   : "10:00"
+- other  : "Welcome"
+  time   : "10:25"
+- other  : "Session I: **Causality**"
+  time   : "10:30"
+- other  : "Session II: **Quantum information theory**"
+  time   : "11:30"
+- other  : "Session III: **Diagrams**"
+  time   : "13:30"
+- other  : "Session IV: **Medley**"
+  time   : "14:50"
+- other  : "Session V: **Probability**"
+  time   : "15:40"
+- other  : "Short break <br/>"
+  time   : "11:20"
+- other  : "Lunch (independently) <br/>"
+  time   : "12:00"
+- other  : "Coffee <br/>"
+  time   : "14:10"
+- other  : "Short break <br/>"
+  time   : "15:30"
+- other  : "BBQ and other shenanigans"
+  time   : "18:00"
+
+- speaker: "Giulio Chiribella"
+  show   : yes
+  time   : "10:30"
+  url    : "https://www.cs.ox.ac.uk/people/giulio.chiribella/"
+  title  : "Quantum shannon theory with indefinite causal order"
+- speaker: "Subhayan Roy Moulik"
+  show   : yes
+  time   : "10:40"
+  url    : "https://www.cs.ox.ac.uk/people/subhayan.roymoulik/"
+  title  : "Bounds on correlations with indefinite causal orders"
+- speaker: "Robin Lorenz"
+  show   : yes
+  time   : "10:50"
+  url    : "https://www.cs.ox.ac.uk/people/robin.lorenz/"
+  title  : "Quantum causal models"
+- speaker: "Jon Barrett"
+  show   : yes
+  time   : "11:00"
+  url    : "https://www.cs.ox.ac.uk/people/jonathan.barrett/"
+  title  : "TBA"
+- speaker: "Selma Coecke <br/>"
+  show   : yes
+  time   : "11:10"
+  url    : "https://www.cs.ox.ac.uk/people/selma.dundar/"
+  title  : "The sources of causal cognition"
+
+- speaker: "Matthew Pusey"
+  show   : yes
+  time   : "11:30"
+  url    : "https://www.mattpusey.uk/"
+  title  : "Contextuality that survives unknown measurements"
+- speaker: "Sean Tull"
+  show   : yes
+  time   : "11:40"
+  url    : "https://www.cs.ox.ac.uk/people/sean.tull/"
+  title  : "A categorical reconstruction of quantum theory"
+- speaker: "Sam Staton <br/>"
+  show   : yes
+  time   : "11:50"
+  url    : "https://www.cs.ox.ac.uk/people/samuel.staton/"
+  title  : "A fundamental theorem for CQM?"
+
+- speaker: "Bob Coecke"
+  show   : yes
+  time   : "13:30"
+  url    : "https://www.cs.ox.ac.uk/people/bob.coecke/"
+  title  : "Quantum diagrams for kids"
+- speaker: "Quanlong Wang"
+  show   : yes
+  time   : "13:40"
+  url    : "https://www.cs.ox.ac.uk/people/quanlong.wang/"
+  title  : "Doing linear algebra stuff in the ZX-calculus"
+- speaker: "Kang Feng Ng"
+  show   : yes
+  time   : "13:50"
+  url    : "https://www.cs.ox.ac.uk/people/kangfeng.ng/"
+  title  : "ZW-calculus, a calculus with two braidings"
+- speaker: "Hector Miller Bakewell <br/>"
+  show   : yes
+  time   : "14:00"
+  url    : "https://www.cs.ox.ac.uk/people/hector.miller.bakewell/"
+  title  : "Conjecture synthesis"
+- speaker: "Stefano Gogioso"
+  show   : yes
+  time   : "14:50"
+  url    : "https://www.cs.ox.ac.uk/people/stefano.gogioso/"
+  title  : "TBA"
+
+- speaker: "Niel de Beaudrap"
+  show   : yes
+  time   : "15:00"
+  url    : "https://www.cs.ox.ac.uk/people/niel.de.beaudrap/"
+  title  : "Approximate error correction via inverse quantum information theory"
+#- speaker: "Fatimah Ahmadi"
+#  show   : no
+#  time   : "15:10"
+#  url    : "https://www.cs.ox.ac.uk/people/fatimah.ahmadi/"
+#  title  : "Module categories and topological boundary conditions"
+- speaker: "Jamie Vicary <br/>"
+  show   : yes
+  time   : "15:20"
+  url    : "https://www.cs.ox.ac.uk/people/jamie.vicary/"
+  title  : "High-level methods for homotopy construction in a model of infinity categories"
+
+- speaker: "Joe Bolt"
+  show   : yes
+  time   : "15:40"
+  url    : "https://www.cs.ox.ac.uk/people/josef.bolt/"
+  title  : "Probability for open games"
+- speaker: "Swaraj Dash"
+  show   : yes
+  time   : "15:50"
+  url    : "https://www.cs.ox.ac.uk/people/swaraj.dash/"
+  title  : "A language for constructing smooth probability densities"
+- speaker: "Maaike Zwart"
+  show   : yes
+  time   : "16:00"
+  url    : "https://www.cs.ox.ac.uk/people/maaike.zwart/"
+  title  : "No-go theorems for monad compositions"
+- speaker: "Ohad Kammar <br/>"
+  show   : yes
+  time   : "16:10"
+  url    : "http://www.cs.ox.ac.uk/people/ohad.kammar/main.html"
+  title  : "A domain theory for quasi-Borel spaces"

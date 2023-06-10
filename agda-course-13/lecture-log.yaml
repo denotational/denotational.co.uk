@@ -1,0 +1,39 @@
+- date: 2013-08-05
+  topic: Introduction via Vectors
+  location: SW01
+  video: http://youtu.be/08sPfcYbN1c
+
+- date: 2013-08-05
+  location: SW01
+  topic: Metaprogramming the Simply-Typed λ-Calculus
+  video: http://youtu.be/60VGaOujMg8
+
+- date: 2013-08-07
+  location: SW01
+  topic: Containers and W-Types
+  video: http://youtu.be/7PpxZf5KFjM
+
+- date: 2013-08-07
+  location: SW01
+  topic: Indexed Containers
+  video: http://youtu.be/jgSGt3qSfwY
+
+- date: 2013-08-26
+  location: SW01
+  topic: Induction-Recursion I
+  video: http://youtu.be/3mYFeUGPTxo
+
+- date: 2013-08-26
+  location: SW01
+  topic: Induction-Recursion II
+  video: http://youtu.be/FrqBej4qCgg
+
+- date: 2013-08-28
+  location: SW01
+  topic: Observational Equality
+  video: http://youtu.be/s6mhOb0Ggh8
+
+- date: 2013-08-28
+  location: SW01
+  topic: Type Theory in Type Theory
+  video: http://youtu.be/wge7H8DK9zw

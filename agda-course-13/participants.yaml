@@ -1,0 +1,132 @@
+- name: Conor McBride
+  email: conor@strictlypositive.org
+  affiliation: strathclyde
+  mlist: yes
+
+- name: Dominic Orchard
+  email: dominic.orchard@cl.cam.ac.uk
+  affiliation: cl
+  mlist: yes
+
+- name: Ohad Kammar
+  email: ohad.kammar@cl.cam.ac.uk
+  affiliation: cl
+  mlist: yes
+
+- name: Marco Devesas Campos
+  email: maf58@cam.ac.uk
+  affiliation: cl
+  mlist: yes
+  
+- name: Wojciech Meyer
+  email: wojciech.meyer@gmail.com
+  affiliation: arm
+  mlist: yes
+
+- name: Nik Sultana
+  email: ns441@cam.ac.uk
+  affiliation: cl
+  mlist: yes
+
+- name: Anil Madhavapeddy 
+  email: anil@recoil.org
+  affiliation: cl
+  mlist: yes
+
+- name: Leo White 
+  email: lpw25@cam.ac.uk
+  affiliation: cl
+  mlist: yes
+
+- name: Jeremy Yallop
+  email: yallop@gmail.com
+  affiliation: cl
+  mlist: yes
+  
+- name: Andrew Pitts
+  email: Andrew.Pitts@cl.cam.ac.uk
+  affiliation: cl
+  mlist: yes
+
+- name: Raphael Proust 
+  email: raphlalou@gmail.com
+  affiliation: cl
+  mlist: yes
+
+- name: Steffen Loesch 
+  email: sgl27@cam.ac.uk
+  affiliation: cl
+  mlist: yes
+
+- name: Kayvan Memarian 
+  email: km569@cam.ac.uk
+  affiliation: cl
+  mlist: yes
+
+- name: Justus Matthiesen 
+  email: justus.matthiesen@cl.cam.ac.uk
+  affiliation: cl
+  mlist: yes
+
+- name: Tim Griffin
+  email: tgg22@cam.ac.uk
+  affiliation: cl
+  mlist: yes
+
+- name: Philippa Cowderoy
+  email: flippa@flippac.org
+  affiliation: none
+  mlist: yes
+
+
+- name: Valentin Robert 
+  email: valentin.robert.42@gmail.com
+  affiliation: "msrc and ucsd"
+  mlist: yes
+
+- name: Dominic Mulligan 
+  email: dominic.p.mulligan@googlemail.com
+  affiliation: cl
+  mlist: yes
+
+- name: Lucas Bordeaux 
+  email: lucasb@microsoft.com
+  affiliation: msrc
+  mlist: yes
+
+
+- name: Kwok Cheung 
+  email: kwok-ho.cheung@cs.ox.ac.uk
+  affiliation: oxford
+  mlist: yes
+
+- name: David Sheets
+  email: sheets@alum.mit.edu
+  affiliation: cl
+  mlist: yes
+
+- name: Miëtek Bak 
+  email: mietek@leastfixed.com
+  affiliation: LeaseFixed
+  mlist: yes
+
+- name: Gabor Pali 
+  email: gabor.pali@cl.cam.ac.uk
+  affiliation: cl
+  mlist: yes
+
+- name: Santiago Zanella Beguelin
+  email: santiago@microsoft.com
+  affiliation: msrc
+  mlist: yes
+
+- name: Gabriel Kerneis
+  email: gabriel@kerneis.info
+  affiliation: cl
+  mlist: yes
+
+- name: Jan Stolarek
+  email: jan.stolarek@p.lodz.pl
+  affiliation: msr
+  mlist: yes
+

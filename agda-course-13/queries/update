@@ -1,0 +1,3 @@
+cp site/index.html ~/public_html/agda-course-13/party-sea-pants-b.html 
+make-homepage
+

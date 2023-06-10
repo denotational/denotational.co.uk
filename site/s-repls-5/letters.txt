@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<head>
+<META NAME="description" CONTENT="Ohad Kammar's Research">
+<META NAME="keywords" CONTENT="ohad kammar, ohad, kammar, research, publications, publication, programming language
+semantics, PLT semantics, semantics, category, categories, category theory, logic, computational
+effects, effect type systems, type and effect systems, types, effects, effect type system, access control, DCC, CDD, Plotkin, Gordon Plotkin, call by push value, CBPV, call-by-push-value, denotational semantics, continuations, delimited continuations, jump with argument">
+<TITLE>Ohad's Research - s-repls-5/letters</TITLE>
+<link rel="icon" href="favicon.ico" type="image/x-icon" >
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
+</HEAD>
+
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear ,</p>
+<p>Thank you for proposing to contribute the talk &quot;&quot; for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear ,</p>
+<p>Thank you for proposing to contribute the talk &quot;&quot; for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear ,</p>
+<p>Thank you for proposing to contribute the talk &quot;&quot; for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear ,</p>
+<p>Thank you for proposing to contribute the talk &quot;&quot; for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear ,</p>
+<p>Thank you for proposing to contribute the talk &quot;&quot; for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear ,</p>
+<p>Thank you for proposing to contribute the talk &quot;&quot; for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear ,</p>
+<p>Thank you for proposing to contribute the talk &quot;&quot; for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear Jan Hoffmann ,</p>
+<p>Thank you for proposing to contribute the talk “<strong>Invited talk:</strong> Resource aware ML” for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear Dan Ghica,</p>
+<p>Thank you for proposing to contribute the talk “Unifying structural and nominal syntax in the language of diagrams” for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear David Sherratt,</p>
+<p>Thank you for proposing to contribute the talk “Towards an Atomic Abstract Machine” for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear Bradley Hardy,</p>
+<p>Thank you for proposing to contribute the talk “Improving Agda’s equational reasoning with reflection” for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear John Wickerson,</p>
+<p>Thank you for proposing to contribute the talk “Hardware synthesis of weakly consistent C concurrency” for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear Neel Krishnaswami,</p>
+<p>Thank you for proposing to contribute the talk “Can ML be stopped?” for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear Michael Arntzenius,</p>
+<p>Thank you for proposing to contribute the talk “Finding fixed points faster” for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 20 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
+<hr />
+<p>Subject: S-REPLS-5 contributed talk notification</p>
+<p>Dear Benjamin Kaminski,</p>
+<p>Thank you for proposing to contribute the talk “Reasoning about expected run-times of probabilistic programs” for the fifth S-REPLS meeting to take place in Oxford on 12 January 2017.</p>
+<p>We are happy to be able to offer you a 25 min slot, which includes a short questions-and-answers session following your talk.</p>
+<p>If you are <em>not</em> able to accept due to changed circumstances, please let Ohad know immediately, as we would otherwise assume your circumstances have not changed.</p>
+<p>If you require any additional equipment beyond a projector and two large whiteboards, please let Ohad know as soon as possible.</p>
+<p>Please see the S-REPLS-5 website for additional information about the meeting:</p>
+<p>http://www.cs.ox.ac.uk/people/ohad.kammar/s-repls-5/</p>
+<p>We look forward to seeing you in January,</p>
+<p>Ohad Kammar, <BR> Sam Staton, and <BR> Jeremy Gibbons.</p>
+<P>
