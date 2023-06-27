@@ -127,7 +127,7 @@ Ohad Kammar and Matija Pretnar. <BR><BR> Appears in the <a href="https://www.cam
 Fredrik Dahlqvist, Vincent Danos, Ilias Garnier, and Ohad Kammar. <BR><BR> Appears in the <a href="http://drops.dagstuhl.de/portals/extern/index.php?semnr=16011">The 27th International Conference on Concurrency Theory</a>, 2016.</li>
 </ul>
 <blockquote>
-“The process of inverting Markov kernels relates to the important subject of Bayesian modelling and learning. In fact, Bayesian update is exactly kernel inversion. In this paper, we investigate how and when Markov kernels (aka stochastic relations, or probabilistic mappings, or simply kernels) can be inverted. We address the question both directly on the category of measurable spaces, and indirectly by interpreting kernels as Markov operators:
+&quot;The process of inverting Markov kernels relates to the important subject of Bayesian modelling and learning. In fact, Bayesian update is exactly kernel inversion. In this paper, we investigate how and when Markov kernels (aka stochastic relations, or probabilistic mappings, or simply kernels) can be inverted. We address the question both directly on the category of measurable spaces, and indirectly by interpreting kernels as Markov operators:
 <ul>
 <ul>
 <li>
@@ -227,7 +227,7 @@ Ohad Kammar. <BR><BR> Preprint, 2014, <a href="https://arxiv.org/abs/1508.05072"
 <li><h4>
 <a href="talks/frex-wg2.11-2022.pdf">Frex: staged-optimisation and equational-proof-synthesis using universal algebra</a>
 </h4>
-Talk given at the <a href="https://wiki.hh.se/wg211/index.php/WG211/M21Schedule">21st meeting of IFIF Working Group 2.11: Program Generation</a>, 16 August, 2022.</li>
+Talk given at the <a href="https://wiki.hh.se/wg211/index.php/WG211/M21Schedule">21st meeting of IFIP Working Group 2.11: Program Generation</a>, 16 August, 2022.</li>
 </ul>
 <blockquote>
 <p>A recurring task in program generation involves developing data-structures representing semantically-distinct code fragments. We can stage an optimised version of the original program off of its representation. Moreover, we may want to extract the detailed steps in the equational proof that the representation is equivalent to its source. These representations are known as partially-static data structures and semantic normal-forms. In recent and ongoing work, we specify these data structures using universal algebraic concepts, the free algebra and its less familiar sibling the free extension. In this talk, I’ll review our application of free extensions to staged-optimisation and proof-synthesis. Depending on audience participation, I’ll either delve further into applications, give a tutorial on designing data structures based on free extensions, or sketch future directions.</p>
