@@ -107,9 +107,8 @@ Extra-curricular material
 </ul>
 </ul>
 <h4 id="marseille">
-Previous instances
+Invited Tutorial at <a href="https://cirmbox.cirm-math.fr/s/gm7FQRrqsNNjG8p">Logic of Probabilistic Programming 2022</a>
 </h4>
-You can see a previous iteration of this course, given as part of the <a href="https://cirmbox.cirm-math.fr/s/gm7FQRrqsNNjG8p">Logic of Probabilistic Programming</a> conference in 2022:
 <ul>
 <li/>
 Videos: <a href="https://library.cirm-math.fr/Record.htm?idlist=3&amp;record=19289752124910079349">lecture 1</a>, <a href="https://cirmbox.cirm-math.fr/s/gm7FQRrqsNNjG8p">lecture 2</a>
