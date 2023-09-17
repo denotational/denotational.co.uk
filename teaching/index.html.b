@@ -25,7 +25,28 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <ul>
 <li><a href="http://www.cl.cam.ac.uk/teaching/1415/L29/">Advanced Topics in Denotational Semantics</a>. <a href="http://www.cl.cam.ac.uk/~mpf23/">Prof. Marcelo Fiore</a> and myself will be offering this new course aimed to bring students up to date with active research in denotational semantics.</li>
 </ul>
-<p>I also supervised (Cambridge terminology) and tutored (Oxford and Edinburgh terminology) undergraduate courses across the Computer Science curriculum: Cambridge: * Part IB/UG3, <a href="http://www.cl.cam.ac.uk/teaching/1415/Semantics/">Semantics</a> and the corresponding <a href="https://www.inf.ed.ac.uk/teaching/courses/lsi/">Language semantics and implementation</a>. * Part II, <a href="http://www.cl.cam.ac.uk/teaching/1415/Types/">Types</a>. * Oxford Computer Science and Joint Schools + Prelims (UG1): + Functional Programming + Design &amp; Analysis of Algorithms + Imperative Programming Parts 1, 2 and 3 + Discrete Mathematics + Linear Algebra + Part A (UG2): + Compilers + Algorithms and Data Structures + Models of Computation</p>
+<p>I also supervised (Cambridge terminology) and tutored (Oxford and Edinburgh terminology) undergraduate courses across the Computer Science curriculum: Cambridge:</p>
+<ul>
+<li>Part IB/UG3, <a href="http://www.cl.cam.ac.uk/teaching/1415/Semantics/">Semantics</a> and the corresponding <a href="https://www.inf.ed.ac.uk/teaching/courses/lsi/">Language semantics and implementation</a>.</li>
+<li>Part II, <a href="http://www.cl.cam.ac.uk/teaching/1415/Types/">Types</a>.</li>
+<li>Oxford Computer Science and Joint Schools
+<ul>
+<li>Prelims (UG1):
+<ul>
+<li>Functional Programming</li>
+<li>Design &amp; Analysis of Algorithms</li>
+<li>Imperative Programming Parts 1, 2 and 3</li>
+<li>Discrete Mathematics</li>
+<li>Linear Algebra</li>
+</ul></li>
+<li>Part A (UG2):
+<ul>
+<li>Compilers</li>
+<li>Algorithms and Data Structures</li>
+<li>Models of Computation</li>
+</ul></li>
+</ul></li>
+</ul>
 <h4 id="other">Other</h4>
 <p>In 2014, I organised a reading group on recursive domain equations (following <a href="../rdes/rde-intro.pdf">these notes</a>) with: * Alex Chadwic * Adam Ścibior</p>
 <p>Surprisingly, while reading we found something new about ω-colimits of embedding-projection pairs, which was <a href="../drafts/kammar-locally-determined-colimits.pdf">presented</a> at the <a href="http://www.pps.univ-paris-diderot.fr/~varacca/domains/Domains_XI/Home.html">11th international workshop on domain theory and applications</a>.</p>
