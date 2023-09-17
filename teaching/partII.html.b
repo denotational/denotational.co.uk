@@ -9,10 +9,114 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
 </HEAD>
 
-<h1 id="part-ii-projects-suggestions">Part II Projects Suggestions</h1>
+<h1 id="honours-ug4minf-projects-suggestions">Honours (UG4/MInf) Projects Suggestions</h1>
 <p>I believe in supervising projects I’m also passionate about, usually involving concepts that tie to advanced, cutting-edge research. The projects below mix programming language and computer science theory with some hacking. In my ideal project, theoretical concepts and developments would yield code that is clean, simple, and straightforward. While the project is entirely your responsibility, I believe you will best develop with close contact, meeting weekly during term or more often as the project requires. Great projects should be challenging, so as long as you are willing to put in the effort, I provide support in terms of guidance, discussion, explanations, and reading material.</p>
-<p>Below are some project suggestions. Feel free to contact me even if only parts of the project sound interesting to you, and perhaps we could find a different project. You’re also encouraged to suggest your own projects!</p>
+<ul>
+<li>See the <a href="https://dpmt.inf.ed.ac.uk/ug4">Degree Project Management Tool</a> page for this year’s proposals. Please contact me even if only parts of the project sound interesting to you, and perhaps we could find a different project. You’re also encouraged to suggest your own projects!</li>
+</ul>
+<h2 id="research-prospects">Research prospects</h2>
+<p>The short duration of the Honours project (aboue 30% of your year) means you will likely not do enough research for a publication in a top-tier venue in my area. Such venues usually require 1-3 years of work, even with experienced researchers.</p>
+<h1 id="past-projects">Past projects</h1>
+<p>Below are some of my past project suggestions and how they turned out.</p>
+<h2 id="order-completion-in-programming-language-semantics">Order completion in programming language semantics</h2>
+<p>Student: Thanakrit (New) Anutrakulchai</p>
+<p>Models of programming languages with recursive functions often involve an order with a completeness property: certain least upper bounds exist. Usually, we want to make a model by taking the syntax of the language and quotienting it by semantic equivalence. This quotient doesn’t have enough least upper bounds, so we need to add them somehow. In this project, you will investigate an ideal-completion construction that adds the missing upper bounds. You will use this construction to create an ordered model for a simplified recursive programming language, and use it to reason about concrete models of interest.</p>
+<ul>
+<li>Lecture notes on Denotational Semantics by <a href="https://www.cl.cam.ac.uk/teaching/2021/DenotSem/DenotSemNotes.pdf">Marcelo Fiore</a></li>
+</ul>
+<p>Difficulty: Very Hard</p>
+<h3 id="completion-criteria">Completion Criteria</h3>
+<ul>
+<li>Basic</li>
+</ul>
+<ol type="1">
+<li>Understand and explain the context (you will need to learn some domain theory in the process).</li>
+<li>Prove the required properties of the completion.</li>
+<li>Use it to construct a model out of the syntax.</li>
+</ol>
+<ul>
+<li>Extension</li>
+</ul>
+<ol type="1">
+<li>Derive the adequacy approximation relation by relating a syntactic model with a concrete model.</li>
+<li>Reconstruct the completion using free enriched cocompletions.</li>
+</ol>
+<h3 id="desirable-skills">Desirable Skills</h3>
+<ul>
+<li>Background in order, category, or domain theory.</li>
+</ul>
+<h3 id="essential-skills">Essential Skills</h3>
+<p>Mathematical maturity, evidenced by extensive mathematical background (for example, a joint mathematics degree), or a previous theoretical project (for example, an undergraduate dissertation or a theoretical internship).</p>
+<h2 id="towards-strong-relative-pseudomonads">Towards strong relative pseudomonads</h2>
+<p>Self-proposed project by <a href="https://github.com/mifrandir/">Franz Miltz</a></p>
+<h3 id="abstract">Abstract</h3>
+<p>Synthetic measure theory uses commutative monads to develop an entirely categorical language of measures and integration. This language has proven practically useful in the development of higher-order statistical programming languages.</p>
+<p>There is another purely categorical notion of integration: coends. Certain coends arise from the presheaf construction, a monad-like structure that fails to be a model of synthetic measure theory for several reasons. There are multiple ways in which one could attempt to fix these problems.</p>
+<p>In this report, we make a start at defining a strong relative pseudomonad that would be suitable as the backbone of an extended synthetic measure theory. At each step, we show how the presheaf construction gives rise to the required structure and how this structure satisfies the necessary axioms.</p>
+<p>Unfortunately, the strength of a monad does not lend itself to being generalised to relative pseudomonads. We are thus neither able to give a complete definition of a strong relative pseudomonad nor do we manage to extend synthetic measure theory to admit the presheaf construction as a model.</p>
+<h3 id="note">Note</h3>
+<p>The week after Franz submitted his dissertation, Andrew Slattery uploaded to the arXiv an <a href="https://arxiv.org/abs/2304.14788">independent and fuller development</a>. Check it out!</p>
+<h2 id="higher-order-measure-theory-with-quasi-borel-spaces">Higher-order measure theory with quasi-Borel spaces</h2>
+<p>Student: Andrew Ricketts</p>
+<p>The foundations of statistical modelling are based on measure theory, based on the concept of an event. A recently-proposed alternative are quasi-Borel spaces, based on the concept of a random variable. But unlikely the century-old measure theory, quasi-Borel space theory is under 5 years old, and so require further mathematical development.</p>
+<p>In this project, you will investigate possible new results in quasi-Borel space theory.</p>
+<ul>
+<li>A convenient category for higher-order probability theory (http://dx.doi.org/10.1109/lics.2017.8005137)</li>
+<li>Denotational validation of higher-order Bayesian inference (http://dx.doi.org/10.1145/3158148)</li>
+<li>Factorisation Systems for Logical Relations and Monadic Lifting in Type-and-effect System Semantics (http://dx.doi.org/10.1016/j.entcs.2018.11.012)</li>
+<li>Kallenberg, O., Foundations of Modern Probability, 2nd ed. Springer Series in Statistics. (2002). 650 pp. ISBN 0-387-95313-2</li>
+<li>Probability with Martingales (http://dx.doi.org/10.1017/cbo9780511813658)</li>
+<li>Random Measures, Theory and Applications (http://dx.doi.org/10.1007/978-3-319-41598-7)</li>
+</ul>
+<p>Difficulty: Very Hard</p>
+<h3 id="completion-criteria-1">Completion Criteria</h3>
+<h4 id="basic">Basic</h4>
+<ul>
+<li>Survey the theory of quasi-Borel spaces</li>
+<li>Compare existing results with their measure theoretic counterparts</li>
+</ul>
+<h4 id="advanced">Advanced</h4>
+<ul>
+<li>Extend the theory of quasi-Borel spaces</li>
+</ul>
+<h4 id="desirable-skills-1">Desirable Skills</h4>
+<p>Experience with category theory, measure theory, or modern statistics.</p>
+<h4 id="essential-skills-1">Essential Skills</h4>
+<p>Mathematical maturity, evidenced by extensive mathematical background (for example, a joint mathematics degree), or a previous theoretical project (for example, an undergraduate dissertation or a theoretical internship).</p>
+<h2 id="theory-and-implementation-of-ordinal-diagrams">Theory and implementation of ordinal diagrams</h2>
+<p>Student: Julius Gaidys</p>
+<p>The ordinals are given by the following seemingly inductive definition: every set of ordinals has a least upper bound; and every ordinal has an immediate successor ordinal. A fundamental property of the ordinals is that they are /well-founded/: every strictly decreasing sequence of ordinals is finite. Ordinals have an arithmetic: they can be added, multiplied, and exponentiated infinitely many times. So ordinals reify the concept of ‘a terminating process’, and give us a calculus of such processes, so long as the ordinal we associate to each process decreases with the process’s evolution. They are also a foundation for inductive definitions.</p>
+<p>An /ordinal notation system/ is a (countable) syntax together with a decision procedures LESS_THAN with these properties: 1. Every term represents a unique ordinal. 2. LESS_THAN decides for every two terms whether they are equal to, less than, or greater than, each other, as the ordinals they represent. 3. If a term represents an ordinal, every ordinal below this ordinal has a term representing it.</p>
+<p>So an ordinal notation system lets us represent a fragment of the ordinals, for example, to store in data structures and pass around as values inside a formal system as a witness that a given process terminates. The least upper bound of the ordinals represented by a given notation is called its /proof-theoretic strength/. By using systems with high strength, we can support the foundation of logical and formal systems of high expressive power.</p>
+<p>Takeuti’s /ordinal diagrams/ are an ordinal notation system with high proof-theoretic strength. In this project, you will help simplify and explain this system in several complementary ways: implementing them and their decision procedure as data structures and operations on them; establishing their meta-theory; and apply them in termination proofs.</p>
+<ul>
+<li>Mitsuhiro Okada and Gaisi Takeuti. On the theory of quasi-ordinal diagrams. In Logic and Combinatorics (Arcata, CA, 1985), volume 65 of Contemp. Math., pages 295–308. Amer. Math. Soc., Providence, RI, 1987.</li>
+<li>Dershowitz, Nachum. “The Ordinal Path Ordering.” Informal Proceedings of the 13th International Workshop on Termination (WST 2013, Bertinoro, Italy). 2013.</li>
+<li>10.1007/978-3-319-94205-6_9</li>
+</ul>
+<p>Difficulty: Very hard Search tags: ordinals, termination, proof theory</p>
+<h2 id="completion-criteria-2">Completion criteria</h2>
+<h3 id="basic-1">Basic</h3>
+<ul>
+<li>Implement an ordinal diagrams notation system.</li>
+<li>Establish the meta-theory of it (well-ordering)</li>
+</ul>
+<h3 id="extensions-depending-on-the-students-interests">Extensions, depending on the student’s interests:</h3>
+<ul>
+<li>Develop the arithmetic of ordinal diagrams</li>
+<li>Find modular proofs for the meta-theory</li>
+<li>Apply ordinal diagrams to prove a system terminating</li>
+</ul>
+<h2 id="essential-skills-and-knowledge">Essential skills and knowledge</h2>
+<ol type="1">
+<li>Mathematical/theoretical computer science maturity (e.g.: you can formulate mathematical hypothesis and prove them). (2) Basic coding skills.</li>
+</ol>
+<h2 id="desirable-skills-and-knowledge">Desirable skills and knowledge</h2>
+<ol type="1">
+<li>Experience with ordinals and transfinite induction. (2) Experience with transfinite combinatorics/Ramsey’s theorem. (3) Experience with termination proofs.</li>
+</ol>
 <h2 id="handling-transparent-code-migration">Handling Transparent Code Migration</h2>
+<p>Student: <a href="https://oscarkey.github.io/">Oscar Key</a></p>
 <p>The details of implementing distributed protocols, algorithms and programs can be quite hairy, as we need to send code and data between end-points. <em>Mobile computation</em> is an approach to distributed programming where a program works by migrating from one host to another. The migration is called <em>transparent</em> if the execution state of the program is preserved before and after the migration. Concretely, we have a “go” statement that lets us switch to a different machine and continue execution there. For example:</p>
 <pre><code>for host in network
   go host
@@ -22,8 +126,8 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <p>Little work has been done on extending an existing runtime systems easily, and this projects builds on <a href="http://www.kb.ecei.tohoku.ac.jp/~sumii/">Sumii’s work</a> this project builds which uses <a href="http://dl.acm.org/citation.cfm?id=91622">delimited continuations</a>. One reason we might want to write migrating code is to have some computational effects (state changes, exceptions, I/O) at different hosts, which the Sumii’s approach doesn’t deal with, but effect handlers are well-suited for.</p>
 <p>Your profile: eagerness to learn advanced functional programming tools and techniques (e.g., <a href="http://www.haskell.org/">Haskell</a>, <a href="http://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf">monads</a>, delimited continuations, effect handlers, <a href="http://dl.acm.org/citation.cfm?id=75283">type-classes</a>, <a href="http://www.st.cs.uni-sb.de/edu/seminare/2005/advanced-fp/docs/huet-zipper.pdf">zippers</a>), and acquire new programming abstractions and use them in exciting ways.</p>
 <p>Related courses that you have taken or will take this year: <a href="http://www.cl.cam.ac.uk/teaching/1314/Semantics/">semantics</a>, <a href="http://www.cl.cam.ac.uk/teaching/1415/Types/">types</a>, <a href="http://www.cl.cam.ac.uk/teaching/1314/ConceptsPL/">concepts in programming languages</a>, and <a href="http://www.cl.cam.ac.uk/teaching/1314/part1b.html">concurrent and distributed systems</a>.</p>
-<h1 id="past-projects">Past projects</h1>
-<p>These are some previously advertised projects and how they ended up.</p>
+<h2 id="source-level-compile-time-optimisations-for-java">Source-Level Compile-Time Optimisations For Java</h2>
+<p>Self proposed project: Chris Kitching</p>
 <h2 id="graphical-and-polynomial-combinations-of-algebraic-theories-for-semantics">Graphical and Polynomial Combinations of Algebraic Theories for Semantics</h2>
 <p><strong>Outcome:</strong> This project attracted some attention from prospective students, I fleshed out a more concrete outline, which made me realise this project can be even more fun than I expected. As no student ended up choosing this project, I decided to do it myself. I will be presenting the <a href="http://www.cl.cam.ac.uk/~ok259/graphtool">webtool</a> I produced at the upcoming <a href="https://www.mpi-sws.org/~neelk/hope2014/">3rd ACM SIGPLAN workshop on higher-order porgramming with effects</a>, co-located with the <a href="http://icfpconference.org/icfp2014/">19th ACM SIGPLAN international conference on functional programming</a>.</p>
 <p>(Based on <a href="http://homepages.inf.ed.ac.uk/gdp/publications/Comb_Effects_Jour.pdf#page=34">pages 34-38</a> of Hyland, Plotkin and Power’s <a href="http://homepages.inf.ed.ac.uk/gdp/publications/Comb_Effects_Jour.pdf">Combining Effects: Sum and Tensor</a>.)</p>
@@ -34,4 +138,3 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <li>deciding whether a polynomial is linear and extracting the monad transformer stack corresponding to a linear polynomial.</li>
 </ul>
 <p>For a successful project, the student would need to understand the algebraic properties of these polynomials, their connection with the graphical notation, and the various algorithms involved. The student would also need to implement graph algorithms and data structures for syntax.</p>
-<p><em>(8 October 2013: Check this page later for additional project suggestions…)</em></p>

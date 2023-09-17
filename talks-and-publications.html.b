@@ -230,7 +230,7 @@ Ohad Kammar. <BR><BR> Preprint, 2014, <a href="https://arxiv.org/abs/1508.05072"
 Talk given at the <a href="https://icfp23.sigplan.org/details/hope-2023/6/Semantic-foundations-of-potential-synthesis-for-expected-amortised-cost-analysis">11th ACM SIGPLAN Workshop on Higher-Order Programming with Effects (HOPE’23)</a>, 04 September, 2023.</li>
 </ul>
 <blockquote>
-<p>We describe ongoing work developing a semantic infrastructure for designing automated and interactive amortised cost analyses based on synthesising potential functions for randomised data structures. These analyses can synthesise amortised complexity bounds that are tight and correct by construction. The architecture combines established and recent ideas from program logics for data structure specification, weakest pre-condition quantitative reasoning, semantics of probabilistic programming, and amortised resource analysis synthesis.</p>
+<p>We describe ongoing work developing a semantic infrastructu re for designing automated and interactive amortised cost analyses based on synthesising potential functions for randomised data structures. These analyses can synthesise amortised complexity bounds that are tight and correct by construction. The architecture combines established and recent ideas from program logics for data structure specification, weakest pre-condition quantitative reasoning, semantics of probabilistic programming, and amortised resource analysis synthesis.</p>
 </blockquote>
 <P/>
 <ul>
