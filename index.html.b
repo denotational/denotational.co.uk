@@ -172,11 +172,13 @@ interests<a name="interests"></a></h3>
 <ul>
 <li>Event structures</li>
 <li>Relaxed behaviour</li>
+<li>Trace semantics</li>
 </ul></li>
 <li>Access control</li>
 <li>Staging and metaprogramming
 <ul>
 <li>Partially-static data structures</li>
+<li>Reflection</li>
 </ul></li>
 </ul></li>
 <li>Conceptual biology
@@ -398,14 +400,33 @@ Lecture Notes in Computer Science, vol 6859. Springer, Berlin,
 Heidelberg, <a href="https://doi.org/10.1007/978-3-642-22944-2_1">DOI:
 10.1007/978-3-642-22944-2_1</a>.</p></li>
 </ul>
-<h3 id="teaching-part-iiimphil-projects-part-ii-projects-courses"><a
-href="teaching/index.html">Teaching</a> (<a
-href="teaching/partIII.html">Part III/Mphil projects</a>, <a
-href="teaching/partII.html">Part II projects</a>, <a
-href="teaching/index.html">Courses</a>)</h3>
+<h3 id="teaching"><a href="teaching/index.html">Teaching</a></h3>
+<p>I supervise <a
+href="https://homepages.inf.ed.ac.uk/hshimoda/proj/">UG4/MInf</a> and <a
+href="https://www.inf.ed.ac.uk/teaching/courses/diss/">MSc</a> projects
+in the School of Informatics. Please get in touch if you’d like to
+explore a self-proposed project involving some of my research
+interests.</p>
+<p>See my <a href="teaching/index.html">teaching</a> page for more
+information about:</p>
+<ul>
+<li>Undergraduate-level course <a
+href="../tdpm-anu-lss-2023">type-driven probabilistic modelling</a>
+(under development);</li>
+<li><a href="teaching/partIII.html">MSc projects</a>;</li>
+<li><a href="teaching/partII.html">undergraduate (UG4/MInf)
+projects</a>; and</li>
+<li>Other past <a href="teaching/index.html">teaching
+activities</a>.</li>
+</ul>
 <h3 id="talks-abstracts">Talks (<a
 href="talks-and-publications.html#talks">abstracts</a>)<a name="talks"></a></h3>
 <ul>
+<li><p><a href="talks/kammar-moser-next-hope23.pdf">Semantic foundations
+of potential-synthesis for expected amortised-cost analysis</a>, <a
+href="https://icfp23.sigplan.org/details/hope-2023/6/Semantic-foundations-of-potential-synthesis-for-expected-amortised-cost-analysis">11th
+ACM SIGPLAN Workshop on Higher-Order Programming with Effects
+(HOPE’23)</a>, 04 September, 2023.</p></li>
 <li><p><a href="talks/frex-wg2.11-2022.pdf">Frex: staged-optimisation
 and equational-proof-synthesis using universal algebra</a>, <a
 href="https://wiki.hh.se/wg211/index.php/WG211/M21Schedule">21st meeting
@@ -780,15 +801,16 @@ Inference (LAFI 2019)</a> in New Orleans, Oregon , 21 January,
 2020.</p></li>
 </ul>
 <h3 id="community-service">Community service<a name="services"></a></h3>
-<p>2024 * PC member, Thirty-Ninth Annual ACM/IEEE Symposium on Logic in
+<p>2024</p>
+<ul>
+<li><p>PC member, Thirty-Ninth Annual ACM/IEEE Symposium on Logic in
 Computer Science (LICS), which will take place in Tallinn (Estonia),
 July, 2024. <a href="https://lics.siglog.org/lics24/">Submit a
-paper!</a>.</p>
-<ul>
-<li>PC member, POPL Student Research Competition, which will take place
-in London (England), January, 2024. <a
+paper!</a>.</p></li>
+<li><p>PC member, POPL Student Research Competition, which will take
+place in London (England), January, 2024. <a
 href="https://popl24.sigplan.org/track/POPL-2024-student-research-competition">Submit
-an entry!</a></li>
+an entry!</a></p></li>
 </ul>
 <p>2023</p>
 <ul>
@@ -830,8 +852,8 @@ given by <a href="https://www.irif.fr/~michele/index.html">Michele
 Pagani</a>.</p></li>
 <li><p>Liberated Rod Burstall’s <a
 href="scans/burstall-writing-search-algorithms-in-functional-form.pdf">Writing
-search algorithms in functional form</a> from the trees.<br />
-This deed was made possible with the kind help of <a
+search algorithms in functional form</a> from the trees. This deed was
+made possible with the kind help of <a
 href="https://www.dhil.net/">Daniel Hillerström</a>. <BR/> Full
 citation: <BR/> Burstall, R.M.: Writing search algorithms in functional
 form. In: Michie, D. (ed.) Machine Intelligence, vol. 3, pp. 373–385.
@@ -942,8 +964,8 @@ with Effects (HOPE’14)</a>.</li>
 <li><p>Liberated Robin Gandy’s thesis <a
 href="https://www.repository.cam.ac.uk/handle/1810/245090">On Axiomatic
 Systems in Mathematics and Theories in Physics</a> (<a
-href="scans/gandy-thesis-ocr.pdf">OCR</a>) from the trees.<br />
-This deed was made possible with the kind help of <a
+href="scans/gandy-thesis-ocr.pdf">OCR</a>) from the trees. This deed was
+made possible with the kind help of <a
 href="https://www.dpmms.cam.ac.uk/~martin/">Martin Hyland</a>, the eager
 consent of the copyright holder, the literary executor <a
 href="https://pages.bangor.ac.uk/~mas041/index.html">Mike Yates</a>, and
@@ -964,18 +986,18 @@ Orchard</a>.</p></li>
 <li><p>Liberated <a
 href="scans/freyd-algebra-valued-functors-in-general-and-tensor-products-in-particular.pdf">algebra
 valued functors in general and tensor products in particular</a> by
-Prof. Peter Freyd from the trees.<br />
-I was unable to obtain Prof. Freyd’s permission to put this scan up, but
-the book that included it did not contain any copyright notice. If you
-know I am infringing on his copyright, please let me know.</p></li>
+Prof. Peter Freyd from the trees. I was unable to obtain Prof. Freyd’s
+permission to put this scan up, but the book that included it did not
+contain any copyright notice. If you know I am infringing on his
+copyright, please let me know.</p></li>
 </ul>
 <p>2011</p>
 <ul>
 <li>Liberated <a href="scans/wraith-algebraic-theories.pdf">Algebraic
 Theories (1969)</a> by <a href="https://www.wra1th.plus.com">Prof. Gavin
-Wraith</a> from the trees.<br />
-With the kind permission of Prof. Wraith, this scan of his Aarhus
-University Lecture Notes can be freely circulated. A <a
+Wraith</a> from the trees. With the kind permission of Prof. Wraith,
+this scan of his Aarhus University Lecture Notes can be freely
+circulated. A <a
 href="scans/wraith-algebraic-theories-double.pdf">2-upped
 version</a>.</li>
 <li>Organised the <a href="agda-course/">SICSA Agda Course</a> by <a

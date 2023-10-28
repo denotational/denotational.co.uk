@@ -1,6 +1,8 @@
 <!Doctype html>
 <html lang="en">
   <head>
+    <base href="https://denotational.co.uk/">
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,9 +20,9 @@
     delimited continuations, jump with argument" name="keywords" />
     <!-- EdGEL -->
     <link href="css/edgel-blue-university.css" rel="stylesheet">
-    <link href="https://www.denotational.co.uk/favicon.ico"
+    <link href="https://denotational.co.uk/favicon.ico"
           rel="icon" type="image/x-icon" />
-    <link href="https://www.denotational.co.uk/favicon.ico"
+    <link href="https://denotational.co.uk/favicon.ico"
           rel="shortcut icon" type="image/x-icon" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,7 +31,6 @@
             <script src="js/respond.min.js"></script>
             <![endif]-->
         <script src="js/picturefill.js"></script>
-    </base>
   </head>
 
   <body class="html not-front not-logged-in one-sidebar sidebar-first
@@ -50,7 +51,7 @@
           <div class="col-sm-7 col-md-8">
             <a href="https://www.inf.ed.ac.uk/">
               <img class="uoe-logo"
-                   src="https://www.denotational.co.uk/edinburgh/InformaticsUni_RGB.jpg"
+                   src="https://denotational.co.uk/InformaticsUni_RGB.jpg"
                    alt="The
                         University of Edinburgh School of Informatic
                         home" /></a>
@@ -73,7 +74,7 @@
       <div class="container">
         <div class="page-head-title">
           <h1>
-            <a href="https://www.denotational.co.uk"
+            <a href="https://denotational.co.uk"
                class="active">Ohad Kammar</a>
           </h1>
           <h2 aria-hidden="true">
@@ -86,7 +87,6 @@
     </div>
 
 
-    <base href="https://www.denotational.co.uk/edinburgh/">
     <div class="container container-page-content">
       <div class="row">
         <div class="col-sm-3 col-uoe-nav">
@@ -128,10 +128,40 @@
                      href="index.html#pubs">Publications and preprints</a>
                   <ul>
                     <li class="uoe-nav">
-                      <a style="padding:0px 30px"
-                         href="talks-and-publications.html#publications">abstracts</a>
+                        <a style="padding:0px 30px"
+                           href="talks-and-publications.html#publications">abstracts</a>
                     </li>
                   </ul>
+                </li>
+                <li class="uoe-nav">
+                    <a href="index.html#teaching"
+                       style="border-bottom:none; padding: 0 15px">
+                        Teaching
+                    </a>
+                    <ul>
+                        <li class="uoe-nav">
+                            <a style="padding:0px 30px"
+                               href="tdpm-anu-lss-2023">Type-Driven Modelling Course</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="uoe-nav">
+                            <a style="padding:0px 30px"
+                               href="teaching/partII.html">UG/MInf projects</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="uoe-nav">
+                            <a style="padding:0px 30px"
+                               href="teaching/partIII.html">MSc projects</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="uoe-nav">
+                            <a style="padding:0px 30px"
+                               href="teaching">Courses</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="uoe-nav">
                   <a href="index.html#talks"
@@ -184,13 +214,12 @@
             </section>
           </div>
         </div>
-        </base>
 
         <div class="col-sm-9">
           <div class="row breadtrail">
             <div class="col-sm-9 col-md-10" itemprop="breadcrumb">
               <ol class="breadcrumb active">
-                <li><a href="https://www.denotational.co.uk">Home</a></li>
+                <li><a href="https://denotational.co.uk">Home</a></li>
               </ol>
             </div>
             <div class="col-sm-3 col-md-2">
@@ -212,63 +241,269 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 
 <p><img src="GAF-Merton-Sunrise-Steve-Langton-GPC.jpg" title="Merton College Oxford, for illustration purposes only, taken from: http://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/public/field/field_image_main/GAF%20Merton%20Sunrise%20Steve%20Langton%20GPC.jpg?itok=anwpyHY8 " style="width: 400px;"/></p>
 <h1>
-The 5th <a href="http://dominic-mulligan.co.uk/?page_id=148">Southern-Region English Programming Language Seminar (S-REPLS)</a>
+The 5th <a
+href="http://dominic-mulligan.co.uk/?page_id=148">Southern-Region
+English Programming Language Seminar (S-REPLS)</a>
 </h1>
 <h2>
 Abstracts
 </h2>
 <ul>
 <li>
-<a name="Jan Hoffmann "></a><a href="http://www.cs.cmu.edu/~janh/">Jan Hoffmann</a>, Carnegie Mellon University School of Computer Science, Pittsburgh, USA.<br /> Title: <strong>Invited talk:</strong> Resource aware ML <br /> Abstract: <br /> In this talk, I will describe the design and implementation of Resource Aware ML (RAML), a functional programming language that automatically derives worst-case resource bounds at compile time.
+<a name="Jan Hoffmann "></a><a href="http://www.cs.cmu.edu/~janh/">Jan
+Hoffmann</a>, Carnegie Mellon University School of Computer Science,
+Pittsburgh, USA.<br /> Title: <strong>Invited talk:</strong> Resource
+aware ML <br /> Abstract: <br /> In this talk, I will describe the
+design and implementation of Resource Aware ML (RAML), a functional
+programming language that automatically derives worst-case resource
+bounds at compile time.
 <P>
-RAML is integrated in the OCaml compiler and automatically derives resource bounds for higher-order polymorphic programs with user-defined algebraic types. The analysis is parametric in the resource and can derive bounds for time, memory allocations, and energy usage. The derived bounds are multivariate resource polynomials which are functions of different size parameters of algebraic data structures. Bound inference is fully automatic and reduced to a linear optimization problem that is passed to an off-the-shelf LP solver.
+RAML is integrated in the OCaml compiler and automatically derives
+resource bounds for higher-order polymorphic programs with user-defined
+algebraic types. The analysis is parametric in the resource and can
+derive bounds for time, memory allocations, and energy usage. The
+derived bounds are multivariate resource polynomials which are functions
+of different size parameters of algebraic data structures. Bound
+inference is fully automatic and reduced to a linear optimization
+problem that is passed to an off-the-shelf LP solver.
 <P>
-<p>I will first introduce type-based amortized resource analysis, the analysis technique that RAML is based on. Starting from simple examples and linear resource usage, I will move to polynomial and multivariate bounds, and highlight challenges such as higher-order functions and user-defined types. I will then outline the design of the resource-aware type system, the formal soundness proof with respect to an operational cost semantics, and the automatic type inference using LP solving. Finally, I will demonstrate the implementation of Resource Aware ML and the integration in the OCaml compiler using illustrative examples that highlight strengths and limitations of the technique.</p>
-Bio: <br />Jan Hoffmann is a Tenure-Track Assistant Professor of Computer Science at Carnegie Mellon University. He received his PhD in 2011 from LMU Munich under the direction of Martin Hofmann. His research interests are in the intersection of programming languages and formal methods with a focus on quantitative properties of software. He is known for his work on automatic static cost analysis of programs and the design and implementation of Resource Aware ML. His current research is funded by NSF, DARPA-STAC, Schmidt Sciences Grant, and a Google Research Award. It includes projects such as automatic resource regression analysis and finding space/time vulnerabilities in Java bytecode. In the past, Hoffmann has been supported by scholarships of the German Research Foundation (DFG) and the German National Academic Foundation (Studienstiftung).
+<p>I will first introduce type-based amortized resource analysis, the
+analysis technique that RAML is based on. Starting from simple examples
+and linear resource usage, I will move to polynomial and multivariate
+bounds, and highlight challenges such as higher-order functions and
+user-defined types. I will then outline the design of the resource-aware
+type system, the formal soundness proof with respect to an operational
+cost semantics, and the automatic type inference using LP solving.
+Finally, I will demonstrate the implementation of Resource Aware ML and
+the integration in the OCaml compiler using illustrative examples that
+highlight strengths and limitations of the technique.</p>
+Bio: <br />Jan Hoffmann is a Tenure-Track Assistant Professor of
+Computer Science at Carnegie Mellon University. He received his PhD in
+2011 from LMU Munich under the direction of Martin Hofmann. His research
+interests are in the intersection of programming languages and formal
+methods with a focus on quantitative properties of software. He is known
+for his work on automatic static cost analysis of programs and the
+design and implementation of Resource Aware ML. His current research is
+funded by NSF, DARPA-STAC, Schmidt Sciences Grant, and a Google Research
+Award. It includes projects such as automatic resource regression
+analysis and finding space/time vulnerabilities in Java bytecode. In the
+past, Hoffmann has been supported by scholarships of the German Research
+Foundation (DFG) and the German National Academic Foundation
+(Studienstiftung).
 <li>
-<p><a name="Benjamin Kaminski"></a><a href="https://moves.rwth-aachen.de/people/kaminski/">Benjamin Kaminski</a>, University College London and RWTH Aachen University<br /> Title: Reasoning about expected run-times of probabilistic programs <br /> Abstract: <br /> We present a weakest-precondition-style calculus for reasoning about run-times of deterministic programs and expected run-times of probabilistic programs. Run-times of loops are defined in terms of least fixed points of continuous functions acting on an appropriate run-time domain. We present several proof rules for upper- and lower-bounding the (expected) run-time of loops. In particular, we present a very simple, yet complete proof rule for upper bounds based on just a single run-time invariant. For lower bounds, however, we will discuss how the analogon of the single-invariant-rule is sound for deterministic programs, but unsound for probabilistic ones.</p>
+<p><a name="Benjamin Kaminski"></a><a
+href="https://moves.rwth-aachen.de/people/kaminski/">Benjamin
+Kaminski</a>, University College London and RWTH Aachen University<br />
+Title: Reasoning about expected run-times of probabilistic programs
+<br /> Abstract: <br /> We present a weakest-precondition-style calculus
+for reasoning about run-times of deterministic programs and expected
+run-times of probabilistic programs. Run-times of loops are defined in
+terms of least fixed points of continuous functions acting on an
+appropriate run-time domain. We present several proof rules for upper-
+and lower-bounding the (expected) run-time of loops. In particular, we
+present a very simple, yet complete proof rule for upper bounds based on
+just a single run-time invariant. For lower bounds, however, we will
+discuss how the analogon of the single-invariant-rule is sound for
+deterministic programs, but unsound for probabilistic ones.</p>
 <li>
-<a name="Michael Arntzenius"></a><a href="http://www.rntz.net/">Michael Arntzenius</a>, University of Birmingham<br /> Title: Finding fixed points faster <br /> Abstract: <br /> Datalog is a forward-chaining logic programming language; a Datalog program may be run by repeatedly applying its inference rules until nothing further is deducible. This computes the fixed point of a function (applying the inference rules) over finite sets (of deduced facts).
+<a name="Michael Arntzenius"></a><a href="http://www.rntz.net/">Michael
+Arntzenius</a>, University of Birmingham<br /> Title: Finding fixed
+points faster <br /> Abstract: <br /> Datalog is a forward-chaining
+logic programming language; a Datalog program may be run by repeatedly
+applying its inference rules until nothing further is deducible. This
+computes the fixed point of a function (applying the inference rules)
+over finite sets (of deduced facts).
 <P>
-Datafun is a higher-order functional skin over a generalized version of Datalog’s semantics. It generalizes Datalog in two ways: 1. it permits functional abstraction; 2. it can take fixed-points of functions over other semilattices, not just finite sets.
+Datafun is a higher-order functional skin over a generalized version of
+Datalog’s semantics. It generalizes Datalog in two ways: 1. it permits
+functional abstraction; 2. it can take fixed-points of functions over
+other semilattices, not just finite sets.
 <P>
-<p>Datalog has an extensive optimization literature. I and my advisor Neel Krishnaswami aim to generalize Datalog optimizations and apply them to Datafun. I will present our work in progress, which adapts Cai et al’s work on incremental lambda-calculus to provide an analogue of Datalog’s semi-naive evaluation, which avoids unnecessary re-computation when iterating towards a fixed-point.</p>
+<p>Datalog has an extensive optimization literature. I and my advisor
+Neel Krishnaswami aim to generalize Datalog optimizations and apply them
+to Datafun. I will present our work in progress, which adapts Cai et
+al’s work on incremental lambda-calculus to provide an analogue of
+Datalog’s semi-naive evaluation, which avoids unnecessary re-computation
+when iterating towards a fixed-point.</p>
 <li>
-<a name="John Wickerson"></a><a href="https://johnwickerson.github.io/">John Wickerson</a>, Imperial College London<br /> Title: Hardware synthesis of weakly consistent C concurrency <br /> Abstract: <br /> Since 2011, the C language has provided ‘’weak atomics’’ – instructions that allow the implementation of lock-free algorithms with racy memory accesses, but which don’t guarantee that all threads have a consistent view of shared memory. Much work has been done to study the semantics of weak atomics, and how weak atomics can be implemented, both correctly and efficiently, on conventional multiprocessors (x86, PowerPC, ARM, …) and on conventional graphics processors (NVIDIA, AMD, …).
+<a name="John Wickerson"></a><a
+href="https://johnwickerson.github.io/">John Wickerson</a>, Imperial
+College London<br /> Title: Hardware synthesis of weakly consistent C
+concurrency <br /> Abstract: <br /> Since 2011, the C language has
+provided ‘’weak atomics’’ – instructions that allow the implementation
+of lock-free algorithms with racy memory accesses, but which don’t
+guarantee that all threads have a consistent view of shared memory. Much
+work has been done to study the semantics of weak atomics, and how weak
+atomics can be implemented, both correctly and efficiently, on
+conventional multiprocessors (x86, PowerPC, ARM, …) and on conventional
+graphics processors (NVIDIA, AMD, …).
 <P>
-This talk reports on the first attempt to implement C’s weak atomics on an unconventional computing device: the field-programmable gate array (FPGA). FPGAs do not process instructions like conventional processors; rather, they are configured to implement a particular function in hardware. This configuring can be done using a ‘high-level synthesis’ tool, given a C program as a specification.
+This talk reports on the first attempt to implement C’s weak atomics on
+an unconventional computing device: the field-programmable gate array
+(FPGA). FPGAs do not process instructions like conventional processors;
+rather, they are configured to implement a particular function in
+hardware. This configuring can be done using a ‘high-level synthesis’
+tool, given a C program as a specification.
 <P>
-We implement weak atomics on FPGAs by adjusting the ‘scheduling’ algorithm that maps C instructions to hardware clock cycles. The scheduling algorithm seeks to satisfy a set of constraints on the ordering of each thread’s instructions. We show that strong atomics necessitate many scheduling constraints, and that the weaker acquire/release/relaxed atomics can be obtained by selectively removing some constraints.
+We implement weak atomics on FPGAs by adjusting the ‘scheduling’
+algorithm that maps C instructions to hardware clock cycles. The
+scheduling algorithm seeks to satisfy a set of constraints on the
+ordering of each thread’s instructions. We show that strong atomics
+necessitate many scheduling constraints, and that the weaker
+acquire/release/relaxed atomics can be obtained by selectively removing
+some constraints.
 <P>
-We evaluate the performance of our implementation by synthesising hardware from a C implementation of a fine-grained circular buffer. We show that using strong atomics instead of conventional locks yields a 2.5x average performance improvement, and that using weak atomics instead of strong atomics yields a further 1.5x average whole-application performance improvement.
+We evaluate the performance of our implementation by synthesising
+hardware from a C implementation of a fine-grained circular buffer. We
+show that using strong atomics instead of conventional locks yields a
+2.5x average performance improvement, and that using weak atomics
+instead of strong atomics yields a further 1.5x average
+whole-application performance improvement.
 <P>
-<p>This is joint work with Nadesh Ramanathan, Shane T. Fleming, and George A. Constantinides, all from the Electrical and Electronic Engineering Dept. at Imperial College London. It has been accepted to appear as a full paper at the ACM/SIGDA International Symposium on FPGAs in February.</p>
+<p>This is joint work with Nadesh Ramanathan, Shane T. Fleming, and
+George A. Constantinides, all from the Electrical and Electronic
+Engineering Dept. at Imperial College London. It has been accepted to
+appear as a full paper at the ACM/SIGDA International Symposium on FPGAs
+in February.</p>
 <li>
-<a name="David Sherratt"></a><a href="http://people.bath.ac.uk/drs32/">David Sherratt</a>, University of Bath<br /> Title: Towards an Atomic Abstract Machine <br /> Abstract: <br /> The familiar call-by-need evaluation strategy (as used in Haskell compilers), also known as lazy evaluation shows best performance when terms are duplicated. When we have more control over the duplication of the term, such that we can choose which segments of the term to duplicate, then we can implement full laziness. Full laziness means we duplicate only what is necessary, and the maximal free subexpressions (the largest subterms such that, if they contain a bound variable x, they also contain its binder λx) remain.
+<a name="David Sherratt"></a><a
+href="http://people.bath.ac.uk/drs32/">David Sherratt</a>, University of
+Bath<br /> Title: Towards an Atomic Abstract Machine <br /> Abstract:
+<br /> The familiar call-by-need evaluation strategy (as used in Haskell
+compilers), also known as lazy evaluation shows best performance when
+terms are duplicated. When we have more control over the duplication of
+the term, such that we can choose which segments of the term to
+duplicate, then we can implement full laziness. Full laziness means we
+duplicate only what is necessary, and the maximal free subexpressions
+(the largest subterms such that, if they contain a bound variable x,
+they also contain its binder λx) remain.
 <P>
-Haskell compilers can perform full laziness at compile time. However, during runtime the implementation becomes too expensive. The idea behind this project is to further study the process of implementing a fully lazy evaluation strategy.
+Haskell compilers can perform full laziness at compile time. However,
+during runtime the implementation becomes too expensive. The idea behind
+this project is to further study the process of implementing a fully
+lazy evaluation strategy.
 <P>
-The purpose of sharing in the λ-calculus is to have better control over duplication of terms. Sharing is the use of a single representation for multiple instances of a common subterm. During evaluation, instead of duplicating a term, we can share it. This allows us to evaluate all the copies of the subterm simultaneously, by evaluating their shared representation [6].
+The purpose of sharing in the λ-calculus is to have better control over
+duplication of terms. Sharing is the use of a single representation for
+multiple instances of a common subterm. During evaluation, instead of
+duplicating a term, we can share it. This allows us to evaluate all the
+copies of the subterm simultaneously, by evaluating their shared
+representation [6].
 <P>
-In the atomic λ-calculus [2], we implement two types of closures. The usual notion of closure is a term with an associated sharing implemented as a let-construct. The second notion of closure introduces the distributor construct, which allows for duplication of a term atomically. The distributor uses a more restricted notion of unsharing similar to Lamping’s sharing graphs [4] which performs optimal reductions as defined in [5]. This is exactly what allows this calculus to perform fully lazy evaluation.
+In the atomic λ-calculus [2], we implement two types of closures. The
+usual notion of closure is a term with an associated sharing implemented
+as a let-construct. The second notion of closure introduces the
+distributor construct, which allows for duplication of a term
+atomically. The distributor uses a more restricted notion of unsharing
+similar to Lamping’s sharing graphs [4] which performs optimal
+reductions as defined in [5]. This is exactly what allows this calculus
+to perform fully lazy evaluation.
 <P>
-An abstract machine is a theoretical implementation of a strategy for a language on an abstract notion of computer architecture, made from directly implementable constructs. An abstract machine for evaluating atomic λ-terms would be a fully lazy abstract machine. For my PhD I aim to develop an atomic abstract machine based off the atomic λ-calculus. To achieve this, we make all the reduction rules in the calculus local in the sense of [3]. To achieve this, we construct a new calculus based on the atomic λ-calculus that makes the variable scopes explicit while maintaining fully lazy sharing.
+An abstract machine is a theoretical implementation of a strategy for a
+language on an abstract notion of computer architecture, made from
+directly implementable constructs. An abstract machine for evaluating
+atomic λ-terms would be a fully lazy abstract machine. For my PhD I aim
+to develop an atomic abstract machine based off the atomic λ-calculus.
+To achieve this, we make all the reduction rules in the calculus local
+in the sense of [3]. To achieve this, we construct a new calculus based
+on the atomic λ-calculus that makes the variable scopes explicit while
+maintaining fully lazy sharing.
 <P>
-This directed atomic λ-calculus uses a variant of director strings [1] to make the scopes of terms explicit. When performing substitution, instead of traversing the complete term, we instead only follow the path of the variable we want to replace which is highlighted through the annotations. An application can indicate the location of a variable with a 0 (in the left hand side) or with a 1 (in the right hand side), and similar for sharing. The scoping information of terms can then be used so that all the reduction rules can be considered local. One can then start work on an abstract machine for this calculus, that performs fully lazy λ-evaluation.
+This directed atomic λ-calculus uses a variant of director strings [1]
+to make the scopes of terms explicit. When performing substitution,
+instead of traversing the complete term, we instead only follow the path
+of the variable we want to replace which is highlighted through the
+annotations. An application can indicate the location of a variable with
+a 0 (in the left hand side) or with a 1 (in the right hand side), and
+similar for sharing. The scoping information of terms can then be used
+so that all the reduction rules can be considered local. One can then
+start work on an abstract machine for this calculus, that performs fully
+lazy λ-evaluation.
 <P>
-<p>References:<BR /> [1] Maribel Fernandez, Ian Mackie, and Francois-Regis Sinot. Lambda-calculus with director strings. Applicable Algebra in Engineering, Communication and Computing. 2005.<BR /> [2] Tom Gundersen, Willem Heijltjes, and Michel Parigot. Atomic lambda calculus: A typed lambda-calculus with explicit sharing. Proceedings of the 2013 28th Annual ACM/IEEE Sym- posium on Logic in Computer Science. IEEE Computer Society, 2013.<BR /> [3] Yves Lafont. Interaction nets. Proceedings of the 17th ACM SIGPLAN-SIGACT symposium on Principles of programming languages. 1989.<BR /> [4] John Lamping. An algorithm for optimal lambda calculus reduction.Proceedings of the 17th ACM SIGPLAN-SIGACT symposium on Principles of programming languages. 1989.<BR /> [5] Jean-Jacques Levy. Optimal reductions in the lambda-calculus. To HB Curry: Essays on Combinatory Logic, Lambda Calculus and Formalism. 1980.<BR /> [6] Christopher Peter Wadsworth. Semantics and Pragmatics of the Lambda-Calculus. Diss. University of Oxford, 1971.</p>
+<p>References:<BR /> [1] Maribel Fernandez, Ian Mackie, and
+Francois-Regis Sinot. Lambda-calculus with director strings. Applicable
+Algebra in Engineering, Communication and Computing. 2005.<BR /> [2] Tom
+Gundersen, Willem Heijltjes, and Michel Parigot. Atomic lambda calculus:
+A typed lambda-calculus with explicit sharing. Proceedings of the 2013
+28th Annual ACM/IEEE Sym- posium on Logic in Computer Science. IEEE
+Computer Society, 2013.<BR /> [3] Yves Lafont. Interaction nets.
+Proceedings of the 17th ACM SIGPLAN-SIGACT symposium on Principles of
+programming languages. 1989.<BR /> [4] John Lamping. An algorithm for
+optimal lambda calculus reduction.Proceedings of the 17th ACM
+SIGPLAN-SIGACT symposium on Principles of programming languages.
+1989.<BR /> [5] Jean-Jacques Levy. Optimal reductions in the
+lambda-calculus. To HB Curry: Essays on Combinatory Logic, Lambda
+Calculus and Formalism. 1980.<BR /> [6] Christopher Peter Wadsworth.
+Semantics and Pragmatics of the Lambda-Calculus. Diss. University of
+Oxford, 1971.</p>
 <li>
-<p><a name="Dan Ghica"></a><a href="http://www.cs.bham.ac.uk/~drg/">Dan Ghica</a>, University of Birmingham<br /> Title: Unifying structural and nominal syntax in the language of diagrams <br /> Abstract: <br /> The correspondence between various monoidal categories and graphical languages of diagrams has been studied extensively, leading to applications in quantum computing and communication, systems theory, circuit design and more. From the categorical perspectives, diagrams can be specified using (name-free) combinators which enjoy elegant equational properties. However, established notations for diagrammatic structures, such as hardware description languages (VHDL, extsc{Verilog}) or graph languages ( extsc{Dot}), use a totally different style, which is flat, relational, and reliant on extensive use of names (labels). Such languages are not known to enjoy nice syntactic equational properties. However, since they make it relatively easy to specify (and modify) arbitrary diagrammatic structures they are much more popular than the combinator-style specifications. This parallels the situation in programming languages, where combinator-based languages (e.g. APL) proved to be far less popular than languages with variables. In this paper we show how the two approaches to diagram syntax can be reconciled and unified in a way that does not change the original categorical semantics and the existing (categorical) equational theory. We also show how the two notations are semantically complementary and we give sound and complete equational theories.</p>
+<p><a name="Dan Ghica"></a><a href="http://www.cs.bham.ac.uk/~drg/">Dan
+Ghica</a>, University of Birmingham<br /> Title: Unifying structural and
+nominal syntax in the language of diagrams <br /> Abstract: <br /> The
+correspondence between various monoidal categories and graphical
+languages of diagrams has been studied extensively, leading to
+applications in quantum computing and communication, systems theory,
+circuit design and more. From the categorical perspectives, diagrams can
+be specified using (name-free) combinators which enjoy elegant
+equational properties. However, established notations for diagrammatic
+structures, such as hardware description languages (VHDL,
+extsc{Verilog}) or graph languages ( extsc{Dot}), use a totally
+different style, which is flat, relational, and reliant on extensive use
+of names (labels). Such languages are not known to enjoy nice syntactic
+equational properties. However, since they make it relatively easy to
+specify (and modify) arbitrary diagrammatic structures they are much
+more popular than the combinator-style specifications. This parallels
+the situation in programming languages, where combinator-based languages
+(e.g. APL) proved to be far less popular than languages with variables.
+In this paper we show how the two approaches to diagram syntax can be
+reconciled and unified in a way that does not change the original
+categorical semantics and the existing (categorical) equational theory.
+We also show how the two notations are semantically complementary and we
+give sound and complete equational theories.</p>
 <li>
-<a name="Bradley Hardy"></a><a href="http://dominic-mulligan.co.uk/">Bradley Hardy</a>, University of Cambridge<br /> Title: Improving Agda’s equational reasoning with reflection <br /> Abstract: <br /> Agda is a Haskell-style programming language, whose dependent type system allows it to function as an elegant theorem proving language. But compared to similar languages like Coq, Agda lacks a built-in tactic language. Instead, users are encouraged to write libraries to ease reasoning in Agda itself. As an example of this, equational reasoning combinators are often used to lay out proofs by transitivity. These combinators allow the Agda code to resemble standard pen-and-paper equational reasoning proofs. But where a pen-and-paper proof might simply invoke, say, ‘commutativity’ between steps, in Agda we must specify the exact proof that takes us from one step to the next. This can often be very tedious.
+<a name="Bradley Hardy"></a><a
+href="http://dominic-mulligan.co.uk/">Bradley Hardy</a>, University of
+Cambridge<br /> Title: Improving Agda’s equational reasoning with
+reflection <br /> Abstract: <br /> Agda is a Haskell-style programming
+language, whose dependent type system allows it to function as an
+elegant theorem proving language. But compared to similar languages like
+Coq, Agda lacks a built-in tactic language. Instead, users are
+encouraged to write libraries to ease reasoning in Agda itself. As an
+example of this, equational reasoning combinators are often used to lay
+out proofs by transitivity. These combinators allow the Agda code to
+resemble standard pen-and-paper equational reasoning proofs. But where a
+pen-and-paper proof might simply invoke, say, ‘commutativity’ between
+steps, in Agda we must specify the exact proof that takes us from one
+step to the next. This can often be very tedious.
 <P>
-<p>In this talk, I will present a new library that eliminates one of the more annoying parts of this process: invoking congruence, which allows us to provide a lambda expression to locate a subterm to rewrite. However, these lambda expressions often amount to duplicating a lot of code. They are both tedious and error-prone to write, and ugly to read. My library uses Agda’s reflection API to automate this. Instead of providing a lambda expression, the user simply annotates the lefthand expression to specify where to rewrite. This improves both ease of writing Agda code, and the readability of the resulting proofs.</p>
+<p>In this talk, I will present a new library that eliminates one of the
+more annoying parts of this process: invoking congruence, which allows
+us to provide a lambda expression to locate a subterm to rewrite.
+However, these lambda expressions often amount to duplicating a lot of
+code. They are both tedious and error-prone to write, and ugly to read.
+My library uses Agda’s reflection API to automate this. Instead of
+providing a lambda expression, the user simply annotates the lefthand
+expression to specify where to rewrite. This improves both ease of
+writing Agda code, and the readability of the resulting proofs.</p>
 <li>
-<a name="Neel Krishnaswami"></a><a href="http://www.cl.cam.ac.uk/~nk480/">Neel Krishnaswami</a>, University of Cambridge<br /> Title: Can ML be stopped? <br /> Abstract: <br /> Higher-order imperative programs are well-known as a source of small-but-ferociously-difficult-to-verify-programs. Languages like ML permit the subtle interplay of features like generative name creation, pointers to code, and type abstraction. Each of these features requires sophisticated mathematics to model, and their combination yields models of daunting complexity.
+<a name="Neel Krishnaswami"></a><a
+href="http://www.cl.cam.ac.uk/~nk480/">Neel Krishnaswami</a>, University
+of Cambridge<br /> Title: Can ML be stopped? <br /> Abstract: <br />
+Higher-order imperative programs are well-known as a source of
+small-but-ferociously-difficult-to-verify-programs. Languages like ML
+permit the subtle interplay of features like generative name creation,
+pointers to code, and type abstraction. Each of these features requires
+sophisticated mathematics to model, and their combination yields models
+of daunting complexity.
 <P>
-In recent years, the standard technique for analysing these programs have been based on step-indexed logical relations. However, while step-indexing is well-suited to proving safety properties, it is less able to establish liveness properties such as termination.
+In recent years, the standard technique for analysing these programs
+have been based on step-indexed logical relations. However, while
+step-indexing is well-suited to proving safety properties, it is less
+able to establish liveness properties such as termination.
 <P>
-<p>In this talk, I will describe some in-progress research on how to prove termination of higher-order imperative programs by combining ideas from process algebra, separation logic, and logical relations.</p>
+<p>In this talk, I will describe some in-progress research on how to
+prove termination of higher-order imperative programs by combining ideas
+from process algebra, separation logic, and logical relations.</p>
 </ul>          <footer>
             <div class="footer-discover">
               <div class="container">
