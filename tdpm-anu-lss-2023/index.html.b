@@ -26,12 +26,12 @@ Course materials
 Lectures
 </h4>
 <ol type="1">
-<li><a href="tdpm-anu-lss-2023/lecture-1-anu-lss-2023-tdpm.pdf">Lecture 1(Mon 11 Dec)</a>: type-driven probability and the discrete model (part 1)</li>
+<li><a href="tdpm-anu-lss-2023/lecture-1-anu-lss-2023-tdpm.pdf">Lecture 1 (Mon 11 Dec)</a>: type-driven probability and the discrete model (part 1)</li>
 </ol>
 <h4>
 Getting help and reporting mistakes
 </h4>
-<p>Please never hesitate to get in touch. You can reach me directly by email. You may prefer to ask a question on the #qbs channel on the SPLS Zulip server: spls.zulipchat.com .</p>
+<p>Please never hesitate to get in touch. Approach me directly in person during the summer school or by email. You may prefer to ask a question on the #qbs channel on the SPLS Zulip server: <a href="spls.zulipchat.com" class="uri">spls.zulipchat.com</a> . Others would benefit from your question in that case too!</p>
 <h3>
 Previous edition: Scottish PL and Verification Summer School
 </h3>
