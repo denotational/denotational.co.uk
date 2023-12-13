@@ -66,8 +66,6 @@ Measurability by type
 <ul>
 <li/>
 <a href="../tdpm-anu-lss-2023/marseille-notes-exercises-section-qbs-function-spaces.pdf">Function spaces</a>: practice the definition of the function space of two qbses, with the Borel subsets and random element spaces.
-<li/>
-Standard Borel spaces (under development): use measurability-by-type to construct standard Borel spaces.
 </ul></li>
 </ol>
 <h4>
