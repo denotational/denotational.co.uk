@@ -67,7 +67,7 @@ Measurability by type
 <a href="../tdpm-anu-lss-2023/marseille-notes-exercises-section-qbs-function-spaces.pdf">Function spaces</a>: practice the definition of the function space of two qbses, with the Borel subsets and random element spaces.
 </ul>
 </ul></li>
-<li><p><a href="tdpm-anu-lss-2023/lecture-5-anu-lss-2023-tdpm.pdf">Lecture 5 (Thur)</a>: Integration and random variables.</p></li>
+<li><p><a href="tdpm-anu-lss-2023/lecture-5-anu-lss-2023-tdpm.pdf">Lecture 5 (Fri)</a>: Integration and random variables.</p></li>
 </ol>
 <h4>
 Getting help and reporting mistakes
