@@ -60,12 +60,12 @@ Relevant exercise sheets:
 <a href="../tdpm-anu-lss-2023/marseille-notes-exercises-section-qbs-constructions.pdf">Qbs construction</a>: space combinators — you may want to spread these exercises over several sittings.
 <li/>
 <a href="../tdpm-anu-lss-2023/marseille-notes-exercises-section-subspaces.pdf">Borel subspaces</a>: measurable subsets in a quasi-Borel space.
-</ul>
 <li/>
 Measurability by type
 <ul>
 <li/>
 <a href="../tdpm-anu-lss-2023/marseille-notes-exercises-section-qbs-function-spaces.pdf">Function spaces</a>: practice the definition of the function space of two qbses, with the Borel subsets and random element spaces.
+</ul>
 </ul></li>
 </ol>
 <h4>
