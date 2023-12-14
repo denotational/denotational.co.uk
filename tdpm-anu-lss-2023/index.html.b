@@ -53,7 +53,7 @@ Extra-curricular material
 <a href="../tdpm-anu-lss-2023/marseille-notes-exercises-section-lebesgue-measurability.pdf">Aumann’s theorem for Lebesgue measurablity</a>: extending Aumann’s theorem from Borel measurable functions to Lebesgue measurable functions.
 </ul>
 </ul></li>
-<li><p><a href="tdpm-anu-lss-2023/lecture-4-anu-lss-2023-tdpm.pdf">Lecture 4 (Thur)</a>: Simple- and depenent-type structure, and standard Borel spaces (tentative)</p>
+<li><p><a href="tdpm-anu-lss-2023/lecture-4-anu-lss-2023-tdpm.pdf">Lecture 4 (Thur)</a>: Simple- and depenent-type structure, and standard Borel spaces</p>
 Relevant exercise sheets:
 <ul>
 <li/>
@@ -67,7 +67,7 @@ Measurability by type
 <a href="../tdpm-anu-lss-2023/marseille-notes-exercises-section-qbs-function-spaces.pdf">Function spaces</a>: practice the definition of the function space of two qbses, with the Borel subsets and random element spaces.
 </ul>
 </ul></li>
-<li><p><a href="tdpm-anu-lss-2023/lecture-5-anu-lss-2023-tdpm.pdf">Lecture 5 (Fri)</a>: Integration and random variables.</p></li>
+<li><p><a href="tdpm-anu-lss-2023/lecture-5-anu-lss-2023-tdpm.pdf">Lecture 5 (Fri)</a>: Integration and random variables</p></li>
 </ol>
 <h4>
 Getting help and reporting mistakes
