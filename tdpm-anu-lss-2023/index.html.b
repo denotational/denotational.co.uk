@@ -53,7 +53,7 @@ Extra-curricular material
 <a href="../tdpm-anu-lss-2023/marseille-notes-exercises-section-lebesgue-measurability.pdf">Aumann’s theorem for Lebesgue measurablity</a>: extending Aumann’s theorem from Borel measurable functions to Lebesgue measurable functions.
 </ul>
 </ul></li>
-<li><p><a href="tdpm-anu-lss-2023/lecture-4-anu-lss-2023-tdpm.pdf">Lecture 4 (Thur)</a>: Simple- and depenent-type structure, and standard Borel spaces</p>
+<li><p><a href="tdpm-anu-lss-2023/lecture-4-anu-lss-2023-tdpm.pdf">Lecture 4 (Thur)</a>: Simple- and dependent-type structure, and standard Borel spaces</p>
 Relevant exercise sheets:
 <ul>
 <li/>
