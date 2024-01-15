@@ -29,14 +29,14 @@ Lectures
 <p>All <a href="tdpm-popl-tutorialfest-2024/popl24-tutorial-fest-tdpm-slides.pdf">lectures</a>.</p>
 <p>Planned structure:</p>
 <ol type="1">
-<li><a href="tdpm-popl-tutorialfest-2024/popl24-tutorial-fest-tdpm-slides-lecture-1a.pdf">Lecture 1a</a>:</li>
+<li><a href="tdpm-popl-tutorialfest-2024/popl24-tutorial-fest-tdpm-slides-lecture-1a.pdf">Lecture 1a</a></li>
 </ol>
 <ul>
 <li>Motivation</li>
 <li>Type-driven probability and the discrete model</li>
 </ul>
 <ol start="2" type="1">
-<li><a href="tdpm-popl-tutorialfest-2024/popl24-tutorial-fest-tdpm-slides-lecture-1b.pdf">Lecture 1b</a>:</li>
+<li><a href="tdpm-popl-tutorialfest-2024/popl24-tutorial-fest-tdpm-slides-lecture-1b.pdf">Lecture 1b</a></li>
 </ol>
 <ul>
 <li>type-driven probability and the discrete model (part 2)</li>
@@ -67,7 +67,7 @@ Extra-curricular material
 </ul>
 </ul>
 <ol start="3" type="1">
-<li><a href="tdpm-popl-tutorialfest-2024/popl24-tutorial-fest-tdpm-slides-lecture-2a.pdf">Lecture 2a</a>:</li>
+<li><a href="tdpm-popl-tutorialfest-2024/popl24-tutorial-fest-tdpm-slides-lecture-2a.pdf">Lecture 2a</a></li>
 </ol>
 <ul>
 <li>Simple type structure</li>
@@ -88,8 +88,13 @@ Measurability by type
 </ul>
 </ul>
 <ol start="3" type="1">
-<li><a href="tdpm-popl-tutorialfest-2024/popl24-tutorial-fest-tdpm-slides-lecture-2b.pdf">Lecture 2b</a>: Integration and random variables</li>
+<li><a href="tdpm-popl-tutorialfest-2024/popl24-tutorial-fest-tdpm-slides-lecture-2b.pdf">Lecture 2b</a></li>
 </ol>
+<ul>
+<li>Integration</li>
+<li>Random variables</li>
+<li>Conditioning</li>
+</ul>
 <h4>
 Getting help and reporting mistakes
 </h4>
