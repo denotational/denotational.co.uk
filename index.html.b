@@ -15,8 +15,19 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <h3>
 <a name="contact"></a> Contact
 </h3>
+<<<<<<< HEAD
 <p>Office 3.11 <br> <a href="https://www.ed.ac.uk/bayes">Bayes Centre</a> <br> <a href="https://www.inf.ed.ac.uk">School of Informatics</a><br> <a href="https://www.ed.ac.uk/">University of Edinburgh</a> <br> 47 Potterrow <br> Edinburgh EH8 9BT <br> Tel: +44 (0)131 (6) 50 2960 <br> Post: ohad.kammar@ed.ac.uk <br></p>
 <br> To schedule an appointment, consult my <a href="calendar.html">calendar</a>.
+=======
+<p>Office 3.47 <br> <a
+href="https://www.ed.ac.uk/informatics/about/location">Informatics
+Forum</a> <br> <a href="https://www.inf.ed.ac.uk">School of
+Informatics</a><br> <a href="https://www.ed.ac.uk/">University of
+Edinburgh</a> <br> 47 Potterrow <br> Edinburgh EH8 9BT <br> Tel: +44
+(0)131 (6) 50 2960 <br> Post: ohad.kammar@ed.ac.uk <br></p>
+<br> To schedule an appointment, consult my <a
+href="calendar.html">calendar</a>.
+>>>>>>> d624ff0 (automatic update to webpage)
 </td>
 <td style="horizontal-align:right">
 <img src="ohad.jpg" title="meaningful thoughts..." alt="profile" />
