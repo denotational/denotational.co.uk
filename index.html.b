@@ -19,8 +19,8 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 href="https://www.ed.ac.uk/informatics/about/location">Informatics
 Forum</a> <br> <a href="https://www.inf.ed.ac.uk">School of
 Informatics</a><br> <a href="https://www.ed.ac.uk/">University of
-Edinburgh</a> <br> 47 Potterrow <br> Edinburgh EH8 9BT <br> Tel: +44
-(0)131 (6) 50 2960 <br> Post: ohad.kammar@ed.ac.uk <br></p>
+Edinburgh</a> <br> 10 Crichton Street <br> Edinburgh EH8 9AB <br> Tel:
++44 (0)131 (6) 50 2960 <br> Post: ohad.kammar@ed.ac.uk <br></p>
 <br> To schedule an appointment, consult my <a
 href="calendar.html">calendar</a>.
 </td>
