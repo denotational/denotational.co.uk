@@ -218,6 +218,15 @@ Kammar, and Michel Steuwer. 2024. In Proc. ACM Program. Lang. 8, POPL,
 Article 3 (January 2024), 29 pages. https://doi.org/10.1145/3633211, <a
 href="https://doi.org/10.1145/3633211">DOI:
 10.1145/3633211</a>.</p></li>
+<li><p><a href="publications/dvir-kammar-lahav-algebraic-sc.pdf">An
+Algebraic Theory for Shared-State Concurrency</a>, <a
+href="https://link.springer.com/chapter/10.1007/978-3-031-21037-2_1">APLAS’22</a>.</p>
+<p>Yotam Dvir, Ohad Kammar, Ori Lahav. 2022. In: Sergey, I. (eds)
+Programming Languages and Systems. APLAS 2022. Lecture Notes in Computer
+Science, vol 13658. Springer, Cham.
+https://doi.org/10.1007/978-3-031-21037-2_1, <a
+href="https://doi.org/10.1007/978-3-031-21037-2_1">DOI:
+10.1007/978-3-031-21037-2_1</a>.</p></li>
 <li><p><a
 href="drafts/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
 dependently-typed algebraic simplification</a>, Preprint, draft

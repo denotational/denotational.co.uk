@@ -81,6 +81,33 @@ Isabelle/HOL and all proofs are mechanised.”</p>
 </blockquote>
 <ul>
 <li><h4>
+<a href="publications/dvir-kammar-lahav-algebraic-sc.pdf">An Algebraic
+Theory for Shared-State Concurrency</a>
+</h4>
+Yotam Dvir, Ohad Kammar, Ori Lahav. <BR><BR> Appears in the <a
+href="https://link.springer.com/chapter/10.1007/978-3-031-21037-2_1">Asian
+Symposium on Programming Languages and Systems</a>, 2022, <a
+href="https://doi.org/10.1007/978-3-031-21037-2_1">DOI:
+10.1007/978-3-031-21037-2_1</a>.</li>
+</ul>
+<blockquote>
+<p>“We present a monadic denotational semantics for a higher- order
+programming language with shared-state concurrency, i.e. global- state
+in the presence of interleaving concurrency. Central to our approach is
+the use of Plotkin and Power’s algebraic effect methodology: designing
+an equational theory that captures the intended semantics, and proving a
+monadic representation theorem for it. We use Hyland et al.’s equational
+theory of resumptions that extends non-deterministic global-state with
+an operator for yielding to the environment. The representation is based
+on Brookes-style traces. Based on this representation we define a
+denotational semantics that is directionally adequate with respect to a
+standard operational semantics. We use this semantics to justify
+compiler transformations of interest: redundant access eliminations,
+each following from a mundane algebraic calculation; while structural
+transformations follow from reasoning over the monad’s interface.”</p>
+</blockquote>
+<ul>
+<li><h4>
 <a
 href="publications/kammar-katsumata-saville-fully-abstract-models-for-effectful-lambda-calculi.pdf">Fully
 abstract models for effectful lambda-calculi via category-theoretic
