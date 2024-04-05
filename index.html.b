@@ -196,6 +196,11 @@ interests<a name="interests"></a></h3>
 href="talks-and-publications.html#publications">abstracts</a>)<a name="pubs"></a></h3>
 <ul>
 <li><p><a
+href="publications/dvir-kammar-lahav-brookes-release-acquire-journal.pdf">A
+Denotational Approach to Release/Acquire Concurrency (extended
+version)</a>, Preprint.</p>
+<p>Yotam Dvir, Ohad Kammar, Ori Lahav. 2024.</p></li>
+<li><p><a
 href="drafts/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
 dependently-typed algebraic simplification</a>, Preprint, draft
 manuscript.</p>
