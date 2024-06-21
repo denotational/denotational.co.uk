@@ -157,6 +157,7 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 </ul>
 <h3 id="talks-abstracts">Talks (<a href="talks-and-publications.html#talks">abstracts</a>)<a name="talks"></a></h3>
 <ul>
+<li><p><a href="talks/kammar-mfps-2024-tdpm.pdf">Semantic foundations for type-driven probabilistic modelling</a>, <a href="https://oxford24.github.io/all-talks.html">40th International Conference on Mathematical Foundations of Programming Semantics (MFPS’24)</a>, 21 June, 2024.</p></li>
 <li><p><a href="talks/kammar-moser-next-hope23.pdf">Semantic foundations of potential-synthesis for expected amortised-cost analysis</a>, <a href="https://icfp23.sigplan.org/details/hope-2023/6/Semantic-foundations-of-potential-synthesis-for-expected-amortised-cost-analysis">11th ACM SIGPLAN Workshop on Higher-Order Programming with Effects (HOPE’23)</a>, 04 September, 2023.</p></li>
 <li><p><a href="talks/frex-wg2.11-2022.pdf">Frex: staged-optimisation and equational-proof-synthesis using universal algebra</a>, <a href="https://wiki.hh.se/wg211/index.php/WG211/M21Schedule">21st meeting of IFIP Working Group 2.11: Program Generation</a>, 16 August, 2022.</p></li>
 <li><p><a href="talks/2022-cirm-higher-order-measure-theory.pdf">An introduction to statistical modelling semantics with higher-order measure theory</a>, <a href="https://conferences.cirm-math.fr/2686.html">Logic of Probabilistic Programming</a>, see <a href="qbs-splv-2022">course webpage</a> for latest recordings and exercise sheets, 03 February, 2022.</p></li>
