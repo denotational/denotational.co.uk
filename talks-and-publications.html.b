@@ -14,111 +14,7 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 </h3>
 <ul>
 <li><h4>
-<<<<<<< HEAD
 <a href="publications/kammar-katsumata-saville-fully-abstract-models-for-effectful-lambda-calculi.pdf">Fully abstract models for effectful lambda-calculi via category-theoretic logical relations</a> (<a href="https://youtu.be/qJmNWvf6jlU">video</a>, <a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145/3498705&amp;file=popl22main-p331-p-video.mp4">short video</a>)
-=======
-<a
-href="publications/dvir-kammar-lahav-brookes-release-acquire-conference.pdf">A
-Denotational Approach to Release/Acquire Concurrency</a>
-</h4>
-Yotam Dvir, Ohad Kammar, Ori Lahav. <BR><BR> Appears in the <a
-href="https://link.springer.com/chapter/10.1007/978-3-031-57267-8_5">33rd
-European Symposium on Programming (ESOP’24), European joint conferences
-on theory and practice of software (ETAPS’24)</a>, 2024, <a
-href="https://doi.org/10.1007/978-3-031-57267-8_5">DOI:
-10.1007/978-3-031-57267-8_5</a>.</li>
-</ul>
-<blockquote>
-<p>“We present a compositional denotational semantics for a functional
-language with first-class parallel composition and shared-memory
-operations whose operational semantics follows the Release/Acquire weak
-memory model (RA). The semantics is formulated in Moggi’s monadic
-approach, and is based on Brookes-style traces. To do so we adapt
-Brookes’s traces to Kang et al.’s view-based machine for RA, and
-supplement Brookes’s mumble and stutter closure operations with
-additional operations, specific to RA. The latter provides a more
-nuanced understanding of traces that uncouples them from operational
-interrupted executions. We show that our denotational semantics is
-adequate and use it to validate various program transformations of
-interest. This is the first work to put weak memory models on the same
-footing as many other programming effects in Moggi’s standard monadic
-approach.”</p>
-</blockquote>
-<ul>
-<li><h4>
-<a href="https://dl.acm.org/doi/pdf/10.1145/3633211">Shoggoth: A Formal
-Foundation for Strategic Rewriting</a>
-</h4>
-Xueying Qin, Liam O’Connor, Rob van Glabbeek, Peter Höfner, Ohad Kammar,
-and Michel Steuwer. <BR><BR> Appears in the <a
-href="https://dl.acm.org/doi/10.1145/3633211">Proceedings of the ACM on
-Programming Languages, Volume 8, Issue POPL</a>, 2024, <a
-href="https://doi.org/10.1145/3633211">DOI: 10.1145/3633211</a>.</li>
-</ul>
-<blockquote>
-<p>“Rewriting is a versatile and powerful technique used in many
-domains. Strategic rewriting allows programmers to control the
-application of rewrite rules by composing individual rewrite rules into
-complex rewrite strategies. These strategies are semantically complex,
-as they may be nondeterministic, they may raise errors that trigger
-backtracking, and they may not terminate. Given such semantic
-complexity, it is necessary to establish a formal understanding of
-rewrite strategies and to enable reasoning about them in order to answer
-questions like: How do we know that a rewrite strategy terminates? How
-do we know that a rewrite strategy does not fail because we compose two
-incompatible rewrites? How do we know that a desired property holds
-after applying a rewrite strategy? In this paper, we introduce Shoggoth:
-a formal foundation for understanding, analysing and reasoning about
-strategic rewriting that is capable of answering these questions. We
-provide a denotational semantics of System S, a core language for
-strategic rewriting, and prove its equivalence to our big-step
-operational semantics, which extends existing work by explicitly
-accounting for divergence. We further define a location-based weakest
-precondition calculus to enable formal reasoning about rewriting
-strategies, and we prove this calculus sound with respect to the
-denotational semantics. We show how this calculus can be used in
-practice to reason about properties of rewriting strategies, including
-termination, that they are well-composed, and that desired
-postconditions hold. The semantics and calculus are formalised in
-Isabelle/HOL and all proofs are mechanised.”</p>
-</blockquote>
-<ul>
-<li><h4>
-<a href="publications/dvir-kammar-lahav-algebraic-sc.pdf">An Algebraic
-Theory for Shared-State Concurrency</a>
-</h4>
-Yotam Dvir, Ohad Kammar, Ori Lahav. <BR><BR> Appears in the <a
-href="https://link.springer.com/chapter/10.1007/978-3-031-21037-2_1">Asian
-Symposium on Programming Languages and Systems</a>, 2022, <a
-href="https://doi.org/10.1007/978-3-031-21037-2_1">DOI:
-10.1007/978-3-031-21037-2_1</a>.</li>
-</ul>
-<blockquote>
-<p>“We present a monadic denotational semantics for a higher- order
-programming language with shared-state concurrency, i.e. global- state
-in the presence of interleaving concurrency. Central to our approach is
-the use of Plotkin and Power’s algebraic effect methodology: designing
-an equational theory that captures the intended semantics, and proving a
-monadic representation theorem for it. We use Hyland et al.’s equational
-theory of resumptions that extends non-deterministic global-state with
-an operator for yielding to the environment. The representation is based
-on Brookes-style traces. Based on this representation we define a
-denotational semantics that is directionally adequate with respect to a
-standard operational semantics. We use this semantics to justify
-compiler transformations of interest: redundant access eliminations,
-each following from a mundane algebraic calculation; while structural
-transformations follow from reasoning over the monad’s interface.”</p>
-</blockquote>
-<ul>
-<li><h4>
-<a
-href="publications/kammar-katsumata-saville-fully-abstract-models-for-effectful-lambda-calculi.pdf">Fully
-abstract models for effectful lambda-calculi via category-theoretic
-logical relations</a> (<a href="https://youtu.be/qJmNWvf6jlU">video</a>,
-<a
-href="https://dl.acm.org/action/downloadSupplement?doi=10.1145/3498705&amp;file=popl22main-p331-p-video.mp4">short
-video</a>)
->>>>>>> refs/remotes/origin/main
 </h4>
 Ohad Kammar, Shin-ya Katsumata, and Philip Saville. <BR><BR> Appears in the <a href="https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/44/Fully-Abstract-Models-for-Effectful-Calculi-via-Category-Theoretic-Logical-Relation">49th ACM SIGPLAN Symposium on Principles of Programming Languages</a>, 2022, <a href="https://doi.org/10.1145/3498705">DOI: 10.1145/3498705</a>.</li>
 </ul>
@@ -308,40 +204,7 @@ Giorgio Bacci, Vincent Danos and Ohad Kammar. <BR><BR> Appears in the <a href="h
 </h3>
 <ul>
 <li><h4>
-<<<<<<< HEAD
 <a href="drafts/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex: dependently-typed algebraic simplification</a>
-=======
-<a
-href="publications/dvir-kammar-lahav-brookes-release-acquire-journal.pdf">A
-Denotational Approach to Release/Acquire Concurrency (extended
-version)</a>
-</h4>
-Yotam Dvir, Ohad Kammar, Ori Lahav. <BR><BR> Preprint, 2024.
-<BR>Expanded and updated version of the previous <a href="">ESOP’24
-paper</a>.</li>
-</ul>
-<blockquote>
-<p>“We present a compositional denotational semantics for a functional
-language with first-class parallel composition and shared-memory
-operations whose operational semantics follows the Release/Acquire weak
-memory model (RA). The semantics is formulated in Moggi’s monadic
-approach, and is based on Brookes-style traces. To do so we adapt
-Brookes’s traces to Kang et al.’s view-based machine for RA, and
-supplement Brookes’s mumble and stutter closure operations with
-additional operations, specific to RA. The latter provides a more
-nuanced understanding of traces that uncouples them from operational
-interrupted executions. We show that our denotational semantics is
-adequate and use it to validate various program transformations of
-interest. This is the first work to put weak memory models on the same
-footing as many other programming effects in Moggi’s standard monadic
-approach.”</p>
-</blockquote>
-<ul>
-<li><h4>
-<a
-href="drafts/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
-dependently-typed algebraic simplification</a>
->>>>>>> refs/remotes/origin/main
 </h4>
 Guillaume Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, and Jeremy Yallop. <BR><BR> Preprint, 2022.</li>
 </ul>
@@ -472,30 +335,7 @@ Talk given at the <a href="https://samoa.dcs.gla.ac.uk/events/series.jsp?series=
 <P/>
 <ul>
 <li><h4>
-<<<<<<< HEAD
 <a href="talks/kammar-mfps-2020-probprog-taxonomy.pdf">A ProbProg Language Taxonomy</a>
-=======
-<a href="talks/kammar-mfps-2020-probprog-taxonomy.pdf">A ProbProg
-Language Taxonomy</a>
-</h4>
-Talk given at the <a
-href="https://www.monoidal.net/paris2020/mfps/schedule.html#ss">36th
-International Conference on Mathematical Foundations of Programming
-Semantics (MFPS’20)</a> Special Session on Probabilistic Programming, 05
-June, 2020.</li>
-</ul>
-<blockquote>
-<p>Modern probabilistic programming languages come in many flavours. In
-this talk I will propose two axes for comparing and contrasting these
-flavours through their statistical modelling primitives, and describe
-work-in-progress building semantic bridges between these flavours.</p>
-</blockquote>
-<P/>
-<ul>
-<li><h4>
-<a href="drafts/lola19-perspective-on-ohearn-ricke.pdf">A modern
-perspective on the O’Hearn-Reicke model</a>
->>>>>>> refs/remotes/origin/main
 </h4>
 Talk given at the <a href="https://www.monoidal.net/paris2020/mfps/schedule.html#ss">36th International Conference on Mathematical Foundations of Programming Semantics (MFPS’20)</a> Special Session on Probabilistic Programming, 05 June, 2020.</li>
 </ul>
