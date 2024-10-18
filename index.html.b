@@ -106,6 +106,7 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 </ul>
 <h3 id="publications-and-preprints-abstracts">Publications and preprints (<a href="talks-and-publications.html#publications">abstracts</a>)<a name="pubs"></a></h3>
 <ul>
+<li><p><a href="publications/dvir-kammar-lahav-plotkin-two-sorted-brookes.pdf">Two-sorted algebraic decompositions of Brookes’s shared-state denotational semantics</a>, Preprint.</p></li>
 <li><p><a href="publications/dvir-kammar-lahav-brookes-release-acquire-journal.pdf">A Denotational Approach to Release/Acquire Concurrency</a>, Preprint.</p></li>
 <li><p><a href="publications/dvir-kammar-lahav-brookes-release-acquire-conference.pdf">A Denotational Approach to Release/Acquire Concurrency</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-031-57267-8_5">ESOP’24</a>.</p>
 <p>Yotam Dvir, Ohad Kammar, and Ori Lahav. A Denotational Approach to Release/Acquire Concurrency. In: Weirich, S. (eds) Programming Languages and Systems. ESOP 2024. Lecture Notes in Computer Science, vol 14577. Springer, Cham. https://doi.org/10.1007/978-3-031-57267-8_5, <a href="https://doi.org/10.1007/978-3-031-57267-8_5">DOI: 10.1007/978-3-031-57267-8_5</a>.</p></li>

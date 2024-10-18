@@ -461,6 +461,15 @@ Giorgio Bacci, Vincent Danos and Ohad Kammar. <BR><BR> Appears in the <a href="h
 </h3>
 <ul>
 <li><h4>
+<a href="publications/dvir-kammar-lahav-plotkin-two-sorted-brookes.pdf">Two-sorted algebraic decompositions of Brookes’s shared-state denotational semantics</a>
+</h4>
+Yotam Dvir, Ohad Kammar, Ori Lahav, and Gordon Plotkin. <BR><BR> Preprint, 2024.</li>
+</ul>
+<blockquote>
+<p>“We use a two sorted equational theory of algebraic effects to model concurrent shared state with preemptive interleaving, recovering Brookes’s seminal 1996 trace-based model precisely. The decomposition allows us to analyse Brookes’s model algebraically in terms of separate but interacting components. The multiple sorts partition terms into layers. We use two sorts: a ‘hold’ sort for layers that disallow interleaving of environment memory accesses, analogous to holding a global lock on the memory; and a ‘cede’ sort for the opposite. The algebraic signature comprises of independent interlocking components: two new operators that switch between these sorts, delimiting the atomic layers, thought of as acquiring and releasing the global lock; non-deterministic choice; and state-accessing operators. The axioms similarly divide cleanly: the delimiters behave as a closure pair; all operators are strict, and distribute over non-empty non-deterministic choice; and non-deterministic global state obeys Plotkin and Power’s presentation of global state. Our representation theorem expresses the free algebras over a two-sorted family of variables as sets of traces with suitable closure conditions. When the held sort has no variables, we recover Brookes’s trace semantics.”</p>
+</blockquote>
+<ul>
+<li><h4>
 <a href="publications/dvir-kammar-lahav-brookes-release-acquire-journal.pdf">A Denotational Approach to Release/Acquire Concurrency</a>
 </h4>
 Yotam Dvir, Ohad Kammar, and Ori Lahav. <BR><BR> Preprint, 2024.</li>
