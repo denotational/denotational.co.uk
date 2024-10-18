@@ -231,7 +231,7 @@ Giorgio Bacci, Vincent Danos and Ohad Kammar. <BR><BR> Appears in the <a href="h
 </h3>
 <ul>
 <li><h4>
-<a href="publications/dvir-kammar-lahav-plotkin-two-sorted-brookes.pdf">Two-sorted algebraic decompositions of Brookes’s shared-state denotational semantics</a>
+<a href="drafts/dvir-kammar-lahav-plotkin-two-sorted-brookes.pdf">Two-sorted algebraic decompositions of Brookes’s shared-state denotational semantics</a>
 </h4>
 Yotam Dvir, Ohad Kammar, Ori Lahav, and Gordon Plotkin. <BR><BR> Preprint, 2024.</li>
 </ul>
