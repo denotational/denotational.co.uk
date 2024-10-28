@@ -270,6 +270,16 @@ Ohad Kammar. <BR><BR> Preprint, 2014, <a href="https://arxiv.org/abs/1508.05072"
 </h3>
 <ul>
 <li><h4>
+<a href="">A Type-Driven Overview of Probabilistic Programming</a>
+</h4>
+Talk given at the University of Tartu Programming Languages Research Seminar, 28 October, 2024.</li>
+</ul>
+<blockquote>
+<p>Probabilistic programming (ProbProg) is a statistical modelling discipline that uses programming language constructs to define probabilistic models. The approach ProbProg takes is particularly appealing for conditioning a model on observed data, which has a global effect on the model. In this informal talk I will introduce the ProbProg approach. I will mix some historical and more recent developments, by myself and others. I will use types to make the discussion more precise.</p>
+</blockquote>
+<P/>
+<ul>
+<li><h4>
 <a href="talks/kammar-mfps-2024-tdpm.pdf">Semantic foundations for type-driven probabilistic modelling</a>
 </h4>
 Talk given at the <a href="https://oxford24.github.io/all-talks.html">40th International Conference on Mathematical Foundations of Programming Semantics (MFPS’24)</a>, 21 June, 2024.</li>
