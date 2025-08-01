@@ -42,6 +42,40 @@ approach.”</p>
 <ul>
 <li><h4>
 <a
+href="publications/eremondi-kammar-coverage-semantics-for-dependent-pattern-matching.pdf">Coverage
+semantics for dependent pattern matching</a>
+</h4>
+Joseph Eremondi and Ohad Kammar. <BR><BR> Appears in the <a
+href="https://link.springer.com/chapter/10.1007/978-3-031-91118-7_11">34th
+European Symposium on Programming</a>, 2025, <a
+href="https://arxiv.org/abs/2501.18087">arXiv:2501.18087</a>, <a
+href="https://doi.org/10.1007/978-3-031-91118-7_11">DOI:
+10.1007/978-3-031-91118-7_11</a>.</li>
+</ul>
+<blockquote>
+<p>“Dependent pattern matching is a key feature in dependently typed
+programming. However, there is a theory-practice disconnect: while many
+proof assistants implement pattern matching as primitive, theoretical
+presentations give semantics to pattern matching by elaborating to
+eliminators. Though theoretically convenient, eliminators can be awkward
+and verbose, particularly for complex combinations of patterns. This
+work aims to bridge the theory-practice gap by presenting a direct
+categorical semantics for pattern matching, which does not elaborate to
+eliminators. This is achieved using sheaf theory to describe when sets
+of arrows (terms) can be amalgamated into a single arrow. We present a
+language with top-level dependent pattern matching, without specifying
+which sets of patterns are considered covering for a match. Then, we
+give a sufficient criterion for which pattern-sets admit a sound model:
+patterns should be in the canonical coverage for the category of
+contexts. Finally, we use sheaf-theoretic saturation conditions to
+devise some allowable sets of patterns. We are able to express and
+exceed the status quo, giving semantics for datatype constructors,
+nested patterns, absurd patterns, propositional equality, and dot
+patterns.”</p>
+</blockquote>
+<ul>
+<li><h4>
+<a
 href="drafts/dvir-kammar-lahav-plotkin-two-sorted-brookes.pdf">Two-sorted
 algebraic decompositions of Brookes’s shared-state denotational
 semantics</a>
