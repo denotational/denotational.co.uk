@@ -231,7 +231,7 @@ href="publications/simner-et-al-precise-exceptions-in-relaxed-architectures.pdf"
 exceptions in relaxed architectures</a>, <a
 href="https://dl.acm.org/doi/10.1145/3695053.3731102">ISCA’25</a>, joint
 winner of the <a href="https://iscaconf.org/isca2025/"><strong>2025 ISCA
-Best Paper Award</strong></a>..</p>
+Best Paper Award</strong></a>.</p>
 <p>Ben Simner, Alasdair Armstrong, Thomas Bauereiss, Brian Campbell,
 Ohad Kammar, Jean Pichon-Pharabod, and Peter Sewell. In Proceedings of
 the 52nd Annual International Symposium on Computer Architecture (ISCA
