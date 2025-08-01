@@ -15,6 +15,42 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <ul>
 <li><h4>
 <a
+href="publications/simner-et-al-precise-exceptions-in-relaxed-architectures.pdf">Precise
+exceptions in relaxed architectures</a>
+</h4>
+Ben Simner, Alasdair Armstrong, Thomas Bauereiss, Brian Campbell, Ohad
+Kammar, Jean Pichon-Pharabod, and Peter Sewell. <BR><BR> Appears in the
+<a href="https://dl.acm.org/doi/10.1145/3695053.3731102">52nd Annual
+International Symposium on Computer Architecture</a>, 2025, <a
+href="https://arxiv.org/abs/2412.15140">arXiv:2412.15140</a>, <a
+href="https://doi.org/10.1145/3695053.3731102">DOI:
+10.1145/3695053.3731102</a>.</li>
+</ul>
+<blockquote>
+<p>“To manage exceptions, software relies on a key architectural
+guarantee—precision: that exceptions appear to execute between
+instructions. However, this definition, dating back over 60 years,
+fundamentally assumes a sequential programmers model. Modern
+architectures such as Arm-A with programmer-observable relaxed behaviour
+make such a naive definition inadequate, and it is unclear exactly what
+guarantees programmers have on exception entry and exit. In this paper,
+we clarify the concepts needed to discuss exceptions in the
+relaxed-memory setting—a key aspect of precisely specifying the
+architectural interface between hardware and software. We explore the
+basic relaxed behaviour across exception boundaries, and the semantics
+of external aborts, using Arm-A as a representative modern architecture.
+We identify an important problem, present yet unexplored for decades:
+pinning down what it means for exceptions to be precise in a relaxed
+setting. We describe key phenomena that any definition should account
+for. We develop an axiomatic model for Arm-A precise exceptions, tooling
+for axiomatic model execution, and a library of tests. Finally we
+explore the relaxed semantics of software-generated interrupts, as used
+in sophisticated programming patterns, and sketch how they too could be
+modelled.”</p>
+</blockquote>
+<ul>
+<li><h4>
+<a
 href="publications/dvir-kammar-lahav-brookes-release-acquire-journal.pdf">A
 Denotational Approach to Release/Acquire Concurrency</a>
 </h4>

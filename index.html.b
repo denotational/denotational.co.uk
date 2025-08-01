@@ -227,6 +227,17 @@ interests<a name="interests"></a></h3>
 href="talks-and-publications.html#publications">abstracts</a>)<a name="pubs"></a></h3>
 <ul>
 <li><p><a
+href="publications/simner-et-al-precise-exceptions-in-relaxed-architectures.pdf">Precise
+exceptions in relaxed architectures</a>, <a
+href="https://dl.acm.org/doi/10.1145/3695053.3731102">ISCA’25</a>.</p>
+<p>Ben Simner, Alasdair Armstrong, Thomas Bauereiss, Brian Campbell,
+Ohad Kammar, Jean Pichon-Pharabod, and Peter Sewell. In Proceedings of
+the 52nd Annual International Symposium on Computer Architecture (ISCA
+’25). Association for Computing Machinery, New York, NY, USA, 211–224.,
+<a href="https://arxiv.org/abs/2412.15140">arXiv:2412.15140</a>, <a
+href="https://doi.org/10.1145/3695053.3731102">DOI:
+10.1145/3695053.3731102</a>.</p></li>
+<li><p><a
 href="publications/dvir-kammar-lahav-brookes-release-acquire-journal.pdf">A
 Denotational Approach to Release/Acquire Concurrency</a>, <a
 href="https://dl.acm.org/doi/10.1145/3715096">TOPLAS</a>.</p>
