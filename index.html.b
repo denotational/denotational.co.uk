@@ -227,6 +227,13 @@ interests<a name="interests"></a></h3>
 href="talks-and-publications.html#publications">abstracts</a>)<a name="pubs"></a></h3>
 <ul>
 <li><p><a
+href="publications/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
+dependently-typed algebraic simplification</a>, <a
+href="https://icfp25.sigplan.org/details/icfp-2025-papers/2/Frex-dependently-typed-algebraic-simplification"></a>.</p>
+<p>Guillaume Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, and Jeremy
+Yallop. 2025. Frex: dependently-typed algebraic simplification Proc. ACM
+Program. Lang. 9, ICFP, Article 237 (August 2025), 36 pages..</p></li>
+<li><p><a
 href="publications/simner-et-al-precise-exceptions-in-relaxed-architectures.pdf">Precise
 exceptions in relaxed architectures</a>, <a
 href="https://dl.acm.org/doi/10.1145/3695053.3731102">ISCA’25</a>, joint
@@ -302,13 +309,6 @@ Systems. APLAS 2022. Lecture Notes in Computer Science, vol 13658.
 Springer, Cham. https://doi.org/10.1007/978-3-031-21037-2_1, <a
 href="https://doi.org/10.1007/978-3-031-21037-2_1">DOI:
 10.1007/978-3-031-21037-2_1</a>.</p></li>
-<li><p><a
-href="drafts/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
-dependently-typed algebraic simplification</a>, Preprint.<br/> Guillaume
-Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, and Jeremy Yallop. ,
-draft manuscript.</p>
-<p>Guillaume Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, and Jeremy
-Yallop. 2022..</p></li>
 <li><p><a
 href="publications/kammar-katsumata-saville-fully-abstract-models-for-effectful-lambda-calculi.pdf">Fully
 abstract models for effectful lambda-calculi via category-theoretic
@@ -933,6 +933,13 @@ Inference (LAFI 2019)</a> in New Orleans, Oregon , 21 January,
 2020.</p></li>
 </ul>
 <h3 id="community-service">Community service<a name="services"></a></h3>
+<p>2025</p>
+<ul>
+<li>PC member, 30th ACM SIGPLAN <a
+href="https://icfp25.sigplan.org/">International Conference on
+Functional Programming (ICFP)</a>, which will take place in Singapore,
+October 2025.</li>
+</ul>
 <p>2024</p>
 <ul>
 <li><p>PC member, Thirty-Ninth Annual ACM/IEEE Symposium on Logic in

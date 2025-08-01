@@ -15,6 +15,29 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <ul>
 <li><h4>
 <a
+href="publications/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
+dependently-typed algebraic simplification</a>
+</h4>
+Guillaume Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, and Jeremy
+Yallop. <BR><BR> Appears in the <a
+href="https://icfp25.sigplan.org/details/icfp-2025-papers/2/Frex-dependently-typed-algebraic-simplification"></a>,
+2025.</li>
+</ul>
+<blockquote>
+<p>” We present a new design for an algebraic simplification library
+structured around concepts from universal algebra: theories, models,
+homomorphisms, and universal properties of free algebras and free
+extensions of algebras. The library’s dependently typed interface
+guarantees that both built-in and user-defined simplification modules
+are terminating, sound, and complete with respect to a well-specified
+class of equations. We have implemented the design in the Idris 2 and
+Agda dependently typed programming languages and shown that it supports
+modular extension to new theories, proof extraction and certification,
+goal extraction via reflection, and interactive development. ”</p>
+</blockquote>
+<ul>
+<li><h4>
+<a
 href="publications/simner-et-al-precise-exceptions-in-relaxed-architectures.pdf">Precise
 exceptions in relaxed architectures</a>
 </h4>
@@ -875,33 +898,6 @@ one.”</p>
 <h3>
 <a name="preprints"></a>Preprints
 </h3>
-<ul>
-<li><h4>
-<a
-href="drafts/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
-dependently-typed algebraic simplification</a>
-</h4>
-Guillaume Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, and Jeremy
-Yallop. <BR><BR> Preprint, 2022.</li>
-</ul>
-<blockquote>
-<p>“We present an extensible, mathematically-structured algebraic
-simplification library design. We structure the library using universal
-algebraic concepts: a free algebra; and a free extension — frex — of an
-algebra by a set of variables. The library’s dependently-typed API
-guarantees simplification modules, even user-defined ones, are
-terminating, sound, and complete with respect to a well-specified class
-of equations. Completeness offers intangible benefits in practice — our
-main contribution is the novel design. Cleanly separating between the
-interface and implementation of simplification modules provides two new
-modularity axes. First, simplification modules share thousands of lines
-of infrastructure code dealing with term-representation,
-pretty-printing, certification, and macros/reflection. Second, new
-simplification modules can reuse existing ones. We demonstrate this
-design by developing simplification modules for monoid varieties:
-ordinary, commutative, and involutive. We implemented this design in the
-new Idris2 dependently-typed programming language, and in Agda.”</p>
-</blockquote>
 <ul>
 <li><h4>
 <a href="drafts/kammar-locally-determined-colimits.pdf">An absolute
