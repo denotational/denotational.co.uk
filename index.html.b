@@ -229,7 +229,7 @@ href="talks-and-publications.html#publications">abstracts</a>)<a name="pubs"></a
 <li><p><a
 href="publications/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
 dependently-typed algebraic simplification</a>, <a
-href="https://icfp25.sigplan.org/details/icfp-2025-papers/2/Frex-dependently-typed-algebraic-simplification"></a>.</p>
+href="https://icfp25.sigplan.org/details/icfp-2025-papers/2/Frex-dependently-typed-algebraic-simplification">ICFP’25</a>.</p>
 <p>Guillaume Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, and Jeremy
 Yallop. 2025. Frex: dependently-typed algebraic simplification Proc. ACM
 Program. Lang. 9, ICFP, Article 237 (August 2025), 36 pages..</p></li>
