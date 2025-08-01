@@ -15,6 +15,70 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <ul>
 <li><h4>
 <a
+href="publications/dvir-kammar-lahav-brookes-release-acquire-journal.pdf">A
+Denotational Approach to Release/Acquire Concurrency</a>
+</h4>
+Yotam Dvir, Ohad Kammar, and Ori Lahav. <BR><BR> Appears in the <a
+href="https://dl.acm.org/doi/10.1145/3715096">ACM Transaction on
+Programming Languages and Systems</a>, 2025, <a
+href="https://doi.org/10.1145/3715096">DOI: 10.1145/3715096</a>.</li>
+</ul>
+<blockquote>
+<p>“We present a compositional denotational semantics for a functional
+language with first-class parallel composition and shared-memory
+operations whose operational semantics follows the Release/Acquire weak
+memory model (RA). The semantics is formulated in Moggi’s monadic
+approach, and is based on Brookes-style traces. To do so we adapt
+Brookes’s traces to Kang et al.’s view-based machine for RA, and
+supplement Brookes’s mumble and stutter closure operations with
+additional operations, specific to RA. The latter provides a more
+nuanced understanding of traces that uncouples them from operational
+interrupted executions. We show that our denotational semantics is
+adequate and use it to validate various program transformations of
+interest. This is the first work to put weak memory models on the same
+footing as many other programming effects in Moggi’s standard monadic
+approach.”</p>
+</blockquote>
+<ul>
+<li><h4>
+<a
+href="drafts/dvir-kammar-lahav-plotkin-two-sorted-brookes.pdf">Two-sorted
+algebraic decompositions of Brookes’s shared-state denotational
+semantics</a>
+</h4>
+Yotam Dvir, Ohad Kammar, Ori Lahav, and Gordon Plotkin. <BR><BR> Appears
+in the <a
+href="https://link.springer.com/chapter/10.1007/978-3-031-90897-2_18">28th
+International Conference on Foundations of Software Science and
+Computation Structures</a>, 2025, <a
+href="https://arxiv.org/abs/2501.15104">arXiv:2501.15104</a>, <a
+href="https://doi.org/10.1007/978-3-031-90897-2_18">DOI:
+10.1007/978-3-031-90897-2_18</a>.</li>
+</ul>
+<blockquote>
+<p>“We use a two sorted equational theory of algebraic effects to model
+concurrent shared state with preemptive interleaving, recovering
+Brookes’s seminal 1996 trace-based model precisely. The decomposition
+allows us to analyse Brookes’s model algebraically in terms of separate
+but interacting components. The multiple sorts partition terms into
+layers. We use two sorts: a ‘hold’ sort for layers that disallow
+interleaving of environment memory accesses, analogous to holding a
+global lock on the memory; and a ‘cede’ sort for the opposite. The
+algebraic signature comprises of independent interlocking components:
+two new operators that switch between these sorts, delimiting the atomic
+layers, thought of as acquiring and releasing the global lock;
+non-deterministic choice; and state-accessing operators. The axioms
+similarly divide cleanly: the delimiters behave as a closure pair; all
+operators are strict, and distribute over non-empty non-deterministic
+choice; and non-deterministic global state obeys Plotkin and Power’s
+presentation of global state. Our representation theorem expresses the
+free algebras over a two-sorted family of variables as sets of traces
+with suitable closure conditions. When the held sort has no variables,
+we recover Brookes’s trace semantics.”</p>
+</blockquote>
+<ul>
+<li><h4>
+<a
 href="publications/dvir-kammar-lahav-brookes-release-acquire-conference.pdf">A
 Denotational Approach to Release/Acquire Concurrency</a>
 </h4>
@@ -744,61 +808,6 @@ one.”</p>
 <ul>
 <li><h4>
 <a
-href="drafts/dvir-kammar-lahav-plotkin-two-sorted-brookes.pdf">Two-sorted
-algebraic decompositions of Brookes’s shared-state denotational
-semantics</a>
-</h4>
-Yotam Dvir, Ohad Kammar, Ori Lahav, and Gordon Plotkin. <BR><BR>
-Preprint, 2024.</li>
-</ul>
-<blockquote>
-<p>“We use a two sorted equational theory of algebraic effects to model
-concurrent shared state with preemptive interleaving, recovering
-Brookes’s seminal 1996 trace-based model precisely. The decomposition
-allows us to analyse Brookes’s model algebraically in terms of separate
-but interacting components. The multiple sorts partition terms into
-layers. We use two sorts: a ‘hold’ sort for layers that disallow
-interleaving of environment memory accesses, analogous to holding a
-global lock on the memory; and a ‘cede’ sort for the opposite. The
-algebraic signature comprises of independent interlocking components:
-two new operators that switch between these sorts, delimiting the atomic
-layers, thought of as acquiring and releasing the global lock;
-non-deterministic choice; and state-accessing operators. The axioms
-similarly divide cleanly: the delimiters behave as a closure pair; all
-operators are strict, and distribute over non-empty non-deterministic
-choice; and non-deterministic global state obeys Plotkin and Power’s
-presentation of global state. Our representation theorem expresses the
-free algebras over a two-sorted family of variables as sets of traces
-with suitable closure conditions. When the held sort has no variables,
-we recover Brookes’s trace semantics.”</p>
-</blockquote>
-<ul>
-<li><h4>
-<a
-href="publications/dvir-kammar-lahav-brookes-release-acquire-journal.pdf">A
-Denotational Approach to Release/Acquire Concurrency</a>
-</h4>
-Yotam Dvir, Ohad Kammar, and Ori Lahav. <BR><BR> Preprint, 2024.</li>
-</ul>
-<blockquote>
-<p>“We present a compositional denotational semantics for a functional
-language with first-class parallel composition and shared-memory
-operations whose operational semantics follows the Release/Acquire weak
-memory model (RA). The semantics is formulated in Moggi’s monadic
-approach, and is based on Brookes-style traces. To do so we adapt
-Brookes’s traces to Kang et al.’s view-based machine for RA, and
-supplement Brookes’s mumble and stutter closure operations with
-additional operations, specific to RA. The latter provides a more
-nuanced understanding of traces that uncouples them from operational
-interrupted executions. We show that our denotational semantics is
-adequate and use it to validate various program transformations of
-interest. This is the first work to put weak memory models on the same
-footing as many other programming effects in Moggi’s standard monadic
-approach.”</p>
-</blockquote>
-<ul>
-<li><h4>
-<a
 href="drafts/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
 dependently-typed algebraic simplification</a>
 </h4>
@@ -843,6 +852,31 @@ Fiore’s notion of locality for adjoint pairs.”</p>
 <h3>
 <a name="talks"></a>Talks
 </h3>
+<ul>
+<li><h4>
+<a href="talks/mfps-2025-mast-slides.pdf">Modular abstract syntax trees
+(MAST): substitution tensors with second-class sorts</a>
+</h4>
+Talk given at the <a
+href="https://www.coalg.org/calco-mfps-2025/mfps/">41st Conference on
+Mathematical Foundations of Programming Semantics MFPS XLI (MFPS
+2025)</a>, 04 June, 2025.</li>
+</ul>
+<blockquote>
+<p>We adapt Fiore, Plotkin, and Turi’s treatment of abstract syntax with
+binding, substitution, and holes to account for languages with
+second-class sorts. These situations include programming calculi such as
+the Call-by-Value 𝜆-calculus (CBV) and Levy’s Call-by-Push-Value (CBPV).
+Prohibiting second-class sorts from appearing in variable contexts means
+the presheaf of variables is no longer a left-unit for Fiore et al’s
+substitution tensor product. We generalise their development to
+associative and right-unital skew monoidal categories. We reuse much of
+the development through skew bicategorical arguments. We apply the
+resulting theory by proving substitution lemmata for varieties of CBV
+modularly. Joint work with Marcelo Fiore, Georg Moser, and Sam
+Staton.</p>
+</blockquote>
+<P/>
 <ul>
 <li><h4>
 <a href="talks/spls-2025-mast.pdf">Modular abstract syntax trees (MAST):
