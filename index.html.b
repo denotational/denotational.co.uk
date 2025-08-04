@@ -33,9 +33,9 @@ href="calendar.html">calendar</a>.
 <td style="horizontal-align:right">
 <figure>
 <img src="ohad.jpg" title="meaningful thoughts..."
-alt="profile (fancy)" />
-<figcaption aria-hidden="true">profile (<a
-href="images/ohad-kammar-fancy.jpg">fancy</a>)</figcaption>
+alt="profile picture (fancy version)" />
+<figcaption aria-hidden="true">profile picture (<a
+href="images/ohad-kammar-fancy.jpg">fancy</a> version)</figcaption>
 </figure>
 </td>
 </tr>
