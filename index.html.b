@@ -94,7 +94,8 @@ data-science infrastructure for Idris2</a></strong>, supported by the <a
 href="https://www.ncsc.gov.uk/">National Cyber Security Centre
 (NCSC)</a> as part of the <a href="https://vetss.org.uk/">UK Research
 Institute in Verified Trustworhy Software Systems</a>. Project members
-were Robert Wright at the University of Edinburgh, <a
+were <a href="https://www.kudotoc.co.uk/">Robert Wright</a> at the
+University of Edinburgh, <a
 href="https://www.type-driven.org.uk/edwinb/">Edwin Brady</a> and <a
 href="https://gallais.github.io/">Guillaume Allais</a> at the University
 of St Andrews, and <a href="https://www.cl.cam.ac.uk/~jdy22/">Jeremy
