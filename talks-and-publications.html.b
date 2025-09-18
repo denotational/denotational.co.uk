@@ -921,8 +921,6 @@ Fiore’s notion of locality for adjoint pairs.”</p>
 </h3>
 <ul>
 <li><h4>
-<<<<<<< HEAD
-=======
 <a href="talks/ljubljana-2025-mast.pdf">Modular abstract syntax trees
 (MAST): substitution tensors with second-class sorts</a>
 </h4>
@@ -955,7 +953,6 @@ and Sam Staton.</p>
 <P/>
 <ul>
 <li><h4>
->>>>>>> 9ab97be (automatic update to webpage)
 <a href="talks/mfps-2025-mast-slides.pdf">Modular abstract syntax trees
 (MAST): substitution tensors with second-class sorts</a>
 </h4>
