@@ -63,8 +63,9 @@ settings</h2>
 <p>I’ve settled on the following set-up. Mostly because I can get it to
 work in any seminar room in my university. If your baseline is
 different, you could probably do better.</p>
-<p>Equipment - Mic+speakers: Jabra Speak 710
-https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710/</p>
+<p>Equipment - Mic+speakers: <a
+href="https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710/">Jabra
+Speak 710</a></p>
 <p>I also use it for my other meetings. It catches audio from the room
 pretty well so remote participants and recording can hear it.</p>
 <p>(I do not receive commission from Jabra for this recommendation.)</p>
