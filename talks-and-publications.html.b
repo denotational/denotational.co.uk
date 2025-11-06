@@ -15,6 +15,31 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <ul>
 <li><h4>
 <a
+href="publications/fiore-kammar-moser-staton-mast-mfps-2025.pdf">Modular
+abstract syntax trees (MAST): substitution tensors with second-class
+sorts</a>
+</h4>
+Marcelo P. Fiore, Ohad Kammar, Georg Moser, and Sam Staton. <BR><BR>
+Appears in the <a
+href="https://www.coalg.org/calco-mfps-2025/programme/">41st Conference
+on Mathematical Foundations of Programming Semantics MFPS XLI
+(MFPS’2025)</a>, 2025.</li>
+</ul>
+<blockquote>
+<p>“We adapt Fiore, Plotkin, and Turi’s treatment of abstract syntax
+with binding, substitution, and holes to account for languages with
+second-class sorts. These situations include programming calculi such as
+the Call-by-Value lambda-calculus (CBV) and Levy’s Call-by-Push-Value
+(CBPV). Prohibiting second-class sorts from appearing in variable
+contexts changes the characterisation of the abstract syntax from
+monoids in monoidal categories to actions in actegories. We reproduce
+much of the development through bicategorical arguments. We apply the
+resulting theory by proving substitution lemmata for varieties of
+CBV.”</p>
+</blockquote>
+<ul>
+<li><h4>
+<a
 href="publications/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
 dependently-typed algebraic simplification</a>
 </h4>
@@ -919,6 +944,70 @@ Fiore’s notion of locality for adjoint pairs.”</p>
 <h3>
 <a name="talks"></a>Talks
 </h3>
+<ul>
+<li><h4>
+<a href="talks/birmingham-2025-mast.pdf">Modular abstract syntax trees
+(MAST): substitution tensors with second-class sorts</a>
+</h4>
+Talk given at the <a
+href="https://researchseminars.org/talk/TheoryCSBham/56/">Theoretical
+Computer Science Seminar, Department of Computer Science, University of
+Birmingham</a>, 24 October, 2025.</li>
+</ul>
+<blockquote>
+<p>We adapt Fiore, Plotkin, and Turi’s treatment of abstract syntax with
+binding, substitution, and holes to account for languages with
+second-class sorts. These situations include programming calculi such as
+the Call-by-Value λ-calculus (CBV) and Levy’s Call-by-Push-Value (CBPV).
+Prohibiting second-class sorts from appearing in variable contexts means
+the presheaf of variables is no longer a left-unit for Fiore et al’s
+substitution tensor product. We generalised their development to
+associative and right-unital skew monoidal categories. We reuse much of
+the development through skew bicategorical arguments. In ongoing work,
+we replace the skew monoidal structure with ordinary monoidal structure
+by recourse to substitution modules instead of substitution monoids. We
+apply the resulting theory in two scenarios. We employ the mathematical
+theory to circumvent the expression problem when proving substitution
+lemmata for varieties of CBV denotational semantics modularly. We employ
+a computational implementation of the theory to circumvent the
+expression problem when implementing intrinsically-typed
+foreign-function interfaces for the 29 theories of SMTLIB. Joint work
+with Marcelo Fiore, Kajetan Granops, Mihail-Codrin Iftode, Georg Moser,
+and Sam Staton.</p>
+</blockquote>
+<P/>
+<ul>
+<li><h4>
+<a href="talks/ljubljana-2025-mast.pdf">Modular abstract syntax trees
+(MAST): substitution tensors with second-class sorts</a>
+</h4>
+Talk given at the <a
+href="https://www.fmf.uni-lj.si/en/news/event/2163/ohad-kammar-modular-abstract-syntax-trees-mast-substitution-tensors-with-second-class-sorts/">Foundations
+of Mathematics and Computer Science Seminar, Faculty of Mathematics and
+Physics, University of Ljubljana, Slovenia</a>, 18 September, 2025.</li>
+</ul>
+<blockquote>
+<p>We adapt Fiore, Plotkin, and Turi’s treatment of abstract syntax with
+binding, substitution, and holes to account for languages with
+second-class sorts. These situations include programming calculi such as
+the Call-by-Value λ-calculus (CBV) and Levy’s Call-by-Push-Value (CBPV).
+Prohibiting second-class sorts from appearing in variable contexts means
+the presheaf of variables is no longer a left-unit for Fiore et al’s
+substitution tensor product. We generalised their development to
+associative and right-unital skew monoidal categories. We reuse much of
+the development through skew bicategorical arguments. In ongoing work,
+we replace the skew monoidal structure with ordinary monoidal structure
+by recourse to substitution modules instead of substitution monoids. We
+apply the resulting theory in two scenarios. We employ the mathematical
+theory to circumvent the expression problem when proving substitution
+lemmata for varieties of CBV denotational semantics modularly. We employ
+a computational implementation of the theory to circumvent the
+expression problem when implementing intrinsically-typed
+foreign-function interfaces for the 29 theories of SMTLIB. Joint work
+with Marcelo Fiore, Kajetan Granops, Mihail-Codrin Iftode, Georg Moser,
+and Sam Staton.</p>
+</blockquote>
+<P/>
 <ul>
 <li><h4>
 <a href="talks/mfps-2025-mast-slides.pdf">Modular abstract syntax trees
