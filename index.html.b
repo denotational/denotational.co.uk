@@ -232,15 +232,6 @@ interests<a name="interests"></a></h3>
 href="talks-and-publications.html#publications">abstracts</a>)<a name="pubs"></a></h3>
 <ul>
 <li><p><a
-href="publications/fiore-kammar-moser-staton-mast-mfps-2025.pdf">Modular
-abstract syntax trees (MAST): substitution tensors with second-class
-sorts</a>, <a
-href="https://www.coalg.org/calco-mfps-2025/programme/">MFPS’25</a>.</p>
-<p>Marcelo P. Fiore, Ohad Kammar, Georg Moser, and Sam Staton.
-Proceedings of the 41st Conference on Mathematical Foundations of
-Programming Semantics MFPS XLI (MFPS’2025), Electronic Notes in
-Theoretical Computer Science.</p></li>
-<li><p><a
 href="publications/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
 dependently-typed algebraic simplification</a>, <a
 href="https://icfp25.sigplan.org/details/icfp-2025-papers/2/Frex-dependently-typed-algebraic-simplification">ICFP’25</a>.</p>
@@ -557,8 +548,7 @@ of Mathematics and Computer Science Seminar, Faculty of Mathematics and
 Physics, University of Ljubljana, Slovenia</a>, 18 September,
 2025.</p></li>
 <li><p><a href="talks/mfps-2025-mast-slides.pdf">Modular abstract syntax
-trees (MAST): substitution tensors with second-class sorts</a> (<a
-href="https://youtu.be/ivFz8haxeAM">video</a>), <a
+trees (MAST): substitution tensors with second-class sorts</a>, <a
 href="https://www.coalg.org/calco-mfps-2025/mfps/">41st Conference on
 Mathematical Foundations of Programming Semantics MFPS XLI (MFPS
 2025)</a>, 04 June, 2025.</p></li>

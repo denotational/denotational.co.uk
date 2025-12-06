@@ -15,31 +15,6 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <ul>
 <li><h4>
 <a
-href="publications/fiore-kammar-moser-staton-mast-mfps-2025.pdf">Modular
-abstract syntax trees (MAST): substitution tensors with second-class
-sorts</a>
-</h4>
-Marcelo P. Fiore, Ohad Kammar, Georg Moser, and Sam Staton. <BR><BR>
-Appears in the <a
-href="https://www.coalg.org/calco-mfps-2025/programme/">41st Conference
-on Mathematical Foundations of Programming Semantics MFPS XLI
-(MFPS’2025)</a>, 2025.</li>
-</ul>
-<blockquote>
-<p>“We adapt Fiore, Plotkin, and Turi’s treatment of abstract syntax
-with binding, substitution, and holes to account for languages with
-second-class sorts. These situations include programming calculi such as
-the Call-by-Value lambda-calculus (CBV) and Levy’s Call-by-Push-Value
-(CBPV). Prohibiting second-class sorts from appearing in variable
-contexts changes the characterisation of the abstract syntax from
-monoids in monoidal categories to actions in actegories. We reproduce
-much of the development through bicategorical arguments. We apply the
-resulting theory by proving substitution lemmata for varieties of
-CBV.”</p>
-</blockquote>
-<ul>
-<li><h4>
-<a
 href="publications/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
 dependently-typed algebraic simplification</a>
 </h4>
