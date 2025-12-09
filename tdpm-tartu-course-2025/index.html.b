@@ -41,9 +41,23 @@ href="tdpm-tartu-course-2025/tartu-foundations-for-type-driven-probabilistic-mod
 </ol>
 <ul>
 <li>Motivation</li>
-<li>Type-driven probability and the discrete model</li>
+<li>Language of probability and distribution</li>
+<li>Discrete model</li>
+<li>Simply-typed probability</li>
+<li>Dependently-typed probability</li>
+</ul>
+<ol start="2" type="1">
+<li>Lecture 2</li>
+</ol>
+<ul>
 <li>events, Borel sets, and measurable spaces</li>
 <li>quasi-Borel spaces</li>
+<li>Simple type structure</li>
+<li>Dependent-type structure</li>
+<li>Standard Borel spaces</li>
+<li>Integration</li>
+<li>Random variables</li>
+<li>Conditioning</li>
 </ul>
 Relevant exercise sheets:
 <ul>
@@ -88,21 +102,6 @@ theorem.
 href="../tdpm-anu-lss-2023/marseille-notes-exercises-section-lebesgue-measurability.pdf">Aumann’s
 theorem for Lebesgue measurablity</a>: extending Aumann’s theorem from
 Borel measurable functions to Lebesgue measurable functions.
-</ul>
-</ul>
-<ol start="3" type="1">
-<li>Lecture 2</li>
-</ol>
-<ul>
-<li>Simple type structure</li>
-<li>Dependent-type structure</li>
-<li>Standard Borel spaces</li>
-<li>Integration</li>
-<li>Random variables</li>
-<li>Conditioning</li>
-</ul>
-Relevant exercise sheets:
-<ul>
 <li/>
 <a
 href="../tdpm-anu-lss-2023/marseille-notes-exercises-section-qbs-constructions.pdf">Qbs
