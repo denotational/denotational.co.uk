@@ -4,7 +4,7 @@
 <META NAME="keywords" CONTENT="ohad kammar, ohad, kammar, research, publications, publication, programming language
 semantics, PLT semantics, semantics, category, categories, category theory, logic, computational
 effects, effect type systems, type and effect systems, types, effects, effect type system, access control, DCC, CDD, Plotkin, Gordon Plotkin, call by push value, CBPV, call-by-push-value, denotational semantics, continuations, delimited continuations, jump with argument">
-<TITLE>Ohad's Research - Foundations for Type-Driven Probabilistic Modelling [Laboratory for Software Science Tartu Course]</TITLE>
+<TITLE>Ohad's Research - Foundations for Type-Driven Probabilistic Modelling [ Logic and Semantics Group]</TITLE>
 <link rel="icon" href="favicon.ico" type="image/x-icon" >
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
 </HEAD>
@@ -13,11 +13,11 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 Foundations for type-driven probabilistic modelling
 </h1>
 <h3>
-<a href="https://sws.cs.ut.ee/">Laboratory for Software Science
-Tartu</a> Supernumerary Course
+<a href="https://logsem.github.io/">Logic and Semantics Group</a>
+Extended Tutorial
 </h3>
 <h4>
-<a href="http://www.denotational.co.uk">Ohad Kammar</a> December 2025
+<a href="http://www.denotational.co.uk">Ohad Kammar</a> 3 February 2026
 </h4>
 <p>The last few years have seen several breakthroughs in the semantic
 foundations of probabilistic and statistical modelling. In this
@@ -34,7 +34,7 @@ Course materials
 Lectures
 </h4>
 <p>All <a
-href="tdpm-tartu-course-2025/tartu-foundations-for-type-driven-probabilistic-modelling.pdf">lectures</a>.</p>
+href="tdpm-aarhus-course-2025/aarhus-foundations-for-type-driven-probabilistic-modelling.pdf">lectures</a>.</p>
 <p>Planned structure:</p>
 <ol type="1">
 <li>Lecture 1</li>
@@ -133,6 +133,8 @@ from your question in that case too!</p>
 Previous iterations
 </h3>
 <ul>
+<li><p><a href="../tdpm-tartu-course-2025/">Tartu Laboratory for
+Software Science Supernumerary Course</a></p></li>
 <li><p><a href="../tdpm-popl-tutorialfest-2024/">POPL’24
 TutorialFest</a> (<a
 href="https://www.youtube.com/watch?v=Ki0L6UKBYtU">videoes</a>).</p></li>
