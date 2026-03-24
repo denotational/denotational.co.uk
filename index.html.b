@@ -248,7 +248,9 @@ dependently-typed algebraic simplification</a>, <a
 href="https://icfp25.sigplan.org/details/icfp-2025-papers/2/Frex-dependently-typed-algebraic-simplification">ICFP’25</a>.</p>
 <p>Guillaume Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, and Jeremy
 Yallop. 2025. Frex: dependently-typed algebraic simplification Proc. ACM
-Program. Lang. 9, ICFP, Article 237 (August 2025), 36 pages..</p></li>
+Program. Lang. 9, ICFP, Article 237 (August 2025), 36 pages., <a
+href="https://doi.org/10.1145/3747506">DOI:
+10.1145/3747506</a>.</p></li>
 <li><p><a
 href="publications/simner-et-al-precise-exceptions-in-relaxed-architectures.pdf">Precise
 exceptions in relaxed architectures</a>, <a
