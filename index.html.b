@@ -238,8 +238,8 @@ equational axiomatization of dynamic threads via algebraic effects:
 presheaves on finite relations, labelled posets, and parameterized
 algebraic theories</a>, <a href="">POPL’26</a>.</p>
 <p>Ohad Kammar, Jack Liell-Cock, Sam Lindley, Cristina Matache, and Sam
-Staton. , <a href="https://doi.org/10.1145/3776706%20(to%20appear)">DOI:
-10.1145/3776706 (to appear)</a>.</p></li>
+Staton. , <a href="https://doi.org/10.1145/3776706">DOI:
+10.1145/3776706</a>.</p></li>
 <li><p><a
 href="publications/allais-brady-corbyn-kammar-yallop-frex-dependently-typed-algebraic-simplification.pdf">Frex:
 dependently-typed algebraic simplification</a>, <a
@@ -268,8 +268,8 @@ sorts</a>, <a href="https://arxiv.org/abs/2511.03946">MFPS’25</a>.</p>
 Foundations of Programming Semantics (MFPS’25), Electronic Notes in
 Theoretical Informatics and Computer Science. To appear., <a
 href="https://arxiv.org/abs/2511.03946">arXiv:2511.03946</a>, <a
-href="https://doi.org/10.46298/entics.proceedings.mfps41%20(to%20appear)">DOI:
-10.46298/entics.proceedings.mfps41 (to appear)</a>.</p></li>
+href="https://doi.org/10.46298/entics.proceedings.mfps41">DOI:
+10.46298/entics.proceedings.mfps41</a>.</p></li>
 <li><p><a
 href="publications/dvir-kammar-lahav-brookes-release-acquire-journal.pdf">A
 Denotational Approach to Release/Acquire Concurrency</a>, <a
