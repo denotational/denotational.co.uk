@@ -236,7 +236,9 @@ href="talks-and-publications.html#publications">abstracts</a>)<a name="pubs"></a
 href="publications/kammar-liell-cock-lindley-matache-staton-tynamic-threads-via-algebraic-effects.pdf">An
 equational axiomatization of dynamic threads via algebraic effects:
 presheaves on finite relations, labelled posets, and parameterized
-algebraic theories</a>, <a href="">POPL’26</a>.</p>
+algebraic theories</a>, <a href="">POPL’26</a>, awarded <a
+href="https://popl26.sigplan.org/details/POPL-2026-popl-research-papers/66/An-Equational-Axiomatization-of-Dynamic-Threads-via-Algebraic-Effects-Presheaves-on-"><strong>Distinguished
+Paper</strong></a>.</p>
 <p>Ohad Kammar, Jack Liell-Cock, Sam Lindley, Cristina Matache, and Sam
 Staton. , <a href="https://doi.org/10.1145/3776706">DOI:
 10.1145/3776706</a>.</p></li>
