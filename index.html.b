@@ -54,14 +54,6 @@ Matthiesen</a>.</p>
 <p>I am also involved with <a href="https://ehudlamm.com/">Ehud
 Lamm</a>’s <a href="https://ehudlamm.com/cbl.html">Conceptual Biology
 Lab</a>.</p>
-<h3 id="current-students">Current students</h3>
-<ul>
-<li><a href="https://yotamdvir.github.io/">Yotam Dvir</a></li>
-<li><a href="https://www.kudotoc.co.uk/">Robert Wright</a></li>
-<li><a href="https://www.yellowsquid.uk/">Greg Brown</a></li>
-<li><a href="https://jacobwalte.rs/">Jacob Walters</a></li>
-<li>Zoey Shepherd</li>
-</ul>
 <h3 id="past-projects">Past projects<a name="past_projects"></a></h3>
 <ul>
 <li><p>During 2024-2025 I was a Creator on an <a
@@ -240,6 +232,13 @@ interests<a name="interests"></a></h3>
 (<a
 href="talks-and-publications.html#publications">abstracts</a>)<a name="pubs"></a></h3>
 <ul>
+<li><p><a
+href="publications/ahman-kammar-moegelberg-convenient-fibration.pdf">A
+convenient fibration for dependently-typed probability theory</a>, <a
+href="">LiCS’26</a>.</p>
+<p>Danel Ahman, Ohad Kammar and Rasmus Ejlers Møgelberg. , <a
+href="https://doi.org/10.4230/LIPIcs.LICS.2026.63">DOI:
+10.4230/LIPIcs.LICS.2026.63</a>.</p></li>
 <li><p><a
 href="publications/kammar-liell-cock-lindley-matache-staton-tynamic-threads-via-algebraic-effects.pdf">An
 equational axiomatization of dynamic threads via algebraic effects:
@@ -567,6 +566,10 @@ activities</a>.</li>
 <h3 id="talks-abstracts">Talks (<a
 href="talks-and-publications.html#talks">abstracts</a>)<a name="talks"></a></h3>
 <ul>
+<li><p><a href="talks/algebra-and-normalisation-triple2026.pdf">Algebra
+and normalisation</a>, <a href="https://typesig.pl/triple2026/">Theory,
+Related Interdisciplinary &amp; Programming Languages at Edinburgh
+(TRIPLE)</a>, 29 March, 2026.</p></li>
 <li><p><a href="talks/birmingham-2025-mast.pdf">Modular abstract syntax
 trees (MAST): substitution tensors with second-class sorts</a>, <a
 href="https://researchseminars.org/talk/TheoryCSBham/56/">Theoretical
@@ -579,8 +582,7 @@ of Mathematics and Computer Science Seminar, Faculty of Mathematics and
 Physics, University of Ljubljana, Slovenia</a>, 18 September,
 2025.</p></li>
 <li><p><a href="talks/mfps-2025-mast-slides.pdf">Modular abstract syntax
-trees (MAST): substitution tensors with second-class sorts</a> (<a
-href="https://youtu.be/ivFz8haxeAM">video</a>), <a
+trees (MAST): substitution tensors with second-class sorts</a>, <a
 href="https://www.coalg.org/calco-mfps-2025/mfps/">41st Conference on
 Mathematical Foundations of Programming Semantics MFPS XLI (MFPS
 2025)</a>, 04 June, 2025.</p></li>
