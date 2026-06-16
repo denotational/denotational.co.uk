@@ -988,6 +988,21 @@ Inference (LAFI 2019)</a> in New Orleans, Oregon , 21 January,
 2020.</p></li>
 </ul>
 <h3 id="community-service">Community service<a name="services"></a></h3>
+<p>2026</p>
+<ul>
+<li><p>Organizer for <a
+href="https://events.inf.ed.ac.uk/lfcs40/">Gordon D. Plotkin’s 80th</a>
+birthday celebration, which will take place in Edinburgh, Scotland,
+September 2026.</p></li>
+<li><p>PC member, <a
+href="https://etaps.org/2027/conferences/esop/">36th European Symposium
+on Programming (ESOP’27)</a>, which will take place in Copenhagen,
+Denmark, April 2027.</p></li>
+<li><p>PC member, <a
+href="https://ul-fmf.github.io/mfps-sstt-2026/mfps/">42nd Conference on
+Mathematical Foundations of Programming Semantics (MFPS XLII)</a>, which
+took place in Ljubljana, Slovenia, June 2026.</p></li>
+</ul>
 <p>2025</p>
 <ul>
 <li>PC member, 30th ACM SIGPLAN <a
