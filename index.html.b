@@ -41,6 +41,15 @@ href="images/ohad-kammar-fancy.jpg">fancy</a> version)</figcaption>
 </tr>
 <tr>
 <td style="vertical-align:top;width:50%;">
+<h3 id="current-students">Current
+students<a name="current_students"></a></h3>
+<ul>
+<li><a href="https://yotamdvir.github.io/">Yotam Dvir</a></li>
+<li><a href="https://www.kudotoc.co.uk/">Robert Wright</a></li>
+<li><a href="https://www.yellowsquid.uk/">Greg Brown</a></li>
+<li><a href="https://jacobwalte.rs/">Jacob Walters</a></li>
+<li>Zoey Shepherd</li>
+</ul>
 <h3 id="current-projects">Current
 projects<a name="current_projects"></a></h3>
 <p>I currently hold a <a href="https://www.royalsociety.org/">Royal
