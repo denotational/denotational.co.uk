@@ -25,7 +25,7 @@ up-to the equivalence relation. For example, a normalising optimising
 compiler will produce the same object code when you refactor your source
 code using the equivalence it normalises by. Advanced type-checkers may
 accept or reject programs by normalising fragments of their types.
-Modern partial evaluators take incorporate equational laws before
+Modern partial evaluators to take incorporate equational laws before
 extracting a residual program. The hallmark of modern algebra is
 representation theorems: characterising a structure such as the set of
 polynomials as the universal structure among a class of structures of
@@ -42,9 +42,9 @@ Course materials
 <h4>
 Lectures
 </h4>
-<p>All <a
-href="algebra-and-normalisation-splv-2026/algebra-and-normalisation-splv2026.pdf">lectures</a>.</p>
-<p>Planned structure:</p>
+<p>&lt;!– All <a
+href="algebra-and-normalisation-splv-2026/algebra-and-normalisation-splv2026.pdf">lectures</a>.
+–!&gt; Planned structure:</p>
 <ul>
 <li>TBD</li>
 </ul>
