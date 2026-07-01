@@ -41,9 +41,10 @@ Course materials
 <h4>
 Lectures
 </h4>
-<p>&lt;!– All <a
-href="algebra-and-normalisation-splv-2026/algebra-and-normalisation-splv2026.pdf">lectures</a>.
-–!&gt;</p>
+<p>&lt;!–</p>
+<p>All <a
+href="algebra-and-normalisation-splv-2026/algebra-and-normalisation-splv2026.pdf">lectures</a>.</p>
+<p>–!&gt;</p>
 <p>Planned structure:</p>
 <ul>
 <li>TBD</li>
