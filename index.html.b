@@ -575,6 +575,12 @@ activities</a>.</li>
 <h3 id="talks-abstracts">Talks (<a
 href="talks-and-publications.html#talks">abstracts</a>)<a name="talks"></a></h3>
 <ul>
+<li><p><a
+href="talks/fiorefest-symmetric-programming-and-reasoning.pdf">Symmetric
+programming and reasoning</a>, <a
+href="https://fiorefest.gitlab.io/home/">Workshop in Celebration of
+Marcelo Fiore’s 60th Birthday (FioreFest)</a>, University of Cambridge,
+03 July, 2026.</p></li>
 <li><p><a href="talks/plug26-symmetric-programming.pdf">Mathematical
 foundations for symmetric programming</a>, <a
 href="https://samoa.dcs.gla.ac.uk/events/talk/20667">Shameless PLUG
