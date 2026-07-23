@@ -576,6 +576,11 @@ activities</a>.</li>
 href="talks-and-publications.html#talks">abstracts</a>)<a name="talks"></a></h3>
 <ul>
 <li><p><a
+href="talks/lics26-convenient-fib-for-dep-typed-probability.pdf">A
+convenient fibration for dependently-typed probability theory</a>, <a
+href="https://lics.siglog.org/lics26/accepted.php">41st Annual Symposium
+on Logic in Computer Science</a>, 23 July, 2026.</p></li>
+<li><p><a
 href="talks/fiorefest-symmetric-programming-and-reasoning.pdf">Symmetric
 programming and reasoning</a>, <a
 href="https://fiorefest.gitlab.io/home/">Workshop in Celebration of

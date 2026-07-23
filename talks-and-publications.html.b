@@ -1025,6 +1025,43 @@ Fiore’s notion of locality for adjoint pairs.”</p>
 </h3>
 <ul>
 <li><h4>
+<a href="talks/lics26-convenient-fib-for-dep-typed-probability.pdf">A
+convenient fibration for dependently-typed probability theory</a>
+</h4>
+Talk given at the <a
+href="https://lics.siglog.org/lics26/accepted.php">41st Annual Symposium
+on Logic in Computer Science</a>, 23 July, 2026.</li>
+</ul>
+<blockquote>
+<p>We describe semantic structures relevant for interpreting dependent
+types for statistical and probabilistic modelling. Our development
+extends the theory of quasi-Borel spaces (qbses) of Staton et. al, which
+support simply-typed, higher-order probability theory with continuous
+distributions. It is well-known that qbses can interpret a
+dependent-type theory supporting dependent function-spaces through the
+codomain fibration. We define an equivalent split fibration based on the
+family fibration, which we call quasi-Borel families (qbfs),
+characterise its structure, equip it with fibred monads of measures and
+probability, and use them to develop dependently-typed probability
+theory. We characterise the structure of the qbf fibration that is
+relevant for dependently-typed probability theory in elementary form.
+Our characterisations include: context extension, dependent pairs,
+dependent functions, extensional identity types, fibred products and
+coproducts, subspaces, a universe of propositions, and straightforward
+internalisation and externalisation principles for discrete spaces. We
+use these concepts to define fibred distribution and probability monads,
+the semantic structure needed to interpret probability distributions
+under a dependent context. We show that this structure satisfies a
+fibred version of Kock’s synthetic measure theory. We also use these
+concepts to develop a qbs counterpart to Kolmogorov’s conditional
+expectation. Our main result is a version of the conditional expectation
+that, under standard regularity assumptions, is measurable in both the
+random variables we are conditioning, and the observation map we are
+conditioning by.</p>
+</blockquote>
+<P/>
+<ul>
+<li><h4>
 <a
 href="talks/fiorefest-symmetric-programming-and-reasoning.pdf">Symmetric
 programming and reasoning</a>
