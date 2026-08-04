@@ -1063,6 +1063,42 @@ conditioning by.</p>
 <ul>
 <li><h4>
 <a
+href="talks/msfp-mathematical-foundations-for-symmetric-programming.pdf">Symmetric
+programming and reasoning</a>
+</h4>
+Talk given at the <a
+href="https://msfp-workshop.github.io/msfp2026/">11th Workshop on
+Mathematically Structured Functional Programming (MSFP 2026)</a>,
+Lisbon, Portugal, 18 July, 2026.</li>
+</ul>
+<blockquote>
+<p>We propose abstractions for exploiting symmetries in programming and
+reasoning based on the mathematical proof principle
+‘without-loss-of-generality’ (wlog). We decompose such arguments into
+three components. The first component makes the symmetry explicit by
+defining appropriate groups and their action on the input/assumptions
+and output/conclusions. The second component explicates how to canonise
+the input, by choosing appropriate symmetries for each input. The third
+component is a core function/proof that transforms canonical inputs into
+outputs. The proposed wlog construct combines these components: given an
+input, calculate its canonising symmetry, use the symmetry to canonise
+the input, apply the core function to the canonical input, and apply the
+inverse symmetry to the output. Here we develop the mathematical
+foundations for these abstractions. We illustrate the approach on
+running examples: sliding-tile merges in 2048, binary-tree insertion,
+and Schur’s inequality as a mathematical instance of WLOG. We extend the
+framework to algebraic datatypes using initial algebra semantics,
+showing how a G-symmetry strength on a functor lifts group actions to
+inductive types and that the unique fold into an equivariant algebra is
+itself equivariant, allowing us to avoid using general recursion to
+define a symmetric version of tree insertion. Finally, we develop the
+theory of equivariant canonisers and explore the cases when the WLOG
+construction is guaranteed to produce an equivariant function.</p>
+</blockquote>
+<P/>
+<ul>
+<li><h4>
+<a
 href="talks/fiorefest-symmetric-programming-and-reasoning.pdf">Symmetric
 programming and reasoning</a>
 </h4>
