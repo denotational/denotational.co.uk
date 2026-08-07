@@ -56,6 +56,9 @@ href="algebra-and-normalisation-splv-2026/algebra-and-normalisation-splv2026.pdf
 <ul>
 <li>Modern algebra: homomorphisms &amp; representation theorems</li>
 <li>Expression normalisation: free models &amp; equational logic</li>
+</ul></li>
+<li>Lecture 3
+<ul>
 <li>Modern partial evaluation: free extensions</li>
 <li>Categorical algebra basics</li>
 </ul></li>
