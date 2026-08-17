@@ -41,25 +41,37 @@ Course materials
 <h4>
 Lectures
 </h4>
-<!--
-All [lectures](algebra-and-normalisation-splv-2026/algebra-and-normalisation-splv2026.pdf).
--->
+<p>All <a
+href="algebra-and-normalisation-splv-2026/algebra-and-normalisation-splv2026.pdf">lectures</a>.</p>
 <p>Planned structure:</p>
+<p>Part 1: multi-sorted universal algebra</p>
 <ul>
-<li>TBD</li>
+<li>Lecture 1
+<ul>
+<li>Motivation</li>
+<li>Universal algebra basics: signatures &amp; algebras</li>
+<li>Modern algebra: homomorphisms &amp; representation theorems</li>
+</ul></li>
+<li>Lecture 2
+<ul>
+<li>Modern algebra: homomorphisms &amp; representation theorems</li>
+<li>Expression normalisation: free models &amp; equational logic</li>
+</ul></li>
+<li>Lecture 3
+<ul>
+<li>Modern partial evaluation: free extensions</li>
+<li>Categorical algebra basics</li>
+</ul></li>
 </ul>
-<!--
-
-1. Lecture 1
-  * Motivation
-  * Normalising monoids
-  * Signatures and algebras
-  * Terms and equations
-  * Evaluation
-
-2. Lecture 2
-  *
--->
+<p>Part 2: second-order multi-sorted algebra</p>
+<ul>
+<li>Motivation</li>
+<li>Categories of contexts: finite product completion</li>
+<li>Object-level and meta-level variables</li>
+<li>Axiomatising object-level substitution</li>
+<li>Second-order equations</li>
+</ul>
+<p><del>Part 3: second-order normalisation</del> (cancelled)</p>
 Relevant exercise sheets:
 <ul>
 <li/>
