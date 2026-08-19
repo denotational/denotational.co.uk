@@ -44,26 +44,20 @@ Lectures
 <p>All <a
 href="algebra-and-normalisation-splv-2026/algebra-and-normalisation-splv2026.pdf">lectures</a>.</p>
 <p>Planned structure:</p>
-<p>Part 1: multi-sorted universal algebra</p>
-<ul>
-<li>Lecture 1
+<ol type="1">
+<li>Part 1: multi-sorted universal algebra</li>
+</ol>
 <ul>
 <li>Motivation</li>
 <li>Universal algebra basics: signatures &amp; algebras</li>
 <li>Modern algebra: homomorphisms &amp; representation theorems</li>
-</ul></li>
-<li>Lecture 2
-<ul>
-<li>Modern algebra: homomorphisms &amp; representation theorems</li>
 <li>Expression normalisation: free models &amp; equational logic</li>
-</ul></li>
-<li>Lecture 3
-<ul>
 <li>Modern partial evaluation: free extensions</li>
 <li>Categorical algebra basics</li>
-</ul></li>
 </ul>
-<p>Part 2: second-order multi-sorted algebra</p>
+<ol start="2" type="1">
+<li>Part 2: second-order multi-sorted algebra</li>
+</ol>
 <ul>
 <li>Motivation</li>
 <li>Categories of contexts: finite product completion</li>
@@ -71,7 +65,9 @@ href="algebra-and-normalisation-splv-2026/algebra-and-normalisation-splv2026.pdf
 <li>Axiomatising object-level substitution</li>
 <li>Second-order equations</li>
 </ul>
-<p><del>Part 3: second-order normalisation</del> (cancelled)</p>
+<ol start="3" type="1">
+<li><del>Part 3: second-order normalisation</del> (cancelled)</li>
+</ol>
 Relevant exercise sheets:
 <ul>
 <li/>
