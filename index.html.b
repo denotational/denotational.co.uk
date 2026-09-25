@@ -41,14 +41,25 @@ href="images/ohad-kammar-fancy.jpg">fancy</a> version)</figcaption>
 </tr>
 <tr>
 <td style="vertical-align:top;width:50%;">
-<h3 id="current-students">Current
+<h3 id="current-doctoral-students">Current doctoral
 students<a name="current_students"></a></h3>
 <ul>
-<li><a href="https://yotamdvir.github.io/">Yotam Dvir</a></li>
+<li><a href="https://yotamdvir.github.io/">Yotam Dvir</a> (co-supervised
+with <a href="https://www.cs.tau.ac.il/~orilahav/">Ori Lahav</a>)</li>
 <li><a href="https://www.kudotoc.co.uk/">Robert Wright</a></li>
 <li><a href="https://www.yellowsquid.uk/">Greg Brown</a></li>
+<li><a href="https://kimworrall.github.io">Kim Worrall</a> (primary
+supervisor: <a
+href="https://homepages.inf.ed.ac.uk/cheunen/group.html">Chris
+Heunen</a>)</li>
+<li><a href="https://www.orpheasvanrooij.com">Orpheas van Rooij</a>
+(primary supervisor: <a
+href="https://homepages.inf.ed.ac.uk/slindley/">Sam Lindley</a>,
+external supervisor: Conor Titania Mc Bride)</li>
 <li><a href="https://jacobwalte.rs/">Jacob Walters</a></li>
-<li>Zoey Shepherd</li>
+<li>Zoey Shepherd (co-supervised with <a
+href="https://polgreen.github.io">Elizabeth Polgreen</a>)</li>
+<li>Bas Laarakker</li>
 </ul>
 <h3 id="current-projects">Current
 projects<a name="current_projects"></a></h3>
