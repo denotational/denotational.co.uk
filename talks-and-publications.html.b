@@ -1025,6 +1025,63 @@ Fiore’s notion of locality for adjoint pairs.”</p>
 </h3>
 <ul>
 <li><h4>
+<a href="talks/itu-conditional-expectation.pdf">A dependently-typed
+construction of a regular conditional expectation</a>
+</h4>
+Talk given at the Copenhagen Programming Language Seminar (CoPLS), 29
+October, 2026.</li>
+</ul>
+<blockquote>
+<p>Over the past decade, I and others have been developing a
+mathematical foundation for probability and statistics: quasi Borel
+spaces. These spaces support rich simply-typed structure alongside
+random variables with continuous distributions. Earlier this year, we
+extended this development to dependent types by introducing quasi Borel
+families and the family of fibred distributions. In this talk, I will
+use this new foundation to analyse the classical proof for the existence
+of Kolmogorov’s conditional expectation. We refactor the proof using
+appropriate dependent types for random variable spaces. The result is a
+constructive proof of regular conditional expectations under standard
+regularity assumptions. Joint work with Danel Ahman and Rasmus Ejlers
+Møgelberg: A Convenient Fibration for Dependently-Typed Probability
+Theory. In 41st Annual Symposium on Logic in Computer Science (LICS
+2026). Leibniz International Proceedings in Informatics (LIPIcs), Volume
+380, pp. 4:1-4:27, Schloss Dagstuhl – Leibniz-Zentrum für Informatik
+(2026) https://doi.org/10.4230/LIPIcs.LICS.2026.4</p>
+</blockquote>
+<P/>
+<ul>
+<li><h4>
+<a href="talks/odense-2026-modular-abstract-syntax-trees.pdf">Modular
+abstract syntax trees (MAST)</a>
+</h4>
+Talk given at the ACP Seminar, South Denmark University, Odense, 28
+October, 2026.</li>
+</ul>
+<blockquote>
+<p>We adapt Fiore, Plotkin, and Turi’s treatment of abstract syntax with
+binding, substitution, and holes to account for languages with
+second-class sorts. These situations include programming calculi such as
+the Call-by-Value λ-calculus (CBV) and Levy’s Call-by-Push-Value (CBPV).
+This line of work develops the semantics of abstract syntax as certain
+functor categories—presheaves over structural categories for the
+judgement structure well-sorted terms. Prohibiting second-class sorts
+from appearing in variable contexts means generalising the substitution
+tensors of Fiore et al from monoidal categories to monoidal-action
+categories, also known as actegories or modular categories.
+Corresponding, the abstract syntax is no longer a monoid, but a monoid
+action, or module. In this talk, I will review recent and ongoing work,
+and its application to solving the so called Expression Problem in two
+scenarios. We employ the mathematical theory when proving substitution
+lemmata for varieties of CBV denotational semantics modularly. We employ
+a computational implementation of the theory to when implementing
+intrinsically-typed foreign-function interfaces for the 29 theories of
+SMTLIB. Joint work with Greg Brown, Marcelo Fiore, Kajetan Granops,
+Mihail-Codrin Iftode, Georg Moser, and Sam Staton.</p>
+</blockquote>
+<P/>
+<ul>
+<li><h4>
 <a href="talks/lics26-convenient-fib-for-dep-typed-probability.pdf">A
 convenient fibration for dependently-typed probability theory</a>
 </h4>

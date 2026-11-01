@@ -586,6 +586,14 @@ activities</a>.</li>
 <h3 id="talks-abstracts">Talks (<a
 href="talks-and-publications.html#talks">abstracts</a>)<a name="talks"></a></h3>
 <ul>
+<li><p><a href="talks/itu-conditional-expectation.pdf">A
+dependently-typed construction of a regular conditional expectation</a>,
+Copenhagen Programming Language Seminar (CoPLS), 29 October,
+2026.</p></li>
+<li><p><a
+href="talks/odense-2026-modular-abstract-syntax-trees.pdf">Modular
+abstract syntax trees (MAST)</a>, ACP Seminar, South Denmark University,
+Odense, 28 October, 2026.</p></li>
 <li><p><a
 href="talks/lics26-convenient-fib-for-dep-typed-probability.pdf">A
 convenient fibration for dependently-typed probability theory</a>, <a
