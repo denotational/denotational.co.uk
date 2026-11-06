@@ -59,7 +59,7 @@ external supervisor: Conor Titania Mc Bride)</li>
 <li><a href="https://jacobwalte.rs/">Jacob Walters</a></li>
 <li>Zoey Shepherd (co-supervised with <a
 href="https://polgreen.github.io">Elizabeth Polgreen</a>)</li>
-<li>Bas Laarakker</li>
+<li><a href="https://baslaa.github.io">Bas Laarakker</a></li>
 </ul>
 <h3 id="current-projects">Current
 projects<a name="current_projects"></a></h3>
@@ -74,6 +74,12 @@ Matthiesen</a>.</p>
 <p>I am also involved with <a href="https://ehudlamm.com/">Ehud
 Lamm</a>’s <a href="https://ehudlamm.com/cbl.html">Conceptual Biology
 Lab</a>.</p>
+<h3 id="former-doctoral-students">Former doctoral
+students<a name="former_students"></a></h3>
+<ul>
+<li><a href="https://yotamdvir.github.io/">Yotam Dvir</a> (co-supervised
+with <a href="https://www.cs.tau.ac.il/~orilahav/">Ori Lahav</a>)</li>
+</ul>
 <h3 id="past-projects">Past projects<a name="past_projects"></a></h3>
 <ul>
 <li><p>During 2024-2025 I was a Creator on an <a
