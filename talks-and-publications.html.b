@@ -15,6 +15,33 @@ effects, effect type systems, type and effect systems, types, effects, effect ty
 <ul>
 <li><h4>
 <a
+href="publications/kammar-pretnar-mathematical-foundations-for-symmetric-programming-and-reasoning.pdf">Mathematical
+foundations for symmetric programming and reasoning</a>
+</h4>
+Ohad Kammar and Matija Pretnar. <BR><BR> Appears in the <a
+href="">Proceedings of the ACM in Programming Languages Issue POPL
+2027</a>, 2026.</li>
+</ul>
+<blockquote>
+<p>“We develop a mathematical abstraction for uniformly exploiting
+symmetries in programming and reasoning based on the mathematical proof
+principle `without-loss-of-generality’ (w.l.o.g.). Given: group actions
+that describe symmetries of the input and the output; and a canoniser,
+which captures how arbitrary inputs get sent to canonical ones, our
+construction extends any function from the canonical inputs to the whole
+domain. We characterise the conditions on the canonisers which guarantee
+that the construction gives the unique equivariant
+(i.e. symmetry-preserving) extension. Furthermore, we adapt the
+construction to a dependently-typed setting, where it captures
+traditional symmetric w.l.o.g. arguments via the Curry-Howard
+correspondence. Finally, we extend the construction to algebraic data
+types, where the symmetries of the constructors both uniquely determine
+the symmetries of the data type and pave the way for efficient
+execution.”</p>
+</blockquote>
+<ul>
+<li><h4>
+<a
 href="publications/ahman-kammar-moegelberg-convenient-fibration.pdf">A
 convenient fibration for dependently-typed probability theory</a>
 </h4>
